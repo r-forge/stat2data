@@ -1,0 +1,32 @@
+\name{FinalFourLong}
+\alias{FinalFourLong}
+\docType{data}
+\title{
+%%   ~~ data name/kind ... ~~
+}
+\description{
+%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+}
+\usage{data(FinalFourLong)}
+\format{
+  A data frame with 2048 observations on the following 3 variables.
+  \describe{
+    \item{\code{Year}}{a numeric vector}
+    \item{\code{Seed}}{a numeric vector}
+    \item{\code{Final4}}{a numeric vector}
+  }
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+}
+\references{
+%%  ~~ possibly secondary sources and usages ~~
+}
+\examples{
+data(FinalFourLong)
+## maybe str(FinalFourLong) ; plot(FinalFourLong) ...
+}
+\keyword{datasets}

@@ -1,0 +1,10 @@
+Package: Stat2Data
+Type: Package
+Title: Datasets for Stat2
+Version: 1.0
+Date: 2011-08-11
+Author: Robin Lock
+Maintainer: Robin Lock <yrlock@stlawuledu>
+Description: Datasets and R scripts for Stat2 textbook
+License: What license is it under?
+LazyLoad: yes
