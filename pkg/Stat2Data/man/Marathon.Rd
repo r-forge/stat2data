@@ -2,10 +2,10 @@
 \alias{Marathon}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Marathon
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Marathon
 }
 \usage{data(Marathon)}
 \format{

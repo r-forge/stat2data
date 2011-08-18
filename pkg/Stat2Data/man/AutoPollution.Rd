@@ -2,10 +2,10 @@
 \alias{AutoPollution}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+AutoPollution
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+AutoPollution
 }
 \usage{data(AutoPollution)}
 \format{

@@ -2,10 +2,10 @@
 \alias{FantasyBaseball}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+FantasyBaseball
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+FantasyBaseball
 }
 \usage{data(FantasyBaseball)}
 \format{

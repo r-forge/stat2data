@@ -2,10 +2,10 @@
 \alias{LongJumpOlympics}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+LongJumpOlympics
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+LongJumpOlympics
 }
 \usage{data(LongJumpOlympics)}
 \format{

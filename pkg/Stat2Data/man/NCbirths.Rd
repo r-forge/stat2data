@@ -2,10 +2,10 @@
 \alias{NCbirths}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+NCbirths
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+NCbirths
 }
 \usage{data(NCbirths)}
 \format{

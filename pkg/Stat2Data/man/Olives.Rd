@@ -2,10 +2,10 @@
 \alias{Olives}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Olives
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Olives
 }
 \usage{data(Olives)}
 \format{

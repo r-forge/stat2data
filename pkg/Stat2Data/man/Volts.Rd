@@ -2,10 +2,10 @@
 \alias{Volts}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Volts
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Volts
 }
 \usage{data(Volts)}
 \format{

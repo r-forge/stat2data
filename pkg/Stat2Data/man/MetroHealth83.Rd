@@ -2,10 +2,10 @@
 \alias{MetroHealth83}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+MetroHealth83
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+MetroHealth83
 }
 \usage{data(MetroHealth83)}
 \format{

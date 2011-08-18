@@ -3,12 +3,10 @@
 \alias{Stat2Data}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+DataSets for Stat2 Textbook
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+DataSets for Stat2 Textbook
 }
 \details{
 \tabular{ll}{

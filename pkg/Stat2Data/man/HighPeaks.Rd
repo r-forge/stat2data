@@ -2,10 +2,10 @@
 \alias{HighPeaks}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+HighPeaks
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+HighPeaks
 }
 \usage{data(HighPeaks)}
 \format{

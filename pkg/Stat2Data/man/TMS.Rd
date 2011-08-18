@@ -2,10 +2,10 @@
 \alias{TMS}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+TMS
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+TMS
 }
 \usage{data(TMS)}
 \format{

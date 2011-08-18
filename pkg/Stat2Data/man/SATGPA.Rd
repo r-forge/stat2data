@@ -2,10 +2,10 @@
 \alias{SATGPA}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+SATGPA
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+SATGPA
 }
 \usage{data(SATGPA)}
 \format{

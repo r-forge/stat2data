@@ -2,10 +2,10 @@
 \alias{TextPrices}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+TextPrices
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+TextPrices
 }
 \usage{data(TextPrices)}
 \format{

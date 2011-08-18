@@ -2,10 +2,10 @@
 \alias{RiverIron}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+RiverIron
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+RiverIron
 }
 \usage{data(RiverIron)}
 \format{

@@ -2,10 +2,10 @@
 \alias{Clothing}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Clothing
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Clothing
 }
 \usage{data(Clothing)}
 \format{

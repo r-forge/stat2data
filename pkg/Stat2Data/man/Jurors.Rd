@@ -2,10 +2,10 @@
 \alias{Jurors}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Jurors
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Jurors
 }
 \usage{data(Jurors)}
 \format{

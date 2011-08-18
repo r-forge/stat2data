@@ -2,10 +2,10 @@
 \alias{SeaSlugs}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+SeaSlugs
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+SeaSlugs
 }
 \usage{data(SeaSlugs)}
 \format{

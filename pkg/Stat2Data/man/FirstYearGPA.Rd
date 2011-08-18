@@ -2,10 +2,10 @@
 \alias{FirstYearGPA}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+FirstYearGPA
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+FirstYearGPA
 }
 \usage{data(FirstYearGPA)}
 \format{

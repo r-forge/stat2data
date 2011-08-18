@@ -2,10 +2,10 @@
 \alias{ChemoTHC}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+ChemoTHC
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+ChemoTHC
 }
 \usage{data(ChemoTHC)}
 \format{

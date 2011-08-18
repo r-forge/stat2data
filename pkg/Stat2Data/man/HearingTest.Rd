@@ -2,10 +2,10 @@
 \alias{HearingTest}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+HearingTest
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+HearingTest
 }
 \usage{data(HearingTest)}
 \format{

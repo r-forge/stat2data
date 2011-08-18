@@ -2,10 +2,10 @@
 \alias{Putts2}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Putts2
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Putts2
 }
 \usage{data(Putts2)}
 \format{

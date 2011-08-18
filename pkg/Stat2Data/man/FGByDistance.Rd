@@ -2,10 +2,10 @@
 \alias{FGByDistance}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+FGByDistance
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+FGByDistance
 }
 \usage{data(FGByDistance)}
 \format{

@@ -2,10 +2,10 @@
 \alias{Orings}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Orings
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Orings
 }
 \usage{data(Orings)}
 \format{

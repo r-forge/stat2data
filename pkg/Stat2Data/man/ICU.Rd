@@ -2,10 +2,10 @@
 \alias{ICU}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+ICU
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+ICU
 }
 \usage{data(ICU)}
 \format{

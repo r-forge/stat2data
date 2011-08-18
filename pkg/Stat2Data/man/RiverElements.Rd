@@ -2,10 +2,10 @@
 \alias{RiverElements}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+RiverElements
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+RiverElements
 }
 \usage{data(RiverElements)}
 \format{

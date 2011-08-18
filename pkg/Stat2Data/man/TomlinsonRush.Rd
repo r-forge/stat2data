@@ -2,10 +2,10 @@
 \alias{TomlinsonRush}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+TomlinsonRush
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+TomlinsonRush
 }
 \usage{data(TomlinsonRush)}
 \format{

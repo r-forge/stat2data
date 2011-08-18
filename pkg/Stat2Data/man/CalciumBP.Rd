@@ -2,10 +2,10 @@
 \alias{CalciumBP}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+CalciumBP
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+CalciumBP
 }
 \usage{data(CalciumBP)}
 \format{

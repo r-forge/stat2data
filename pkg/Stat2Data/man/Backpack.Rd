@@ -2,10 +2,10 @@
 \alias{Backpack}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Backpack
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Backpack
 }
 \usage{data(Backpack)}
 \format{

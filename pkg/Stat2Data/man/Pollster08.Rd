@@ -2,10 +2,10 @@
 \alias{Pollster08}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Pollster08
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Pollster08
 }
 \usage{data(Pollster08)}
 \format{

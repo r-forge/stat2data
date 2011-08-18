@@ -2,10 +2,10 @@
 \alias{InsuranceVote}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+InsuranceVote
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+InsuranceVote
 }
 \usage{data(InsuranceVote)}
 \format{

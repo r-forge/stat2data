@@ -2,10 +2,10 @@
 \alias{Blood1}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Blood1
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Blood1
 }
 \usage{data(Blood1)}
 \format{

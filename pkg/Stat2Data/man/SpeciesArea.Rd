@@ -2,10 +2,10 @@
 \alias{SpeciesArea}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+SpeciesArea
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+SpeciesArea
 }
 \usage{data(SpeciesArea)}
 \format{

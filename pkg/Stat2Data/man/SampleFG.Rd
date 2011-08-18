@@ -2,10 +2,10 @@
 \alias{SampleFG}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+SampleFG
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+SampleFG
 }
 \usage{data(SampleFG)}
 \format{

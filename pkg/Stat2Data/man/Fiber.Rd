@@ -2,10 +2,10 @@
 \alias{Fiber}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Fiber
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Fiber
 }
 \usage{data(Fiber)}
 \format{

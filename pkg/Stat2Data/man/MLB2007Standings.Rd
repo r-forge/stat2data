@@ -2,10 +2,10 @@
 \alias{MLB2007Standings}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+MLB2007Standings
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+MLB2007Standings
 }
 \usage{data(MLB2007Standings)}
 \format{

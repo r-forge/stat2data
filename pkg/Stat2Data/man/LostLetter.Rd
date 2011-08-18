@@ -2,10 +2,10 @@
 \alias{LostLetter}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+LostLetter
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+LostLetter
 }
 \usage{data(LostLetter)}
 \format{

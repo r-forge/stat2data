@@ -2,10 +2,10 @@
 \alias{Titanic}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Titanic
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Titanic
 }
 \usage{data(Titanic)}
 \format{

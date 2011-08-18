@@ -2,10 +2,10 @@
 \alias{Speed}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Speed
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Speed
 }
 \usage{data(Speed)}
 \format{

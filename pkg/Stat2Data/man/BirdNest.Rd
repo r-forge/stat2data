@@ -2,10 +2,10 @@
 \alias{BirdNest}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+BirdNest
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+BirdNest
 }
 \usage{data(BirdNest)}
 \format{

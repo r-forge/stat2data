@@ -2,10 +2,10 @@
 \alias{Perch}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Perch
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Perch
 }
 \usage{data(Perch)}
 \format{

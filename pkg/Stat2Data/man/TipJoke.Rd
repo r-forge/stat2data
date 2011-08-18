@@ -2,10 +2,10 @@
 \alias{TipJoke}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+TipJoke
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+TipJoke
 }
 \usage{data(TipJoke)}
 \format{

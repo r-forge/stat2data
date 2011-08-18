@@ -2,10 +2,10 @@
 \alias{Film}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Film
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Film
 }
 \usage{data(Film)}
 \format{

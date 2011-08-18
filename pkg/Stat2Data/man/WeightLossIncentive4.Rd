@@ -2,10 +2,10 @@
 \alias{WeightLossIncentive4}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+WeightLossIncentive4
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+WeightLossIncentive4
 }
 \usage{data(WeightLossIncentive4)}
 \format{

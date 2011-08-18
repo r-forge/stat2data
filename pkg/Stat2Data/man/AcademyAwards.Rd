@@ -2,10 +2,10 @@
 \alias{AcademyAwards}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+AcademyAwards
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+AcademyAwards
 }
 \usage{data(AcademyAwards)}
 \format{

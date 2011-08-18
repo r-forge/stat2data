@@ -2,10 +2,10 @@
 \alias{Milgram}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Milgram
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Milgram
 }
 \usage{data(Milgram)}
 \format{

@@ -2,10 +2,10 @@
 \alias{Pulse}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Pulse
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Pulse
 }
 \usage{data(Pulse)}
 \format{

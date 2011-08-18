@@ -2,10 +2,10 @@
 \alias{Swahili}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Swahili
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Swahili
 }
 \usage{data(Swahili)}
 \format{

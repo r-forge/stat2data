@@ -2,10 +2,10 @@
 \alias{CO2}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+CO2
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+CO2
 }
 \usage{data(CO2)}
 \format{

@@ -2,10 +2,10 @@
 \alias{PalmBeach}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+PalmBeach
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+PalmBeach
 }
 \usage{data(PalmBeach)}
 \format{

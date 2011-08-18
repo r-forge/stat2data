@@ -2,10 +2,10 @@
 \alias{FinalFourLong}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+FinalFourLong
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+FinalFourLong
 }
 \usage{data(FinalFourLong)}
 \format{

@@ -2,10 +2,10 @@
 \alias{Leukemia}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Leukemia
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Leukemia
 }
 \usage{data(Leukemia)}
 \format{

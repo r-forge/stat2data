@@ -2,10 +2,10 @@
 \alias{FlightResponse}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+FlightResponse
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+FlightResponse
 }
 \usage{data(FlightResponse)}
 \format{

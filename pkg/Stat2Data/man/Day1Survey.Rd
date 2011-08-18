@@ -2,10 +2,10 @@
 \alias{Day1Survey}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Day1Survey
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Day1Survey
 }
 \usage{data(Day1Survey)}
 \format{

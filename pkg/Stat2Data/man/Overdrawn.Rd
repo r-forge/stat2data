@@ -2,10 +2,10 @@
 \alias{Overdrawn}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+Overdrawn
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Overdrawn
 }
 \usage{data(Overdrawn)}
 \format{

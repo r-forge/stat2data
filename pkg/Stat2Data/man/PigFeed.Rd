@@ -2,10 +2,10 @@
 \alias{PigFeed}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+PigFeed
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+PigFeed
 }
 \usage{data(PigFeed)}
 \format{

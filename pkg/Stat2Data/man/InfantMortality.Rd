@@ -2,10 +2,10 @@
 \alias{InfantMortality}
 \docType{data}
 \title{
-%%   ~~ data name/kind ... ~~
+InfantMortality
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+InfantMortality
 }
 \usage{data(InfantMortality)}
 \format{
