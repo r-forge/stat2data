@@ -18,9 +18,11 @@ Results from a Math Placement exam at a liberal arts college
     \item{\code{ACTM}}{ACT Score in Math}
     \item{\code{Rank}}{Adjusted rank in HS class}
     \item{\code{Size}}{Number of students in HS class}
+    \item{\code{GPAadj}}{Adjusted GPA}
     \item{\code{PlcmtScore}}{Score on math placement exam}
-    \item{\code{Recommends}}{Code for recommended course}
+    \item{\code{Recommends}}{a factor with levels \code{R0} \code{R01} \code{R1} \code{R12} \code{R2} \code{R3} \code{R4} \code{R6} \code{R8}}
     \item{\code{Course}}{Actual course taken}
+    \item{\code{Grade}}{a factor with levels \code{} \code{A} \code{A-} \code{A+} \code{B} \code{B-} \code{B+} \code{C} \code{C-} \code{C+} \code{D} \code{D-} \code{D+} \code{F} \code{I} \code{S} \code{W}}
     \item{\code{RecTaken}}{1=recommended course, 0=otherwise}
     \item{\code{TooHigh}}{1=took course above recommended, 0=otherwise}
     \item{\code{TooLow}}{1=took course below recommended, 0=otherwise}
