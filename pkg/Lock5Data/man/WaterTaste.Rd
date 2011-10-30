@@ -16,10 +16,10 @@ WaterTaste
     \item{\code{Class}}{Year in school \code{F} \code{J} \code{O} \code{P} \code{SO} \code{SR}}
     \item{\code{UsuallyDrink}}{Usual source of drinking water \code{Bottled} \code{Filtered} \code{Tap}}
     \item{\code{FavBotWatBrand}}{Favorite brand of bottled water }
-    \item{\code{Preference}}{Order of perference: A=Sam?s Choice, B=Aquafina, C=Fiji, and D=Tap water }
+    \item{\code{Preference}}{Order of perference: A=Sams Choice, B=Aquafina, C=Fiji, and D=Tap water }
     \item{\code{First}}{Top choice among \code{Aquafina} \code{Fiji} \code{SamsChoice} \code{Tap}}
     \item{\code{Second}}{Second choice}
-    \item{\code{Third}}{Third choice} }
+    \item{\code{Third}}}{Third choice }
     \item{\code{Fourth}}{Fourth choice}
   }
 }
