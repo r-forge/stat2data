@@ -5,7 +5,7 @@
 WaterTaste
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Blind taste test to compare brands of bottled water
 }
 \usage{data(WaterTaste)}
 \format{
@@ -19,7 +19,7 @@ WaterTaste
     \item{\code{Preference}}{Order of perference: A=Sams Choice, B=Aquafina, C=Fiji, and D=Tap water }
     \item{\code{First}}{Top choice among \code{Aquafina} \code{Fiji} \code{SamsChoice} \code{Tap}}
     \item{\code{Second}}{Second choice}
-    \item{\code{Third}}}{Third choice }
+    \item{\code{Third}}{Third choice }
     \item{\code{Fourth}}{Fourth choice}
   }
 }
