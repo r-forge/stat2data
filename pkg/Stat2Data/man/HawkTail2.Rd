@@ -21,7 +21,7 @@ Tail lengths measured for a sample of 908 hawks observed in Mount Vernon, Iowa.
 Note: HawkTail has similar data in stacked format for just the Red-tailed and Sharp-shinned hawks.
 }
 \source{
-Observations by students and faculty at Grinnell College.
+Observations by students and faculty at Cornell College.
 }
 \references{
 %%
