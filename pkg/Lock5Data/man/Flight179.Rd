@@ -11,14 +11,15 @@ Flight times for Flight 179 (Boston-SF) and Flight 180 (SF-Boston)
 \format{
   A data frame with 36 observations on the following 3 variables.
   \describe{
-    \item{\code{Date}}{a factor with levels \code{01/05/2010} \code{01/15/2010} \code{01/25/2010} \code{02/05/2010} \code{02/15/2010} \code{02/25/2010} \code{03/05/2010} \code{03/15/2010} \code{03/25/2010} \code{04/05/2010} \code{04/15/2010} \code{04/25/2010} \code{05/05/2010} \code{05/15/2010} \code{05/25/2010} \code{06/05/2010} \code{06/15/2010} \code{06/25/2010} \code{07/05/2010} \code{07/15/2010} \code{07/25/2010} \code{08/05/2010} \code{08/15/2010} \code{08/25/2010} \code{09/05/2010} \code{09/15/2010} \code{09/25/2010} \code{10/05/2010} \code{10/15/2010} \code{10/25/2010} \code{11/05/2010} \code{11/15/2010} \code{11/25/2010} \code{12/05/2010} \code{12/15/2010} \code{12/25/2010}}
-    \item{\code{Flight179}}{a numeric vector}
-    \item{\code{Flight180}}{a numeric vector}
+    \item{\code{Date}}{Date of the flight (5th, 15th and 25th of each monthin 2010}
+    \item{\code{Flight179}}{Flying time (Boston-SF) in minutes}
+    \item{\code{Flight180}}{Fllying time (SF-Boston) in minutes}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
+United Airlines Flight 179 is a daily flight from Boston to San Francisco.  
+Flight 180 goes in the other direction (SF to Boston). The data show the airborn flying times 
+for each flight on the three dates each month (5th, 15th and 25th)in 2010. 
 \source{
 Data collected from the Bureau of Transportation Statistics website at
 http://www.bts.gov/xml/ontimesummarystatistics/src/dstat/OntimeSummaryAirtime.xml
@@ -27,6 +28,6 @@ http://www.bts.gov/xml/ontimesummarystatistics/src/dstat/OntimeSummaryAirtime.xm
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(Flight179)
+%% data(Flight179)
 }
 \keyword{datasets}

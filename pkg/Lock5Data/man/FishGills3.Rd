@@ -26,7 +26,6 @@ Thanks to Pro. Brad Baldwin for supplying the data
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(FishGills3)
-## maybe str(FishGills3) ; plot(FishGills3) ...
+%%
 }
 \keyword{datasets}

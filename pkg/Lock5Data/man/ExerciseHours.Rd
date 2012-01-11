@@ -2,34 +2,35 @@
 \alias{ExerciseHours}
 \docType{data}
 \title{
-Exercsie Hours
+Exercise Hours
 }
 \description{
-Amount of exercise per week for students
+Amount of exercise per week for students (and other variables)
 }
 \usage{data(ExerciseHours)}
 \format{
   A data frame with 50 observations on the following 7 variables.
   \describe{
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{Gender}}{a factor with levels \code{F} \code{M}}
-    \item{\code{Hand}}{a factor with levels \code{l} \code{r}}
-    \item{\code{Exercise}}{a numeric vector}
-    \item{\code{TV}}{a numeric vector}
-    \item{\code{Pulse}}{a numeric vector}
-    \item{\code{Pierces}}{a numeric vector}
+    \item{\code{Year}}{Year in school (1=First year,..., 4=Senior)}
+    \item{\code{Gender}}{ \code{F} or \code{M}}
+    \item{\code{Hand}}{Left (\code{l}) or Right (\code{r}) handed?}
+    \item{\code{Exercise}}{Hours of exercise per week}
+    \item{\code{TV}}{Hours of TV viewing per week}
+    \item{\code{Pulse}}{Resting pulse rate (beats per minute)}
+    \item{\code{Pierces}}{Number of body piercings}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data from an in-class survey of statistics students asking about amount of exercise,
+TV viewing, handedness, gender, pulse rate, and number of body piercings. 
 }
 \source{
-Student survey
+In-class student survey.
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(ExerciseHours)
+%% data(ExerciseHours)
 }
 \keyword{datasets}

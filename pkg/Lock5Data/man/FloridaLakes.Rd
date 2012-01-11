@@ -5,28 +5,30 @@
 Florida Lakes
 }
 \description{
-Water qualtiy for a sample of lakes in Florida
+Water quality for a sample of lakes in Florida
 }
 \usage{data(FloridaLakes)}
 \format{
   A data frame with 53 observations on the following 12 variables.
   \describe{
-    \item{\code{ID}}{a numeric vector}
-    \item{\code{Lake}}{a factor with levels \code{Alligator} \code{Annie} \code{Apopka} \code{Blue Cypress} \code{Brick} \code{Bryant} \code{Cherry} \code{Crescent} \code{Deer Point} \code{Dias} \code{Dorr} \code{Down} \code{East Tohopekaliga} \code{Eaton} \code{Farm-13} \code{George} \code{Griffin} \code{Harney} \code{Hart} \code{Hatchineha} \code{Iamonia} \code{Istokpoga} \code{Jackson} \code{Josephine} \code{Kingsley} \code{Kissimmee} \code{Lochloosa} \code{Louisa} \code{Miccasukee} \code{Minneola} \code{Monroe} \code{Newmans} \code{Ocean Pond} \code{Ocheese Pond} \code{Okeechobee} \code{Orange} \code{Panasoffkee} \code{Parker} \code{Placid} \code{Puzzle} \code{Rodman} \code{Rousseau} \code{Sampson} \code{Shipp} \code{Talquin} \code{Tarpon} \code{Tohopekaliga} \code{Trafford} \code{Trout} \code{Tsala Apopka} \code{Weir} \code{Wildcat} \code{Yale}}
-    \item{\code{Alkalinity}}{a numeric vector}
-    \item{\code{pH}}{a numeric vector}
-    \item{\code{Calcium}}{a numeric vector}
-    \item{\code{Chlorophyll}}{a numeric vector}
-    \item{\code{Avg_Mercury}}{a numeric vector}
-    \item{\code{Nosamples}}{a numeric vector}
-    \item{\code{min}}{a numeric vector}
-    \item{\code{max}}{a numeric vector}
-    \item{\code{X_3_yr_Standard_Mercury}}{a numeric vector}
-    \item{\code{age_data}}{a numeric vector}
+    \item{\code{ID}}{An identifying number for each lake}
+    \item{\code{Lake}}{Name of the lake}
+    \item{\code{Alkalinity}}{Concentration of calcium carbonate (in mg/L)}
+    \item{\code{pH}}{Acidity}
+    \item{\code{Calcium}}{Amount of calcium in water}
+    \item{\code{Chlorophyll}}{Amount of chlorophyll in water}
+    \item{\code{Avg_Mercury}}{Average mercury level for a sample of fish (larege mouth bass) from each lake}
+    \item{\code{Nosamples}}{Number of fish sampled at each lake}
+    \item{\code{min}}{Minimum mercury level in a sampled fish}
+    \item{\code{max}}{Maximum mercury level in a sampled fish}
+    \item{\code{X_3_yr_Standard_Mercury}}{Adjusted mercury level to account for the age of the fish}
+    \item{\code{age_data}}{Mean age of fish in each sample}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset describes characteristics of water and fish samples from 53 Florida lakes.  
+Some variables (e.g. Alkalinity, pH, and Calcium) reflect the chemistry of the water samples.
+Mercury levels were recorded for a sample of large mouth bass selected at each lake. 
 }
 \source{
 Lange, Royals, and Connor, Transactions of the American Fisheries Society (1993)
@@ -35,6 +37,6 @@ Lange, Royals, and Connor, Transactions of the American Fisheries Society (1993)
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(FloridaLakes)
+%% data(FloridaLakes)
 }
 \keyword{datasets}
