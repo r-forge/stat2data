@@ -17,7 +17,7 @@ Experiment to match dogs with owners
 \details{Pictures were taken of 25 owners and their purebred dogs, 
 selected at random from dog parks. Study participants were shown a picture of
 an owner together with pictures of two dogs 
-(the owner’s dog and another random dog from the study) and
+(the owner's dog and another random dog from the study) and
 asked to choose which dog most resembled the owner.
 Each dog-owner pair was viewed by 28 naive undergraduate judges, and the pairing was deemed "correct" (yes) if the majority of judges (more than 14) chose the correct dog to go with the owner.
 }

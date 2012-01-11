@@ -20,8 +20,7 @@ Digits from social security numbers and student selected random numbers
     \item{\code{SSN9}}{Last digit of social security number}
   }
 }
-\details
-A sample of students were asked to pick a "random" four digit number.  
+\details{ A sample of students were asked to pick a random four digit number.  
 The numbers are given in the dataset, along with separate columns for each of the four digits.  The data also show the last two digits of each student's social security number (SSN). 
 }
 \source{
