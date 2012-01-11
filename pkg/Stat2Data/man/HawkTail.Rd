@@ -20,7 +20,7 @@ Tail lengths measured for a sample of 838 hawks observed in Mount Vernon, Iowa.
 Note: HawkTail2 has similar data in unstacked format for three species of hawks.
 }
 \source{
-Observations by students and faculty at Grinnell College
+Observations by students and faculty at Cornell College
 }
 \references{
 %%
