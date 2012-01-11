@@ -27,6 +27,6 @@ Shoemaker, What's Normal: Temperature, Gender and Heartrate, Journal of Statisti
 (1996)
 }
 \examples{
-data(BodyTemp50)
+%% data(BodyTemp50)
 }
 \keyword{datasets}

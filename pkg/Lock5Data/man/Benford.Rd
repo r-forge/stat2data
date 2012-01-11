@@ -5,7 +5,7 @@
 Benford data
 }
 \description{
-Two examples to test Benfords Law
+Two examples to test Benford's Law
 }
 \usage{data(Benford)}
 \format{
@@ -27,6 +27,6 @@ Thanks to Prof. Richard Cleary for providing the data
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(Benford)
+%% data(Benford)
 }
 \keyword{datasets}

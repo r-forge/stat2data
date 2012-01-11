@@ -26,6 +26,6 @@ The University of Dayton Average Daily Temperature Archive at http://academic.ud
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(April14Temps)
+%% data(April14Temps)
 }
 \keyword{datasets}

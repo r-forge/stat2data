@@ -5,17 +5,17 @@
 Bootstrap Correlations for Atlanta Commutes
 }
 \description{
-Boostrap correlations between Time and Distance for 5oo commuters in Atlanta
+Boostrap correlations between Time and Distance for 500 commuters in Atlanta
 }
 \usage{data(BootAtlantaCorr)}
 \format{
   A data frame with 1000 observations on the following variable.
   \describe{
-    \item{\code{CorrTimeDist}}{a numeric vector}
+    \item{\code{CorrTimeDist}}{Correlation between Time and Distance for a bootstrap sample of Atlanta commuters}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Correlations for bootstrap samples of Time vs. Distance for the data on Atlanta commuters in CommuteAtlanta.
 }
 \source{
 Computer simulation
@@ -24,6 +24,6 @@ Computer simulation
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(BootAtlantaCorr)
+%% data(BootAtlantaCorr)
 }
 \keyword{datasets}

@@ -13,14 +13,14 @@ Data on the countries of the world
   \describe{
     \item{\code{Country}}{Name of the country}
     \item{\code{LandArea}}{Size in sq. kilometers}
-    \item{\code{Population}}{Populatoin in millions}
+    \item{\code{Population}}{Population in millions}
     \item{\code{Energy}}{Energy usage (kilotons of oil)}
     \item{\code{Rural}}{Percentage of population living in rural areas}
     \item{\code{Military}}{Percentage of government expenditures directed toward the military}
     \item{\code{Health}}{Percentage of government expenditures directed towards healthcare}
     \item{\code{HIV}}{Percentage of the population with HIV}
     \item{\code{Internet}}{Percentage of the population with access to the internet}
-    \item{\code{Developed}}{Categoires for kilowat hours per capita, 1= under 2500, 2=2500 to 5000, 3=over 5000}
+    \item{\code{Developed}}{Categories for kilowat hours per capita, 1= under 2500, 2=2500 to 5000, 3=over 5000}
     \item{\code{BirthRate}}{Births per 1000 people}
     \item{\code{ElderlyPop}}{Percentage of the population at least 65 year old}
     \item{\code{LifeExpectancy}}{Average life expectancy (years)}
@@ -36,6 +36,6 @@ Data collected from the World Bank website, worldbank.org.
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(AllCountries)
+%%data(AllCountries)
 }
 \keyword{datasets}

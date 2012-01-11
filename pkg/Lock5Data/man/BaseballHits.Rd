@@ -12,9 +12,9 @@ Number of hits and wins for MLB teams
   A data frame with 30 observations on the following 14 variables.
   \describe{
     \item{\code{Team}}{Name of baseball team}
-    \item{\code{League}}{ \code{AL} or \code{NL}}
-    \item{\code{Wins}}{Number of wins}
-    \item{\code{Runs}}{Number of rund scored}
+    \item{\code{League}}{Either \code{AL} or \code{NL}}
+    \item{\code{Wins}}{Number of wins for the season}
+    \item{\code{Runs}}{Number of runs scored}
     \item{\code{Hits}}{Number of hits}
     \item{\code{Doubles}}{Number of doubles}
     \item{\code{Triples}}{Number of triples}
@@ -38,6 +38,6 @@ http://www.baseball-reference.com/leagues/MLB/2011-standard-batting.shtml
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(BaseballHits)
+%% data(BaseballHits)
 }
 \keyword{datasets}

@@ -15,7 +15,7 @@ Correct responses on Advanced  Placement multiple choice exams
   }
 }
 \details{
-Correct responses from multiple choice sections for a sample of Advanced Placement exams
+Correct responses from multiple choice sections for a sample of released Advanced Placement exams
 }
 \source{
 Sample exams from several disciplines at http://apcentral.collegeboard.com
@@ -24,6 +24,6 @@ Sample exams from several disciplines at http://apcentral.collegeboard.com
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(APMultipleChoice)
+%% data(APMultipleChoice)
 }
 \keyword{datasets}
