@@ -19,7 +19,7 @@ License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
 %%~~ An overview of how to use the package, including the most important ~~
-~~ functions ~~
+%%~~ functions ~~
 }
 \author{
 Robin Lock

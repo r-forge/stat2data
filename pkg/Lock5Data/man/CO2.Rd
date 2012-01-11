@@ -12,7 +12,7 @@ Atmospheric carbon dioxide levels by year
   A data frame with 11 observations on the following 2 variables.
   \describe{
     \item{\code{Year}}{Every five years from 1960-2010}
-    \item{\code{C02}}{Carbon dioxide level in parte per million}
+    \item{\code{C02}}{Carbon dioxide level in parts per million}
   }
 }
 \details{
@@ -26,7 +26,6 @@ in Hawaii.
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(CO2)
-## maybe str(CO2) ; plot(CO2) ...
+%% data(CO2)
 }
 \keyword{datasets}

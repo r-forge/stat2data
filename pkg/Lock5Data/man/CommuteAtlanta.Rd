@@ -11,15 +11,15 @@ Commute times and distance for a sample of 500 people in Atlanta
 \format{
   A data frame with 500 observations on the following 5 variables.
   \describe{
-    \item{\code{City}}{a factor with levels \code{Atlanta}}
-    \item{\code{Age}}{a numeric vector}
-    \item{\code{Distance}}{a numeric vector}
-    \item{\code{Time}}{a numeric vector}
-    \item{\code{Sex}}{a factor with levels \code{F} \code{M}}
+    \item{\code{City}}{ \code{Atlanta}}
+    \item{\code{Age}}{Age of the respondent (in years)}
+    \item{\code{Distance}}{Commute distance (in miles)}
+    \item{\code{Time}}{Commute time (in minutes)}
+    \item{\code{Sex}}{  \code{F} or \code{M}}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data fro the US Census Bureua's American Housing Survey (AHS) which contains information about housing and living conditions for samples from certain metropolitan areas. These data were extracted respondents in the Atlanta metropolitan area. They include only cases where the respondent worked somewhere other than home. Values show the time (in minutes) and distance (in miles) that respondents typically traveled on their commute to work each day as well as age and sex.
 }
 \source{
 Sample chosen using DataFerret at http://www.thedataweb.org/index.html.
@@ -28,6 +28,6 @@ Sample chosen using DataFerret at http://www.thedataweb.org/index.html.
 %%
 }
 \examples{
-data(CommuteAtlanta)
+%% data(CommuteAtlanta)
 }
 \keyword{datasets}
