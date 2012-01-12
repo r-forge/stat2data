@@ -2,7 +2,7 @@
 \alias{GlobalInternet}
 \docType{data}
 \title{
-Glabal Internet
+Global Internet Usage
 }
 \description{
 Internet usage for several countries
@@ -11,13 +11,14 @@ Internet usage for several countries
 \format{
   A data frame with 9 observations on the following 3 variables.
   \describe{
-    \item{\code{Country}}{a factor with levels \code{Australia} \code{Brazil} \code{France} \code{Germany} \code{Italy} \code{Spain} \code{Swizerland} \code{United Kingdom} \code{United States}}
-    \item{\code{PercentFastConnection}}{a numeric vector}
-    \item{\code{HoursOnline}}{a numeric vector}
+    \item{\code{Country}}{Name of country}
+    \item{\code{PercentFastConnection}}{Percent of internet users with a fast connection}
+    \item{\code{HoursOnline}}{Average number of hours online in February 2011}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+The Nielsen Company measured connection speeds on home computers in nine different countries.  Variables include the  percent of internet users with a fast connection (defined as 2Mb/sec
+or faster) and the average amount of time spent online, defined as total hours connected to the web from a home computer during the month of February 2011. 
 }
 \source{
 NielsenWire, "Swiss Lead in Speed: Comparing Global Internet Connections", April 1, 2011
@@ -26,6 +27,6 @@ NielsenWire, "Swiss Lead in Speed: Comparing Global Internet Connections", April
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(GlobalInternet)
+%data(GlobalInternet)
 }
 \keyword{datasets}

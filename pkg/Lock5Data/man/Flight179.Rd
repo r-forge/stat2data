@@ -19,7 +19,8 @@ Flight times for Flight 179 (Boston-SF) and Flight 180 (SF-Boston)
 \details{
 United Airlines Flight 179 is a daily flight from Boston to San Francisco.  
 Flight 180 goes in the other direction (SF to Boston). The data show the airborn flying times 
-for each flight on the three dates each month (5th, 15th and 25th)in 2010. 
+for each flight on the three dates each month (5th, 15th and 25th) in 2010. 
+}
 \source{
 Data collected from the Bureau of Transportation Statistics website at
 http://www.bts.gov/xml/ontimesummarystatistics/src/dstat/OntimeSummaryAirtime.xml
