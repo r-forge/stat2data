@@ -11,12 +11,12 @@ Ages for husbands and wives from marriage licenses
 \format{
   A data frame with 100 observations on the following 2 variables.
   \describe{
-    \item{\code{Husband}}{a numeric vector}
-    \item{\code{Wife}}{a numeric vector}
+    \item{\code{Husband}}{Age of husband at marriage}
+    \item{\code{Wife}}{Age of wife at marriage}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data from a sample of 100 marriage licences in Cumberland County, PA gives the ages of husbands and wives for newly married couples.
 }
 \source{
 Rossman, A. and Chance, B. Workshop Statistics: Discovery with Data, 3rd Edition, Wiley (2008).
@@ -25,7 +25,6 @@ Rossman, A. and Chance, B. Workshop Statistics: Discovery with Data, 3rd Edition
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(MarriageAges)
-## maybe str(MarriageAges) ; plot(MarriageAges) ...
+%%data(MarriageAges)
 }
 \keyword{datasets}
