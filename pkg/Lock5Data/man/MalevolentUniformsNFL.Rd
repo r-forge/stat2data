@@ -19,7 +19,7 @@ Perceived malevolence of uniforms and penalies for National Football League (NFL
 \details{
 Participants with no knowledge of the teams rated the jerseys 
 on characteristics such as timid/aggressive, nice/mean and good/bad. The averages of these responses
-produced a “malevolence” index with higher scores signifying impressions of more malevolent uniforms. To
+produced a "malevolence" index with higher scores signifying impressions of more malevolent uniforms. To
 measure aggressiveness, the authors used the amount of penalty yards converted to z-scores and averaged for each team over the seasons from 1970-1986.
 }
 \source{

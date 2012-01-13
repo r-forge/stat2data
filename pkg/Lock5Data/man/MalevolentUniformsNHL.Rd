@@ -11,7 +11,7 @@ Perceived malevolence of uniforms and penalies for National Hockey League (NHL) 
 \format{
   A data frame with 28 observations on the following 3 variables.
   \describe{
-    \item{Team name}
+    \item{\code{NHLTeam}}{Team name}
     \item{\code{NHL_Malevolence}}{Score reflecting the "malevolence" of a team's uniform}
     \item{\code{ZPenMin}}{Z-score for penalty minutes}
   }
@@ -19,7 +19,7 @@ Perceived malevolence of uniforms and penalies for National Hockey League (NHL) 
 \details{
 Participants with no knowledge of the teams rated the jerseys 
 on characteristics such as timid/aggressive, nice/mean and good/bad. The averages of these responses
-produced a “malevolence” index with higher scores signifying impressions of more malevolent uniforms. To
+produced a "malevolence" index with higher scores signifying impressions of more malevolent uniforms. To
 measure aggressiveness, the authors used the amount of penalty minutes converted to z-scores and averaged for each team over the seasons from 1970-1986.
 }
 \source{
