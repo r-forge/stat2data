@@ -11,12 +11,12 @@ Counts and proportions for 5000 simulated samples with n=200 and p=0.50
 \format{
   A data frame with 5000 observations on the following 2 variables.
   \describe{
-    \item{\code{Count}}{a numeric vector}
-    \item{\code{Phat}}{a numeric vector}
+    \item{\code{Count}}{Number of simulated "yes" responses in 200 trials}
+    \item{\code{Phat}}{Sample proportion (Count/200)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Results from 5000 simulations of samples of size n=200 from a population with proportoin of "yes" responses at p=0.50. 
 }
 \source{
 Computer simulation
@@ -25,7 +25,6 @@ Computer simulation
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(RandomP50N200)
-## maybe str(RandomP50N200) ; plot(RandomP50N200) ...
+%data(RandomP50N200)
 }
 \keyword{datasets}

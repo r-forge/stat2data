@@ -11,15 +11,17 @@ Ant Counts on samples of different sandwiches
 \format{
   A data frame with 24 observations on the following 5 variables.
   \describe{
-    \item{\code{Butter}}{a factor with levels \code{no}}
-    \item{\code{Filling}}{a factor with levels \code{Ham \& Pickles} \code{Peanut Butter} \code{Vegemite}}
-    \item{\code{Bread}}{a factor with levels \code{Multigrain} \code{Rye} \code{White} \code{Wholemeal}}
-    \item{\code{Ants}}{a numeric vector}
-    \item{\code{Order}}{a numeric vector}
+    \item{\code{Butter}}{Butter on the sandwich? \code{no}}
+    \item{\code{Filling}}{Type of filling: \code{Ham \& Pickles}, \code{Peanut Butter}, or \code{Vegemite}}
+    \item{\code{Bread}}{Type of bread:  \code{Multigrain}, \code{Rye}, \code{White}, or \code{Wholemeal}}
+    \item{\code{Ants}}{Number of ants on the sandwich}
+    \item{\code{Order}}{Trial number}
   }
 }
 \details{
-Only sandwiches with no butter in this dataset
+As young students, Dominic Kelly and his friends enjoyed watching ants gather on pieces of sandwiches.  Later, as a university student, Dominic decided to study this with a more formal experiment. He chose three types of sandwich fillings (vegemite, peanut butter, and ham \& pickles),  four types of bread (multigrain, rye, white, and wholemeal), and put butter on some of the sandwiches. \cr
+To conduct the experiment he randomly chose a sandwich, broke off a piece, and left it on the ground near an ant hill.  After several minutes he placed a jar over the sandwich bit and counteed the number of ants. He repeated the process, allowing time for ants to return to the hill after each trial, until he had two samples for each combination of the factors. \cr
+This dataset has only sandwiches with no butter. The data in SandwichAnts2 adds information for samples with butter. 
 }
 \source{
 Margaret Mackisack, ``Favourite Experiments: An Addendum to What is the Use of Experiments Conducted by Statistics Students?", 
@@ -29,6 +31,6 @@ Journal of Statistics Education (1994) http://www.amstat.org/publications/jse/v2
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(SandwichAnts)
+%% data(SandwichAnts)
 }
 \keyword{datasets}

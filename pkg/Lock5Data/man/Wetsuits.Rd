@@ -11,14 +11,17 @@ Swim velocity (for 1500 meters) with and withut wearing a wetsuit
 \format{
   A data frame with 12 observations on the following 4 variables.
   \describe{
-    \item{\code{Wetsuit}}{a numeric vector}
-    \item{\code{NoWetsuit}}{a numeric vector}
-    \item{\code{Gender}}{a factor with levels \code{F} \code{M}}
-    \item{\code{Type}}{a factor with levels \code{swimmer} \code{triathlete}}
+    \item{\code{Wetsuit}}{Maximum swim velocity (m/sec) when wearing a wetsuit}
+    \item{\code{NoWetsuit}}{Maximum swim velocity (m/sec) when wearing a regular bathing suit}
+    \item{\code{Gender}}{Gender of swimmer: \code{F} or \code{M}}
+    \item{\code{Type}}{Type of athlete: \code{swimmer} or \code{triathlete}}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A study tested whether wearing wetsuits influences swimming velocity. 
+Twelve competitive swimmers and triathletes swam 1500m at maximum speed twice each; once wearing a wetsuit and once wearing a regular bathing suit. 
+The order of the trials was randomized. 
+Each time, the maximum velocity in meters/sec of the swimmer was recorded.
 }
 \source{
 de Lucas, R.D., Balildan, P., Neiva, C.M., Greco, C.C., Denadai, B.S. (2000). "The effects of wetsuits on physiological and
@@ -28,6 +31,6 @@ biomechanical indices during swimming," Journal of Science and Medicine in Sport
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(Wetsuits)
+%% data(Wetsuits)
 }
 \keyword{datasets}

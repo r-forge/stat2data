@@ -30,6 +30,6 @@ Data downloaded from http://www.basketball-reference.com/leagues/NBA_2011_games.
 %%
 }
 \examples{
-data(NBAStandings)
+%% data(NBAStandings)
 }
 \keyword{datasets}

@@ -11,13 +11,16 @@ Traffic flow times from a simulation with timed and flexible traffic lights
 \format{
   A data frame with 24 observations on the following 3 variables.
   \describe{
-    \item{\code{Timed}}{a numeric vector}
-    \item{\code{Flexible}}{a numeric vector}
-    \item{\code{Difference}}{a numeric vector}
+    \item{\code{Timed}}{Delay time (in minutes) for fixed timed lights}
+    \item{\code{Flexible}}{Delay time (in minutes) for flexible communicating lights.}
+    \item{\code{Difference}}{Difference (Timed-Flexible) for each simulation}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Engineers in Dresden, Germany were looking at ways to improve traffic flow by enabling
+traffic lights to communicate information about traffic flow with nearby traffic lights. The data in
+show results of one experiment where they simulated buses moving along a street
+and recorded the delay time (in seconds) for both a fixed time and a flexible system of lights. The process was repeated under both conditions for a sample of 24 simulated scenarios.
 }
 \source{
 Lammer and Helbing, "Self-Stabilizing decentralized signal control of realistic, saturated network traffic", Santa Fe Institute
@@ -27,6 +30,6 @@ working paper \# 10-09-019, September 2010.
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(TrafficFlow)
+%% data(TrafficFlow)
 }
 \keyword{datasets}

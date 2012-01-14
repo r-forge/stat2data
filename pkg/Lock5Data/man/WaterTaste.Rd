@@ -11,13 +11,13 @@ Blind taste test to compare brands of bottled water
 \format{
   A data frame with 100 observations on the following 10 variables.
   \describe{
-    \item{\code{Gender}}{\code{F}=Female \code{M}=Male}
-    \item{\code{Age}}{in years}
-    \item{\code{Class}}{Year in school \code{F} \code{J} \code{O} \code{P} \code{SO} \code{SR}}
-    \item{\code{UsuallyDrink}}{Usual source of drinking water \code{Bottled} \code{Filtered} \code{Tap}}
+    \item{\code{Gender}}{Gender of respondent: \code{F}=Female \code{M}=Male}
+    \item{\code{Age}}{Age (in years)}
+    \item{\code{Class}}{Year in school \code{F}=First year \code{J}=Junior \code{O}=Other \code{P} \code{SO}=Sophomore \code{SR}=Senior}
+    \item{\code{UsuallyDrink}}{Usual source of drinking water: \code{Bottled}, \code{Filtered}, or \code{Tap}}
     \item{\code{FavBotWatBrand}}{Favorite brand of bottled water }
-    \item{\code{Preference}}{Order of perference: A=Sams Choice, B=Aquafina, C=Fiji, and D=Tap water }
-    \item{\code{First}}{Top choice among \code{Aquafina} \code{Fiji} \code{SamsChoice} \code{Tap}}
+    \item{\code{Preference}}{Order of perference: \code{A}=Sams Choice, \code{B}=Aquafina, \code{C}=Fiji, and \code{D}=Tap water }
+    \item{\code{First}}{Top choice among \code{Aquafina}, \code{Fiji}, \code{SamsChoice}, or \code{Tap}}
     \item{\code{Second}}{Second choice}
     \item{\code{Third}}{Third choice }
     \item{\code{Fourth}}{Fourth choice}
@@ -34,7 +34,6 @@ Result from a blind taste test comparing different four different types of water
 http://www.amstat.org/publications/jse/v18n1/lunsford.pdf
 }
 \examples{
-data(WaterTaste)
-## maybe str(WaterTaste) ; plot(WaterTaste) ...
+%% data(WaterTaste)
 }
 \keyword{datasets}

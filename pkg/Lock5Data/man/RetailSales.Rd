@@ -11,13 +11,13 @@ Monthly U.S. Retail Sales (in billions)
 \format{
   A data frame with 144 observations on the following 3 variables.
   \describe{
-    \item{\code{Month}}{a factor with levels \code{} \code{Apr} \code{Aug} \code{Dec} \code{Feb} \code{Jan} \code{July} \code{June} \code{Mar} \code{May} \code{Nov} \code{Oct} \code{Sep}}
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{Sales}}{a numeric vector}
+    \item{\code{Month}}{Month of the year}
+    \item{\code{Year}}{Years from 2002 to 2011 }
+    \item{\code{Sales}}{U.S. retail sales (in billions of dollars)}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data show the monthly retail sales (in billions) for the U.S. economy in each month from 2002 through 2011. 
 }
 \source{
 http://www.census.gov/retail/
@@ -26,6 +26,6 @@ http://www.census.gov/retail/
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(RetailSales)
+%% data(RetailSales)
 }
 \keyword{datasets}

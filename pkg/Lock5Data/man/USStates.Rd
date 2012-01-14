@@ -11,35 +11,35 @@ Various datafor all 50 US States
 \format{
   A data frame with 50 observations on the following 17 variables.
   \describe{
-    \item{\code{State}}{a factor with levels \code{Alabama} \code{Alaska} \code{Arizona} \code{Arkansas} \code{California} \code{Colorado} \code{Connecticut} \code{Delaware} \code{Florida} \code{Georgia} \code{Hawaii} \code{Idaho} \code{Illinois} \code{Indiana} \code{Iowa} \code{Kansas} \code{Kentucky} \code{Louisiana} \code{Maine} \code{Maryland} \code{Massachusetts} \code{Michigan} \code{Minnesota} \code{Mississippi} \code{Missouri} \code{Montana} \code{Nebraska} \code{Nevada} \code{New Hampshire} \code{New Jersey} \code{New Mexico} \code{New York} \code{North Carolina} \code{North Dakota} \code{Ohio} \code{Oklahoma} \code{Oregon} \code{Pennsylvania} \code{Rhode Island} \code{South Carolina} \code{South Dakota} \code{Tennessee} \code{Texas} \code{Utah} \code{Vermont} \code{Virginia} \code{Washington} \code{West Virginia} \code{Wisconsin} \code{Wyoming}}
-    \item{\code{HouseholdIncome}}{a numeric vector}
-    \item{\code{IQ}}{a numeric vector}
-    \item{\code{McCainVote}}{a numeric vector}
-    \item{\code{Region}}{a factor with levels \code{MW} \code{NE} \code{S} \code{W}}
-    \item{\code{ObamaMcCain}}{a factor with levels \code{M} \code{O}}
-    \item{\code{Population}}{a numeric vector}
-    \item{\code{X8thGradeMath}}{a numeric vector}
-    \item{\code{HighSchool}}{a numeric vector}
-    \item{\code{GSP}}{a numeric vector}
-    \item{\code{FiveVegetables}}{a numeric vector}
-    \item{\code{Smokers}}{a numeric vector}
-    \item{\code{PhysicalActivity}}{a numeric vector}
-    \item{\code{Obese}}{a numeric vector}
-    \item{\code{College}}{a numeric vector}
-    \item{\code{NonWhite}}{a numeric vector}
-    \item{\code{HeavyDrinkers}}{a numeric vector}
+    \item{\code{State}}{Name of state}
+    \item{\code{HouseholdIncome}}{Mean household income (in dollars)}
+    \item{\code{IQ}}{Mean IQ score of residents}
+    \item{\code{McCainVote}}{Percentage of votes for John McCain in 2008 Presidential election}
+    \item{\code{Region}}{Area of the country: \code{MW}=Midwest, \code{NE}=Northeast, \code{S}=South, or \code{W}=West}
+    \item{\code{ObamaMcCain}}{Which 2008 Presidential candidate won state?  \code{M}=McCain or \code{O}=Obama}
+    \item{\code{Population}}{Number of residents (in millions)}
+    \item{\code{EighthGradeMath}}{a numeric vector}
+    \item{\code{HighSchool}}{Percentage of high school graduates}
+    \item{\code{GSP}}{Gross State Product (dollars per capita)}
+    \item{\code{FiveVegetables}}{Percentage of residents who eat at least five servings of fruits/vegetables per day}
+    \item{\code{Smokers}}{Percentage of residents who smoke}
+    \item{\code{PhysicalActivity}}{Percentage of residents who have competed in a physical activity in past month}
+    \item{\code{Obese}}{Percentage of residents classified as obese}
+    \item{\code{College}}{Percentage of residents with college degrees}
+    \item{\code{NonWhite}}{Percentage of residents who are not white}
+    \item{\code{HeavyDrinkers}}{Percentage of residents who drink heavily}
   }
 }
 \details{
 %%  ~~ If necessary, more details than the __description__ above ~~
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Various online sources, mostly at www.census.gov
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(USStates)
+%% data(USStates)
 }
 \keyword{datasets}

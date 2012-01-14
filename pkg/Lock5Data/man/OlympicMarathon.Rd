@@ -15,11 +15,11 @@ Times for all finishers in the men's marathon at the 2008 Olympics
     \item{\code{Athlete}}{Name of marathoner}
     \item{\code{Nationality}}{Country of marathoner}
     \item{\code{Time}}{Time as H:MM:SS}
-    \item{\code{Minutes}}{Time in Minutes}
+    \item{\code{Minutes}}{Time in minutes}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Results for all finishers in the 2008 Men's Olympic marathon in Beijing, China. 
 }
 \source{
 http://2008olympics.runnersworld.com/2008/08/mens-marathon-results.html
@@ -28,6 +28,6 @@ http://2008olympics.runnersworld.com/2008/08/mens-marathon-results.html
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(OlympicMarathon)
+%% data(OlympicMarathon)
 }
 \keyword{datasets}

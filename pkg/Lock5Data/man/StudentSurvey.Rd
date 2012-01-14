@@ -11,35 +11,35 @@ Data from a survey of students in introductory statistics courses
 \format{
   A data frame with 362 observations on the following 17 variables.
   \describe{
-    \item{\code{Year}}{a factor with levels \code{} \code{First-year} \code{FirstYear} \code{Junior} \code{Senior} \code{Sophomore}}
-    \item{\code{Gender}}{a factor with levels \code{F} \code{M}}
-    \item{\code{Smoke}}{a factor with levels \code{No} \code{Yes}}
-    \item{\code{Award}}{a factor with levels \code{Academy} \code{Nobel} \code{Olympic}}
-    \item{\code{HigherSAT}}{a factor with levels \code{ } \code{Math} \code{Verbal}}
-    \item{\code{Exercise}}{a numeric vector}
-    \item{\code{TV}}{a numeric vector}
-    \item{\code{Height}}{a numeric vector}
-    \item{\code{Weight}}{a numeric vector}
-    \item{\code{Siblings}}{a numeric vector}
-    \item{\code{BirthOrder}}{a numeric vector}
-    \item{\code{VerbalSAT}}{a numeric vector}
-    \item{\code{MathSAT}}{a numeric vector}
-    \item{\code{SAT}}{a numeric vector}
-    \item{\code{GPA}}{a numeric vector}
-    \item{\code{Pulse}}{a numeric vector}
-    \item{\code{Piercings}}{a numeric vector}
+    \item{\code{Year}}{Year in school}
+    \item{\code{Gender}}{Student's gender:  \code{F} or \code{M}}
+    \item{\code{Smoke}}{Smoker? \code{No} or \code{Yes}}
+    \item{\code{Award}}{Prefered award: \code{Academy} \code{Nobel} \code{Olympic}}
+    \item{\code{HigherSAT}}{Which SAT is higher?  \code{Math} or \code{Verbal}}
+    \item{\code{Exercise}}{Hours of exercsie per week}
+    \item{\code{TV}}{Hours of TV viewing per week}
+    \item{\code{Height}}{Height (in inches)}
+    \item{\code{Weight}}{Weight (in pounds)}
+    \item{\code{Siblings}}{Number of siblings}
+    \item{\code{BirthOrder}}{Birth order, 1=oldest}
+    \item{\code{VerbalSAT}}{Verbal SAT score}
+    \item{\code{MathSAT}}{Math SAT score}
+    \item{\code{SAT}}{Combined Verbal + Math SAT}
+    \item{\code{GPA}}{College grade point average}
+    \item{\code{Pulse}}{Pulse rate (beats per minute)}
+    \item{\code{Piercings}}{Number of body piercings}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data from an in-class survey given to introductory statistics students over several years. 
 }
 \source{
-Student survey
+In-class student survey
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(StudentSurvey)
+%% data(StudentSurvey)
 }
 \keyword{datasets}

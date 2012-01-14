@@ -5,26 +5,26 @@
 Sleep Caffeine
 }
 \description{
-Experimetn to compare word recall after sleep or caffeine
+Experimentn to compare word recall after sleep or caffeine
 }
 \usage{data(SleepCaffeine)}
 \format{
   A data frame with 24 observations on the following 2 variables.
   \describe{
-    \item{\code{Group}}{a factor with levels \code{Caffeine} \code{Sleep}}
-    \item{\code{Words}}{a numeric vector}
+    \item{\code{Group}}{Treatment: \code{Caffeine} \code{Sleep}}
+    \item{\code{Words}}{Number of words recalled}
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A random sample of 24 adults were divided equally into two groups and given a list of 24 words to memorize. During a break, one group takes a 90 minute nap while another group is given a caffeine pill.  The response variable is the number of words participants are able to recall following the break. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Mednick, Cai, Kanady, and Drummond, "Comparing the benefits of caffeine, naps and placebo on verbal, motor and perceptual memory", Behavioural Brain Research, 193 (2008), 79-86.
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(SleepCaffeine)
+%% data(SleepCaffeine)
 }
 \keyword{datasets}
