@@ -17,8 +17,9 @@ Daily walking amounts recorded on a personal pedometer from September-December 2
     \item{\code{kcal}}{Number of calories burned walking at a moderate speed}
     \item{\code{Mile}}{Total number of miles walked}
     \item{\code{Rain}}{Type of weather (\code{rain} or \code{shine})}
-    \item{\code{Day}}{Day of the week (U=Sunday, M=Monday, T=Tuesday, W=Wednesday, R=Thursday, F=Friday, S=Saturday}
-    \item{\code{DayType}}{\code{Weekday} or \code{Weekend}}
+    \item{\code{Day}}{Day of the week (\code{U}=Sunday, \code{M}=Monday, 
+\code{T}=Tuesday, \code{W}=Wednesday, \code{R}=Thursday, \code{F}=Friday, \code{S}=Saturday}
+    \item{\code{DayType}}{Coded as \code{Weekday} or \code{Weekend}}
   }
 }
 \details{
@@ -31,6 +32,6 @@ Daily walking amounts recorded on a personal pedometer from September-December 2
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(Pedometer)
+%% data(Pedometer)
 }
 \keyword{datasets}

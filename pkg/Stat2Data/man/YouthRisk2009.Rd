@@ -30,6 +30,6 @@ http://www.cdc.gov/HealthyYouth/yrbs/index.htm
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(YouthRisk2009)
+%% data(YouthRisk2009)
 }
 \keyword{datasets}

@@ -28,6 +28,6 @@ Downloaded from DASL at http://lib.stat.cmu.edu/DASL/Datafiles/cuckoodat.html
 L.H.C. Tippett, The Methods of Statistics, 4th Edition, John Wiley and Sons, Inc., 1952, p. 176. 
 }
 \examples{
-data(Cuckoo)
+%% data(Cuckoo)
 }
 \keyword{datasets}

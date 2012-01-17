@@ -11,8 +11,8 @@ Reaction times in a driving simulation after drinking alcohol or a placebo.
 \format{
   A data frame with 10 observations on each of the following 2 variables.
   \describe{
-    \item{\code{Placebo}}{Reaction time for participants in the placebo group}
-    \item{\code{Alcohol}}{Reaction time for participants in the alcohol group}
+    \item{\code{Placebo}}{Reaction time (in seconds) for participants in the placebo group}
+    \item{\code{Alcohol}}{Reaction time (in seconds) for participants in the alcohol group}
   }
 }
 \details{
@@ -26,6 +26,6 @@ before their mean reaction time was measured for a series of simulated driving s
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(AlcoholResponse2)
+%% data(AlcoholResponse2)
 }
 \keyword{datasets}

@@ -27,6 +27,6 @@ Observations by students and faculty at Cornell College.
 %%
 }
 \examples{
-data(HawkTail2)
+%% data(HawkTail2)
 }
 \keyword{datasets}

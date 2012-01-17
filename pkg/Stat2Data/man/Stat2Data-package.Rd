@@ -13,20 +13,19 @@ DataSets for Stat2 Textbook
 Package: \tab Stat2Data\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2011-08-11\cr
+Date: \tab 2012-01-12\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
-~~ An overview of how to use the package, including the most important ~~
-~~ functions ~~
+%%
 }
 \author{
-Who wrote it Robin Lock
+Robin Lock
 
-Maintainer: Who to complain to <rlock@stlawu.edu>
+Maintainer: Robin Lock <rlock@stlawu.edu>
 }
 \references{
-~~ Literature or other references for background information ~~
+%%~~ Literature or other references for background information ~~
 }
 %~~ Optionally other standard keywords, one per line, from file KEYWORDS in ~~
 %~~ the R documentation directory ~~
