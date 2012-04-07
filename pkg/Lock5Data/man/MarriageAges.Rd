@@ -19,7 +19,7 @@ Ages for husbands and wives from marriage licenses
 Data from a sample of 100 marriage licences in Cumberland County, PA gives the ages of husbands and wives for newly married couples.
 }
 \source{
-Rossman, A. and Chance, B. Workshop Statistics: Discovery with Data, 3rd Edition, Wiley (2008).
+Thanks to Linda Casserly, St. Lawrence County Clerk's Office
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~
