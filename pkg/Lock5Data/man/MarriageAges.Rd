@@ -16,7 +16,7 @@ Ages for husbands and wives from marriage licenses
   }
 }
 \details{
-Data from a sample of 100 marriage licences in Cumberland County, PA gives the ages of husbands and wives for newly married couples.
+Data from a sample of 100 marriage licences in St. Lawrence County, NY gives the ages of husbands and wives for newly married couples.
 }
 \source{
 Thanks to Linda Casserly, St. Lawrence County Clerk's Office
