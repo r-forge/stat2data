@@ -5,7 +5,7 @@
 US State Data
 }
 \description{
-Various datafor all 50 US States
+Various data for all 50 US States
 }
 \usage{data(USStates)}
 \format{

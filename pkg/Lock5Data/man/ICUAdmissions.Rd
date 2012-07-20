@@ -25,7 +25,7 @@ data from patients admitted to an intensive care unit
     \item{\code{HeartRate}}{Pulse rate (beats per minute)}
     \item{\code{Previous}}{Previous admission to ICU wihtin 6 months? \code{0}=no or \code{1}=yes}
     \item{\code{Type}}{Admission type: \code{0}=elective or \code{1}=emergency}
-    \item{\code{Fracture}}{Fracured bone involved? \code{0}=no or \code{1}=yes}
+    \item{\code{Fracture}}{Fractured bone involved? \code{0}=no or \code{1}=yes}
     \item{\code{PO2}}{Partial oxygen level from blood gases under 60? \code{0}=no or \code{1}=yes}
     \item{\code{PH}}{pH from blood gas under 7.25? \code{0}=no or \code{1}=yes}
     \item{\code{PCO2}}{Partial carbon dioxide level from blood gas over 45? \code{0}=no or \code{1}=yes}

@@ -17,12 +17,12 @@ Water quality for a sample of lakes in Florida
     \item{\code{pH}}{Acidity}
     \item{\code{Calcium}}{Amount of calcium in water}
     \item{\code{Chlorophyll}}{Amount of chlorophyll in water}
-    \item{\code{Avg_Mercury}}{Average mercury level for a sample of fish (larege mouth bass) from each lake}
-    \item{\code{Nosamples}}{Number of fish sampled at each lake}
-    \item{\code{min}}{Minimum mercury level in a sampled fish}
-    \item{\code{max}}{Maximum mercury level in a sampled fish}
-    \item{\code{X_3_yr_Standard_Mercury}}{Adjusted mercury level to account for the age of the fish}
-    \item{\code{age_data}}{Mean age of fish in each sample}
+    \item{\code{AvgMercury}}{Average mercury level for a sample of fish (large mouth bass) from each lake}
+    \item{\code{NumSamples}}{Number of fish sampled at each lake}
+    \item{\code{MinMercury}}{Minimum mercury level in a sampled fish}
+    \item{\code{MaxMercury}}{Maximum mercury level in a sampled fish}
+    \item{\code{ThreeYrStdMercury}}{Adjusted mercury level to account for the age of the fish}
+    \item{\code{AgeData}}{Mean age of fish in each sample}
   }
 }
 \details{

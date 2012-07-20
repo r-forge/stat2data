@@ -2,7 +2,7 @@
 \alias{CommuteStLouis}
 \docType{data}
 \title{
-Commute St. Louis
+Comute times in St. Louis
 }
 \description{
 Commute times and distance for a sample of 500 people in St. Louis

@@ -47,7 +47,7 @@ Game log data for the Miami Heat basketball team in 2010-11
   }
 }
 \details{
-Information from online boxscores for all 82 regualar season games payed by the Miami Heat basketball team during the 2010-11 regular season. 
+Information from online boxscores for all 82 regular season games payed by the Miami Heat basketball team during the 2010-11 regular season. 
 }
 \source{
 Data for the 2010-11 Miami games downloaded from http://www.basketball-reference.com/teams/MIA/2011/gamelog/

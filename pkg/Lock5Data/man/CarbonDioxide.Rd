@@ -1,5 +1,5 @@
-\name{CO2}
-\alias{CO2}
+\name{CarbonDioxide}
+\alias{CarbonDioxide}
 \docType{data}
 \title{
 CO2
@@ -7,7 +7,7 @@ CO2
 \description{
 Atmospheric carbon dioxide levels by year 
 }
-\usage{data(CO2)}
+\usage{data(Carbondioxide)}
 \format{
   A data frame with 11 observations on the following 2 variables.
   \describe{
@@ -26,6 +26,6 @@ in Hawaii.
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-%% data(CO2)
+%% data(CarbonDioxide)
 }
 \keyword{datasets}
