@@ -7,13 +7,13 @@ Traffic Flow
 \description{
 Traffic flow times from a simulation with timed and flexible traffic lights
 }
-\usage{data(TrafficFlow)}
+%\usage{data(TrafficFlow)}
 \format{
-  A data frame with 24 observations on the following 3 variables.
-  \describe{
-    \item{\code{Timed}}{Delay time (in minutes) for fixed timed lights}
-    \item{\code{Flexible}}{Delay time (in minutes) for flexible communicating lights.}
-    \item{\code{Difference}}{Difference (Timed-Flexible) for each simulation}
+  A dataset with 24 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Timed} \tab {Delay time (in minutes) for fixed timed lights}\cr
+    \code{Flexible} \tab {Delay time (in minutes) for flexible communicating lights}\cr
+    \code{Difference} \tab {Difference (Timed-Flexible) for each simulation}\cr
   }
 }
 \details{
@@ -26,10 +26,5 @@ and recorded the delay time (in seconds) for both a fixed time and a flexible sy
 Lammer and Helbing, "Self-Stabilizing decentralized signal control of realistic, saturated network traffic", Santa Fe Institute
 working paper \# 10-09-019, September 2010.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(TrafficFlow)
-}
+
 \keyword{datasets}

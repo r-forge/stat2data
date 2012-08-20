@@ -7,11 +7,11 @@ AP Multiple Choice
 \description{
 Correct responses on Advanced  Placement multiple choice exams
 }
-\usage{data(APMultipleChoice)}
+%\usage{data(APMultipleChoice)}
 \format{
-  A data frame with 400 observations on the following variable.
-  \describe{
-    \item{\code{Answer}}{a factor with levels \code{A} \code{B} \code{C} \code{D} \code{E}}
+  A dataset with 400 observations on the following variable.
+  \tabular{rl}{
+    \code{Answer} \tab {Correct respoinse: \code{A},  \code{B},  \code{C}, \code{D}, or \code{E}}\cr
   }
 }
 \details{
@@ -20,10 +20,5 @@ Correct responses from multiple choice sections for a sample of released Advance
 \source{
 Sample exams from several disciplines at http://apcentral.collegeboard.com
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(APMultipleChoice)
-}
+
 \keyword{datasets}

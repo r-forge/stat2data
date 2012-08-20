@@ -7,12 +7,12 @@ Stressed Mice
 \description{
 Time in darkness for mice in different environments
 }
-\usage{data(StressedMice)}
+%\usage{data(StressedMice)}
 \format{
-  A data frame with 14 observations on the following 2 variables.
-  \describe{
-    \item{\code{Time}}{Time spent in darkness (in seconds)}
-    \item{\code{Environment}}{Type of environment:  \code{Enriched}  or \code{Standard}}
+  A dataset with 14 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Time} \tab {Time spent in darkness (in seconds)}\cr
+    \code{Environment} \tab {Type of environment:  \code{Enriched}  or \code{Standard}}\cr
   }
 }
 \details{
@@ -26,10 +26,5 @@ Data approximated from summary statistics in: Lehmann and Herkenham, "Environmen
 Resiliency to Social Defeat through an Infralimbic Cortex-Dependent Neuroanatomical Pathway", The Journal of Neuroscience,
 April 20, 2011, 31(16):61596173.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(StressedMice)
-}
+
 \keyword{datasets}

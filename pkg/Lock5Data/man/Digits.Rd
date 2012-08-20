@@ -7,17 +7,17 @@ Digit counts
 \description{
 Digits from social security numbers and student selected random numbers
 }
-\usage{data(Digits)}
+%\usage{data(Digits)}
 \format{
-  A data frame with 150 observations on the following 7 variables.
-  \describe{
-    \item{\code{Random}}{Four digit random numbers picked by a sample of students}
-    \item{\code{RND1}}{First digit}
-    \item{\code{RND2}}{Second digit}
-    \item{\code{RND3}}{Third digit}
-    \item{\code{RND4}}{Fourth digit}
-    \item{\code{SSN8}}{Eighth digit of social security number}
-    \item{\code{SSN9}}{Last digit of social security number}
+  A dataset with 150 observations on the following 7 variables.
+  \tabular{rl}{
+    \code{Random} \tab {Four digit random numbers picked by a sample of students}\cr
+    \code{RND1} \tab {First digit}\cr
+    \code{RND2} \tab {Second digit}\cr
+    \code{RND3} \tab {Third digit}\cr
+    \code{RND4} \tab {Fourth digit}\cr
+    \code{SSN8} \tab {Eighth digit of social security number}\cr
+    \code{SSN9} \tab {Last digit of social security number}\cr
   }
 }
 \details{ A sample of students were asked to pick a random four digit number.  
@@ -26,10 +26,5 @@ The numbers are given in the dataset, along with separate columns for each of th
 \source{
 In class-student surveys from several classes.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(Digits)
-}
+
 \keyword{datasets}

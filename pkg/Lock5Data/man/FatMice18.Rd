@@ -3,27 +3,23 @@
 \docType{data}
 \title{Fat Mice 18}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Weight gain for mice with different nighttime light conditions
 }
-\usage{data(FatMice18)}
+%\usage{data(FatMice18)}
 \format{
-  A data frame with 18 observations on the following 2 variables.
-  \describe{
-    \item{\code{Light}}{a factor with levels \code{LD} \code{LL}}
-    \item{\code{WgtGain4}}{a numeric vector}
+  A dataset with 18 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Light} \tab {Light treatment: \code{LD}= normal light/dark cycle OR \code{LL}=bright light at night}\cr
+    \code{WgtGain4} \tab {Weight gain (grams over a four week period)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This is a subset of the LightatNight dataset, showing body mass gain in mice after 4 weeks for two of the treatment conditions: 
+a normal light/dark cycle (LD) or a bright light on at night (LL). 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Fonken, L., et. al., "Light at night increases body mass by shifting time of food intake," Proceedings of the National
+Academy of Sciences, October 26, 2010; 107(43): 18664-18669.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(FatMice18)
-## maybe str(FatMice18) ; plot(FatMice18) ...
-}
+
 \keyword{datasets}

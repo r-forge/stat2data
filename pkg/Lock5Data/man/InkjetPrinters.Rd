@@ -3,31 +3,25 @@
 \docType{data}
 \title{Inkjet Printers}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Data from online reviews of inkjet printers
 }
-\usage{data(InkjetPrinters)}
+%\usage{data(InkjetPrinters)}
 \format{
-  A data frame with 20 observations on the following 6 variables.
-  \describe{
-    \item{\code{Model}}{a factor with levels \code{Brother MFC-J410W} \code{Brother MFC-J6910DW} \code{Canon Pixma 420 Wireless Inject Office} \code{Canon Pixma iX7000 Inkjet Business Printer} \code{Canon Pixma MX360 Office Inkjet All-in-One} \code{Canon Pixma MX882} \code{Dell P513w All-in-One Wireless} \code{Dell V715w} \code{Epson Stylus NX420} \code{Epson Workforce 520} \code{Epson WorkForce 635} \code{HP Officejet 7500A Wide Format e-All-in-One} \code{HP Photosmart Plus e-All-in-One} \code{HP Photosmart Pro 8500A e-All-in-One} \code{Kodak ESP 7250 All-in-One} \code{Kodak ESP C310 All-in-One} \code{Kodak ESP Office 2170 All-in-One Printer} \code{Lexmark Impact S305} \code{Lexmark Interpret S405}}
-    \item{\code{PPM}}{a numeric vector}
-    \item{\code{PhotoTime}}{a numeric vector}
-    \item{\code{Price}}{a numeric vector}
-    \item{\code{CostBW}}{a numeric vector}
-    \item{\code{CostColor}}{a numeric vector}
+  A dataset with 20 observations on the following 6 variables.
+  \tabular{rl}{
+    \code{Model} \tab {Model name of printer}\cr
+    \code{PPM} \tab {Printing rate (pages per minute) for a benchmark set of print jobs}\cr
+    \code{PhotoTime} \tab {Time (in seconds) to print 4x6 color photos}\cr
+    \code{Price} \tab {Typical retail price (in dollars)}\cr
+    \code{CostBW} \tab {Cost per page (in cents) for printing in black & white}\cr
+    \code{CostColor} \tab {Cost per page (in cents) for printing in color}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Information from reviews of inkjet printers at PCMag.com in August 2011.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Inkjet printer reviews found at http://www.pcmag.com/reviews/printers, August 2011.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(InkjetPrinters)
-## maybe str(InkjetPrinters) ; plot(InkjetPrinters) ...
-}
+
 \keyword{datasets}

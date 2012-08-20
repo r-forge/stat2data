@@ -3,27 +3,23 @@
 \docType{data}
 \title{Compassionate Rats}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Would a rat attempt to free a trapped rat?
 }
-\usage{data(CompassionateRats)}
+%\usage{data(CompassionateRats)}
 \format{
-  A data frame with 30 observations on the following 2 variables.
-  \describe{
-    \item{\code{Sex}}{a factor with levels \code{F} \code{M}}
-    \item{\code{Empathy}}{a factor with levels \code{no} \code{yes}}
+  A dataset with 30 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Sex} \tab {Sex of the rat: coded as \code{F} or  \code{M}}\cr
+    \code{Empathy} \tab {Freed the trapped rat?  \code{no} or  \code{yes}}\cr
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+\details{ 
+In a recent study, some rats showed compassion by freeing  another trapped rat,
+even when chocolate served as a distraction and even when the rats would then have to share the
+chocolate with their freed companion. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Bartal I.B., Decety J., and Mason P., "Empathy and Pro-Social Behavior in Rats," Science, 2011; 224(6061):1427-1430.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(CompassionateRats)
-## maybe str(CompassionateRats) ; plot(CompassionateRats) ...
-}
+
 \keyword{datasets}

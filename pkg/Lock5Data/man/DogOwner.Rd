@@ -7,11 +7,11 @@ Dog/Owner matches
 \description{
 Experiment to match dogs with owners
 }
-\usage{data(DogOwner)}
+%\usage{data(DogOwner)}
 \format{
-  A data frame with 25 observations on the following variable.
-  \describe{
-    \item{\code{Match}}{Was the dog correctly paired with it's owner? \code{no} or \code{yes}}
+  A dataset with 25 observations on the following variable.
+  \tabular{rl}{
+    \code{Match} \tab {Was the dog correctly paired with it's owner? \code{no} or \code{yes}}\cr
   }
 }
 \details{Pictures were taken of 25 owners and their purebred dogs, 
@@ -24,10 +24,5 @@ Each dog-owner pair was viewed by 28 naive undergraduate judges, and the pairing
 \source{
 Roy and Christenfeld, Do Dogs Resemble their Owners?, Psychological Science, Vol. 15, No. 5, 2004, pp. 361 - 363. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(DogOwner)
-}
+
 \keyword{datasets}

@@ -13,8 +13,8 @@ by Lock, Lock, Lock, Lock and Lock
 \tabular{ll}{
 Package: \tab Lock5Data\cr
 Type: \tab Package\cr
-Version: \tab 2.5\cr
-Date: \tab 2012-07-20\cr
+Version: \tab 2.6\cr
+Date: \tab 2012-08-20\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
@@ -26,14 +26,6 @@ Robin Lock
 
 Maintainer: Robin Lock <rlock@stlawu.edu>
 }
-\references{
-%%
-}
+
 
 \keyword{ package }
-\seealso{
-%%
-}
-\examples{
-%%
-}

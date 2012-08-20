@@ -7,13 +7,13 @@ Rtail Sales
 \description{
 Monthly U.S. Retail Sales (in billions)
 }
-\usage{data(RetailSales)}
+%\usage{data(RetailSales)}
 \format{
-  A data frame with 144 observations on the following 3 variables.
-  \describe{
-    \item{\code{Month}}{Month of the year}
-    \item{\code{Year}}{Years from 2002 to 2011 }
-    \item{\code{Sales}}{U.S. retail sales (in billions of dollars)}
+  A dataset with 144 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Month} \tab {Month of the year}\cr
+    \code{Year} \tab {Years from 2002 to 2011 }\cr
+    \code{Sales} \tab {U.S. retail sales (in billions of dollars)}\cr
   }
 }
 \details{
@@ -22,10 +22,5 @@ Data show the monthly retail sales (in billions) for the U.S. economy in each mo
 \source{
 http://www.census.gov/retail/
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(RetailSales)
-}
+
 \keyword{datasets}

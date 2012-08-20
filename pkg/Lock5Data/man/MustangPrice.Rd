@@ -7,13 +7,13 @@ Mustang Prices
 \description{
 Price, age, and mileage for used Mustangs at an internet website
 }
-\usage{data(MustangPrice)}
+%\usage{data(MustangPrice)}
 \format{
-  A data frame with 25 observations on the following 3 variables.
-  \describe{
-    \item{\code{Age}}{Age of the car (in years)}
-    \item{\code{Miles}}{Mileage on the car (in 1,000's)}
-    \item{\code{Price}}{Asking price in ($1,000's)}
+  A dataset with 25 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Age} \tab {Age of the car (in years)}\cr
+    \code{Miles} \tab {Mileage on the car (in 1,000's)}\cr
+    \code{Price} \tab {Asking price in ($1,000's)}\cr
   }
 }
 \details{
@@ -23,10 +23,5 @@ He sampled 25 cars from the website and recorded the age (in years), mileage (in
 \source{
 Student project with data collected from autotrader.com in 2008. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%data(MustangPrice)
-}
+
 \keyword{datasets}

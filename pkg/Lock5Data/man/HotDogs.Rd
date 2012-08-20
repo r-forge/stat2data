@@ -3,27 +3,24 @@
 \docType{data}
 \title{Hot Dog Eating Contest}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Winning number of hot dogs consumed in an eating contest
 }
-\usage{data(HotDogs)}
+%\usage{data(HotDogs)}
 \format{
-  A data frame with 10 observations on the following 2 variables.
-  \describe{
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{HotDogs}}{a numeric vector}
+  A dataset with 10 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Year} \tab {Year of the contest: 2002-2011}\cr
+    \code{HotDogs} \tab {Winning number of hot dogs consumed}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Every Fourth of July, Nathan's Famous in New York City holds a hot dog eating contest, in which
+contestants try to eat as many hot dogs (with buns) as possible in ten minutes. 
+The winning number of hot dogs are given for each year from 2002-2011. 
+
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Nathan's Famous webste at http://nathansfamous.com/PageFetch/getpage.php?pgid=38
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(HotDogs)
-## maybe str(HotDogs) ; plot(HotDogs) ...
-}
+
 \keyword{datasets}

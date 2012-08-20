@@ -3,27 +3,24 @@
 \docType{data}
 \title{Honeybee Waggle}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Honeybee dance duration and distance to nesting site
 }
-\usage{data(HoneybeeWaggle)}
+%\usage{data(HoneybeeWaggle)}
 \format{
-  A data frame with 7 observations on the following 2 variables.
-  \describe{
-    \item{\code{Distance}}{a numeric vector}
-    \item{\code{Duration}}{a numeric vector}
+  A dataset with 7 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Distance} \tab {Distance to the potential nest site (in meters)}\cr
+    \code{Duration} \tab {Duration of the waggle dance (in seconds)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+When honeybee scouts find a food source or a nice site for a new home, they communicate the location
+to the rest of the swarm by doing a "waggle dance." They point in the direction of the site and dance
+longer for sites farther away. The rest of the bees use the duration of the dance to predict distance
+to the site. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Seeley, T., Honeybee Democracy, Princeton University Press, Princeton, NJ, 2010, p. 128
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(HoneybeeWaggle)
-## maybe str(HoneybeeWaggle) ; plot(HoneybeeWaggle) ...
-}
+
 \keyword{datasets}

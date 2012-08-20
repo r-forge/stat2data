@@ -7,47 +7,43 @@ NBA Players data for 2010-11 Season
 \description{
 Data from the 2010-2011 regular season for 176 NBA basketball players.  
 }
-\usage{data(NBAPlayers2011)}
+%\usage{data(NBAPlayers2011)}
 \format{
-  A data frame with 176 observations on the following 25 variables.
-  \describe{
-    \item{\code{Player}}{Name of player}
-    \item{\code{Age}}{Age in years)}
-    \item{\code{Team}}{Team name}
-    \item{\code{Games}}{Games played (out of 82)}
-    \item{\code{Starts}}{Games started}
-    \item{\code{Mins}}{Minutes played}
-    \item{\code{MinPerGame}}{Minutes per game}
-    \item{\code{FGMade}}{Field goals made}
-    \item{\code{FGAttempt}}{Field goals attempted}
-    \item{\code{FGPct}}{Three-point field goal percentage}
-    \item{\code{FG3Made}}{Three-point field goals made}
-    \item{\code{FG3Attempt}}{Three-point field goals attempted}
-    \item{\code{FG3Pct}}{Field goal percentage}
-    \item{\code{FTMade}}{Free throws made}
-    \item{\code{FTAttempt}}{Free throws attempted}
-    \item{\code{FTPct}}{Free throw percentage}
-    \item{\code{OffRebound}}{Offensive rebounds}
-    \item{\code{DefRebound}}{Defensive rebounds}
-    \item{\code{Rebounds}}{Total rebounds}
-    \item{\code{Assists}}{Number of assists}
-    \item{\code{Steals}}{Number of steals}
-    \item{\code{Blocks}}{Number of blocked shots}
-    \item{\code{Turnovers}}{Number of turnovers}
-    \item{\code{Fouls}}{Number of personal fouls}
-    \item{\code{Points}}{Number of points scored}
+  A dataset with 176 observations on the following 25 variables.
+  \tabular{rl}{
+    \code{Player} \tab {Name of player}\cr
+    \code{Age} \tab {Age in years)}\cr
+    \code{Team} \tab {Team name}\cr
+    \code{Games} \tab {Games played (out of 82)}\cr
+    \code{Starts} \tab {Games started}\cr
+    \code{Mins} \tab {Minutes played}\cr
+    \code{MinPerGame} \tab {Minutes per game}\cr
+    \code{FGMade} \tab {Field goals made}\cr
+    \code{FGAttempt} \tab {Field goals attempted}\cr
+    \code{FGPct} \tab {Field goal percentage}\cr
+    \code{FG3Made} \tab {Three-point field goals made}\cr
+    \code{FG3Attempt} \tab {Three-point field goals attempted}\cr
+    \code{FG3Pct} \tab {Three-point field goal percentage}\cr
+    \code{FTMade} \tab {Free throws made}\cr
+    \code{FTAttempt} \tab {Free throws attempted}\cr
+    \code{FTPct} \tab {Free throw percentage}\cr
+    \code{OffRebound} \tab {Offensive rebounds}\cr
+    \code{DefRebound} \tab {Defensive rebounds}\cr
+    \code{Rebounds} \tab {Total rebounds}\cr
+    \code{Assists} \tab {Number of assists}\cr
+    \code{Steals} \tab {Number of steals}\cr
+    \code{Blocks} \tab {Number of blocked shots}\cr
+    \code{Turnovers} \tab {Number of turnovers}\cr
+    \code{Fouls} \tab {Number of personal fouls}\cr
+    \code{Points} \tab {Number of points scored}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+The dataset includes information for all National Basketball Association (NBA) players 
+who averaged more than 24 minutes per game during the 2010-2011 regualr season.
 }
 \source{
 http://www.basketball-reference.com/leagues/NBA_2011_stats.html
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(USStates)
-}
+
 \keyword{datasets}

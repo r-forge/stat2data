@@ -1,28 +1,22 @@
 \name{ManhattanApartments}
 \alias{ManhattanApartments}
 \docType{data}
-\title{Manhattan Arpartment Prices}
+\title{Manhattan Apartment Prices}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Monthly rent for one-bedroom apartments in Manhattan, NY
 }
-\usage{data(ManhattanApartments)}
+%\usage{data(ManhattanApartments)}
 \format{
-  A data frame with 20 observations on the following variable.
-  \describe{
-    \item{\code{Rent}}{a numeric vector}
+  A dataset with 20 observations on the following variable.
+  \tabular{rl}{
+    \code{Rent} \tab {Montly rent in dollars}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Monthly rents for a sample of 20 one-bedroom apartments in Manhattan, NY that were advertised on Craig's List in July, 2011. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Apartments advertised on Craig's List at newyork.craigslist.org, July 5, 2011.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(ManhattanApartments)
-## maybe str(ManhattanApartments) ; plot(ManhattanApartments) ...
-}
+
 \keyword{datasets}

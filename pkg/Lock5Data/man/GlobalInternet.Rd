@@ -7,13 +7,13 @@ Global Internet Usage
 \description{
 Internet usage for several countries
 }
-\usage{data(GlobalInternet)}
+%\usage{data(GlobalInternet)}
 \format{
-  A data frame with 9 observations on the following 3 variables.
-  \describe{
-    \item{\code{Country}}{Name of country}
-    \item{\code{PercentFastConnection}}{Percent of internet users with a fast connection}
-    \item{\code{HoursOnline}}{Average number of hours online in February 2011}
+  A dataset with 9 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Country} \tab {Name of country}\cr
+    \code{PercentFastConnection} \tab {Percent of internet users with a fast connection}\cr
+    \code{HoursOnline} \tab {Average number of hours online in February 2011}\cr
   }
 }
 \details{
@@ -23,10 +23,5 @@ or faster) and the average amount of time spent online, defined as total hours c
 \source{
 NielsenWire, "Swiss Lead in Speed: Comparing Global Internet Connections", April 1, 2011
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%data(GlobalInternet)
-}
+
 \keyword{datasets}

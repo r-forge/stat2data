@@ -3,29 +3,23 @@
 \docType{data}
 \title{Salary and Gender}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Salaries for college teachers
 }
-\usage{data(SalaryGender)}
+%\usage{data(SalaryGender)}
 \format{
-  A data frame with 100 observations on the following 4 variables.
-  \describe{
-    \item{\code{Salary}}{a numeric vector}
-    \item{\code{Gender}}{a numeric vector}
-    \item{\code{Age}}{a numeric vector}
-    \item{\code{PhD}}{a numeric vector}
+  A dataset with 100 observations on the following 4 variables.
+  \tabular{rl}{
+    \code{Salary} \tab {Annual salary in $1,000's}\cr
+    \code{Gender} \tab {0=female or 1=male}\cr
+    \code{Age} \tab {Age in years}\cr
+    \code{PhD} \tab {1=have PhD or 0=no PhD}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A random sample of college teachers taken from the 2010 American Community Survey (ACS) 1-year Public Use Microdata Sample (PUMS).
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+http://www.census.gov/acs/www/data documentation/public use microdata sample/
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(SalaryGender)
-## maybe str(SalaryGender) ; plot(SalaryGender) ...
-}
+
 \keyword{datasets}

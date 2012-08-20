@@ -7,12 +7,12 @@ Smiles
 \description{
 Experiment to study effect of smiling on leniency in judicial matters
 }
-\usage{data(Smiles)}
+%\usage{data(Smiles)}
 \format{
-  A data frame with 68 observations on the following 2 variables.
-  \describe{
-    \item{\code{Leniency}}{Score assigned by a judgement panel (higher is more lenient)}
-    \item{\code{Group}}{Treatment group: \code{neutral} or \code{smile}}
+  A dataset with 68 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Leniency} \tab {Score assigned by a judgement panel (higher is more lenient)}\cr
+    \code{Group} \tab {Treatment group: \code{neutral} or \code{smile}}\cr
   }
 }
 \details{
@@ -27,10 +27,5 @@ made by the participants.
 LaFrance, M., & Hecht, M. A., "Why smiles generate leniency", Personality and Social Psychology Bulletin, 21, 1995,
 207-214.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(Smiles)
-}
+
 \keyword{datasets}

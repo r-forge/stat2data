@@ -3,28 +3,27 @@
 \docType{data}
 \title{Mental Muscle}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Comparing actual movements to mental imaging movements
 }
-\usage{data(MentalMuscle)}
+%\usage{data(MentalMuscle)}
 \format{
-  A data frame with 32 observations on the following 3 variables.
-  \describe{
-    \item{\code{Action}}{a factor with levels \code{} \code{Actual} \code{Mental}}
-    \item{\code{PreFatigue}}{a numeric vector}
-    \item{\code{PostFatigue}}{a numeric vector}
+  A dataset with 32 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Action} \tab {Treatment: \code{} \code{Actual} motions or \code{Mental} imaging motions}\cr
+    \code{PreFatigue} \tab {Time (in seconds) to complete motions before fatigue}\cr
+    \code{PostFatigue} \tab {Time (in seconds) to complete motions after fatigue}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+In this study, participants were asked to either perform actual arm pointing motions or to mentally
+imagine equivalent arm pointing motions. Participants then developed muscle fatigue by holding a
+heavy weight out horizontally as long as they could. After becoming fatigued, they were asked to
+repeat the previous mental or actual motions. Eight participants were assigned to each group, and
+the time in seconds to complete the motions was measured before and after fatigue. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data approximated from summary statistics in: Demougeot L. and Papaxanthis C., "Muscle Fatigue Affects Mental Simulation
+of Action," The Journal of Neuroscience, July 20, 2011, 31(29):10712-10720.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(MentalMuscle)
-## maybe str(MentalMuscle) ; plot(MentalMuscle) ...
-}
+
 \keyword{datasets}

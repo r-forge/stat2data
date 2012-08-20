@@ -3,27 +3,21 @@
 \docType{data}
 \title{Masters Golf Scores}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Scores from the 2011 Masters golf tournament
 }
-\usage{data(MastersGolf)}
+%\usage{data(MastersGolf)}
 \format{
-  A data frame with 20 observations on the following 2 variables.
-  \describe{
-    \item{\code{First}}{a numeric vector}
-    \item{\code{Final}}{a numeric vector}
+  A dataset with 20 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{First} \tab {First round score (in relation to par)}\cr
+    \code{Final} \tab {Final four round score (in relation to par)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data for a random sample of 20 golfers who made the cut at the 2011 Masters golf tournament.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+2011 Masters tournament results at http://www.masters.com/en_US/discover/past_winners.html
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(MastersGolf)
-## maybe str(MastersGolf) ; plot(MastersGolf) ...
-}
+
 \keyword{datasets}

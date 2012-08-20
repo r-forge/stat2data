@@ -7,15 +7,15 @@ Election Margin
 \description{
 Approval rating and election margin for recent presidential elections
 }
-\usage{data(ElectionMargin)}
+%\usage{data(ElectionMargin)}
 \format{
-  A data frame with 11 observations on the following 5 variables.
-  \describe{
-    \item{\code{Year}}{Certain election years from 1940-2004}
-    \item{\code{Candidate}}{Incumbent US president}
-    \item{\code{Approval}}{Presidential approval rating at time of election}
-    \item{\code{Margin}}{margin of victory/defeat (as a percentage)}
-    \item{\code{Result}}{Outcome of the election for the imbumbent: \code{Lost} or \code{Won}}
+  A dataset with 11 observations on the following 5 variables.
+  \tabular{rl}{
+    \code{Year} \tab {Certain election years from 1940-2004}\cr
+    \code{Candidate} \tab {Incumbent US president}\cr
+    \code{Approval} \tab {Presidential approval rating at time of election}\cr
+    \code{Margin} \tab {margin of victory/defeat (as a percentage)}\cr
+    \code{Result} \tab {Outcome of the election for the imbumbent: \code{Lost} or \code{Won}}\cr
   }
 }
 \details{
@@ -25,10 +25,5 @@ The approval rating for the sitting president is comapred to the margin of victo
 \source{
 Silver, Nate, "Approval Ratings and Re-Election Odds", fivethirtyeight.com, posted January 28, 2011.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%%data(ElectionMargin)
-}
+
 \keyword{datasets}

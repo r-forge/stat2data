@@ -3,27 +3,21 @@
 \docType{data}
 \title{Pizza Girl Tips}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Data on tips for pizza deliveries
 }
-\usage{data(PizzaGirl)}
+%\usage{data(PizzaGirl)}
 \format{
-  A data frame with 24 observations on the following 2 variables.
-  \describe{
-    \item{\code{Tip}}{a numeric vector}
-    \item{\code{Shift}}{a numeric vector}
+  A dataset with 24 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Tip} \tab {Amount of tip (in dollars)}\cr
+    \code{Shift} \tab {Data coillected over three different shifts}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+"Pizza Girl" collected data on her deliveries and tips over three different evening shifts. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Pizza Girl: Statistical Analysis at http://slice.seriouseats.com/archives/2010/04/statistical-analysis-of-a-pizza-delivery-shift-20100429.html.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(PizzaGirl)
-## maybe str(PizzaGirl) ; plot(PizzaGirl) ...
-}
+
 \keyword{datasets}

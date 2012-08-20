@@ -7,12 +7,12 @@ Immune Tea
 \description{
 Interferon gamma production and tea drinking
 }
-\usage{data(ImmuneTea)}
+%\usage{data(ImmuneTea)}
 \format{
-  A data frame with 21 observations on the following 2 variables.
-  \describe{
-    \item{\code{InterferonGamma}}{Measure of interferon gamma production}
-    \item{\code{Drink}}{Type of drink: \code{Coffee}  or \code{Tea}}
+  A dataset with 21 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{InterferonGamma} \tab {Measure of interferon gamma production}\cr
+    \code{Drink} \tab {Type of drink: \code{Coffee}  or \code{Tea}}\cr
   }
 }
 \details{
@@ -22,12 +22,8 @@ After two weeks, blood samples were exposed to an antigen and production of inte
 measured.
 }
 \source{
-Adapted from Kamath, et.al., "Antigens in tea-Beverage prime human V2V2 T cells in vitro and in vivo for memory and non-memory antibacterial cytokine responses", Proceedings of the National Academy of Sciences, May 13, 2003.
+Adapted from Kamath, et.al., "Antigens in tea-Beverage prime human V
+2V2 T cells in vitro and in vivo for memory and non-memory antibacterial cytokine responses", Proceedings of the National Academy of Sciences, May 13, 2003.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(ImmuneTea)
-}
+
 \keyword{datasets}

@@ -3,28 +3,26 @@
 \docType{data}
 \title{Life Expectancy and Vehicle Registrations}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Yearly U.S. life expectancy and paassenger car registrations
 }
-\usage{data(LifeExpectancyVehicles)}
+%\usage{data(LifeExpectancyVehicles)}
 \format{
-  A data frame with 40 observations on the following 3 variables.
-  \describe{
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{LifeExpectancy}}{a numeric vector}
-    \item{\code{Vehicles}}{a numeric vector}
+  A dataset with 40 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Year} \tab {1970-2009}\cr
+    \code{LifeExpectancy} \tab {Average life expectancy at birth in the United States (in years)}\cr
+    \code{Vehicles} \tab {Passenger vehicles registered in the United States (in millions)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Yearly data on the average life expectancy for babies born and 
+millions of cars registered in the United States over 40 years from 1970 to 2009
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Vehicle registrations from US Census Bureau, \cr
+ http://www.census.gov/compendia/statab/cats/transportation.html.
+Life expectancies from the Centers for Disease Control and Prevention, National Center for Health Statistics, Health Data Interactive,
+www.cdc.gov/nchs/hdi.htm, accessed April 7, 2012.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(LifeExpectancyVehicles)
-## maybe str(LifeExpectancyVehicles) ; plot(LifeExpectancyVehicles) ...
-}
+
 \keyword{datasets}

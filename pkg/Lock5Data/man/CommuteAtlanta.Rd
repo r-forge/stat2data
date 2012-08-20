@@ -7,11 +7,15 @@ Commute Atlanta
 \description{
 Commute times and distance for a sample of 500 people in Atlanta
 }
-\usage{data(CommuteAtlanta)}
+%\usage{data(CommuteAtlanta)}
 \format{
-  A data frame with 500 observations on the following 5 variables.
-  \describe{
-St. Louis
+  A dataset with 500 observations on the following 5 variables.
+  \tabular{rl}{
+    \code{City} \tab { \code{Atlanta}}\cr
+    \code{Age} \tab {Age of the respondent (in years)}\cr
+    \code{Distance} \tab {Commute distance (in miles)}\cr
+    \code{Time} \tab {Commute time (in minutes)}\cr
+    \code{Sex} \tab {  \code{F} or \code{M}}\cr
   }
 }
 \details{
@@ -22,10 +26,5 @@ Values show the time (in minutes) and distance (in miles) that respondents typic
 \source{
 Sample chosen using DataFerret at http://www.thedataweb.org/index.html.
 }
-\references{
-%%
-}
-\examples{
-%% data(CommuteAtlanta)
-}
+
 \keyword{datasets}

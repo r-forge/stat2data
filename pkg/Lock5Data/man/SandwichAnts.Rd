@@ -7,15 +7,15 @@ Sandwich Ants
 \description{
 Ant Counts on samples of different sandwiches
 }
-\usage{data(SandwichAnts)}
+%\usage{data(SandwichAnts)}
 \format{
-  A data frame with 24 observations on the following 5 variables.
-  \describe{
-    \item{\code{Butter}}{Butter on the sandwich? \code{no}}
-    \item{\code{Filling}}{Type of filling: \code{Ham \& Pickles}, \code{Peanut Butter}, or \code{Vegemite}}
-    \item{\code{Bread}}{Type of bread:  \code{Multigrain}, \code{Rye}, \code{White}, or \code{Wholemeal}}
-    \item{\code{Ants}}{Number of ants on the sandwich}
-    \item{\code{Order}}{Trial number}
+  A dataset with 24 observations on the following 5 variables.
+  \tabular{rl}{
+    \code{Butter} \tab {Butter on the sandwich? \code{no}}\cr
+    \code{Filling} \tab {Type of filling: \code{Ham \& Pickles}, \code{Peanut Butter}, or \code{Vegemite}}\cr
+    \code{Bread} \tab {Type of bread:  \code{Multigrain}, \code{Rye}, \code{White}, or \code{Wholemeal}}\cr
+    \code{Ants} \tab {Number of ants on the sandwich}\cr
+    \code{Order} \tab {Trial number}\cr
   }
 }
 \details{
@@ -25,12 +25,8 @@ This dataset has only sandwiches with no butter. The data in SandwichAnts2 adds 
 }
 \source{
 Margaret Mackisack, ``Favourite Experiments: An Addendum to What is the Use of Experiments Conducted by Statistics Students?", 
-Journal of Statistics Education (1994) http://www.amstat.org/publications/jse/v2n1/mackisack.supp.html
+Journal of Statistics Education (1994) \cr
+ http://www.amstat.org/publications/jse/v2n1/mackisack.supp.html
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(SandwichAnts)
-}
+
 \keyword{datasets}

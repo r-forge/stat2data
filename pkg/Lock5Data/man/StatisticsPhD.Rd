@@ -7,13 +7,13 @@ Statistics PhD Programs
 \description{
 Enrollments in Statistics PhD Programs
 }
-\usage{data(StatisticsPhD)}
+%\usage{data(StatisticsPhD)}
 \format{
-  A data frame with 82 observations on the following 3 variables.
-  \describe{
-    \item{\code{University}}{Name of the school}
-    \item{\code{Department}}{Type of department: \code{Biostatistics} or \code{Statistics}}
-    \item{\code{FTGradEnrollment}}{Full time graduate student enrollment}
+  A dataset with 82 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{University} \tab {Name of the school}\cr
+    \code{Department} \tab {Type of department: \code{Biostatistics} or \code{Statistics}}\cr
+    \code{FTGradEnrollment} \tab {Full time graduate student enrollment}\cr
   }
 }
 \details{
@@ -24,10 +24,5 @@ include departments that did not reply to the AMS survey.
 The full list of the 82 Group IV departments was obtained at http://www.ams.org/profession/data/annual-survey/group iv.
 Data on enrollment were obtained primarily from Assistantships and Graduate Fellowships in the Mathematical Sciences, 2009, American Mathematical Society. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(StatisticsPhD)
-}
+
 \keyword{datasets}

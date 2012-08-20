@@ -3,26 +3,20 @@
 \docType{data}
 \title{Skateboard Prices}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Prices of skateboards for sale online
 }
-\usage{data(SkateboardPrices)}
+%\usage{data(SkateboardPrices)}
 \format{
-  A data frame with 20 observations on the following variable.
-  \describe{
-    \item{\code{Price}}{a numeric vector}
+  A dataset with 20 observations on the following variable.
+  \tabular{rl}{
+    \code{Price} \tab {Selling price in dollars}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Prices for skateboards offered for sale on eBay. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Random sample taken from all skateboards available for sale on eBay on February 12, 2012.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(SkateboardPrices)
-## maybe str(SkateboardPrices) ; plot(SkateboardPrices) ...
-}
+
 \keyword{datasets}

@@ -7,20 +7,20 @@ WaterTaste
 \description{
 Blind taste test to compare brands of bottled water
 }
-\usage{data(WaterTaste)}
+%\usage{data(WaterTaste)}
 \format{
-  A data frame with 100 observations on the following 10 variables.
-  \describe{
-    \item{\code{Gender}}{Gender of respondent: \code{F}=Female \code{M}=Male}
-    \item{\code{Age}}{Age (in years)}
-    \item{\code{Class}}{Year in school \code{F}=First year \code{J}=Junior \code{O}=Other \code{P} \code{SO}=Sophomore \code{SR}=Senior}
-    \item{\code{UsuallyDrink}}{Usual source of drinking water: \code{Bottled}, \code{Filtered}, or \code{Tap}}
-    \item{\code{FavBotWatBrand}}{Favorite brand of bottled water }
-    \item{\code{Preference}}{Order of perference: \code{A}=Sams Choice, \code{B}=Aquafina, \code{C}=Fiji, and \code{D}=Tap water }
-    \item{\code{First}}{Top choice among \code{Aquafina}, \code{Fiji}, \code{SamsChoice}, or \code{Tap}}
-    \item{\code{Second}}{Second choice}
-    \item{\code{Third}}{Third choice }
-    \item{\code{Fourth}}{Fourth choice}
+  A dataset with 100 observations on the following 10 variables.
+  \tabular{rl}{
+    \code{Gender} \tab {Gender of respondent: \code{F}=Female \code{M}=Male}\cr
+    \code{Age} \tab {Age (in years)}\cr
+    \code{Class} \tab {Year in school \code{F}=First year \code{J}=Junior \code{O}=Other \code{P} \code{SO}=Sophomore \code{SR}=Senior}\cr
+    \code{UsuallyDrink} \tab {Usual source of drinking water: \code{Bottled}, \code{Filtered}, or \code{Tap}}\cr
+    \code{FavBotWatBrand} \tab {Favorite brand of bottled water }\cr
+    \code{Preference} \tab {Order of perference: \code{A}=Sams Choice, \code{B}=Aquafina, \code{C}=Fiji, and \code{D}=Tap water }\cr
+    \code{First} \tab {Top choice among \code{Aquafina}, \code{Fiji}, \code{SamsChoice}, or \code{Tap}}\cr
+    \code{Second} \tab {Second choice}\cr
+    \code{Third} \tab {Third choice }\cr
+    \code{Fourth} \tab {Fourth choice}\cr
   }
 }
 \details{
@@ -33,7 +33,5 @@ Result from a blind taste test comparing different four different types of water
 \references{
 http://www.amstat.org/publications/jse/v18n1/lunsford.pdf
 }
-\examples{
-%% data(WaterTaste)
-}
+
 \keyword{datasets}

@@ -7,12 +7,12 @@ Caffeine Taps
 \description{
 Finger tap rates with and without caffeine
 }
-\usage{data(CaffeineTaps)}
+%\usage{data(CaffeineTaps)}
 \format{
-  A data frame with 20 observations on the following 2 variables.
-  \describe{
-    \item{\code{Taps}}{Number of finger taps in one minute}
-    \item{\code{Group}}{Treatment with levels \code{Caffeine} \code{NoCaffeine}}
+  A dataset with 20 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Taps} \tab {Number of finger taps in one minute}\cr
+    \code{Group} \tab {Treatment with levels \code{Caffeine} \code{NoCaffeine}}\cr
   }
 }
 \details{
@@ -26,10 +26,5 @@ produces an increase in the average tap rate.
 \source{
 Hand, Daly, Lund, McConway and Ostrowski, Handbook of Small Data Sets, Chapman and Hall, London (1994), pp. 40
 }
-\references{
-%% 
-}
-\examples{
-%% data(CaffeineTaps)
-}
+
 \keyword{datasets}

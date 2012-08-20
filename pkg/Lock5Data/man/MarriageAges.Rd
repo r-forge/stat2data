@@ -7,12 +7,12 @@ Marriage Ages
 \description{
 Ages for husbands and wives from marriage licenses
 }
-\usage{data(MarriageAges)}
+%\usage{data(MarriageAges)}
 \format{
-  A data frame with 100 observations on the following 2 variables.
-  \describe{
-    \item{\code{Husband}}{Age of husband at marriage}
-    \item{\code{Wife}}{Age of wife at marriage}
+  A dataset with 100 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Husband} \tab {Age of husband at marriage}\cr
+    \code{Wife} \tab {Age of wife at marriage}\cr
   }
 }
 \details{
@@ -21,10 +21,5 @@ Data from a sample of 100 marriage licences in St. Lawrence County, NY gives the
 \source{
 Thanks to Linda Casserly, St. Lawrence County Clerk's Office
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%%data(MarriageAges)
-}
+
 \keyword{datasets}

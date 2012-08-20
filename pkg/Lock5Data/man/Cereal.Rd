@@ -3,35 +3,30 @@
 \docType{data}
 \title{Breakfast Cereals}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Nutrition information for a sample of 30 breakfast cereals
 }
-\usage{data(Cereal)}
+%\usage{data(Cereal)}
 \format{
-  A data frame with 30 observations on the following 10 variables.
-  \describe{
-    \item{\code{Name}}{a factor with levels \code{AppleJacks} \code{Boo Berry} \code{Cap'n Crunch} \code{Cinnamon Toast Crunch} \code{Cocoa Blasts} \code{Cocoa Puffs} \code{Cookie Crisp} \code{Corn Flakes} \code{Corn Pops} \code{Crispix} \code{Crunchy Bran} \code{Froot Loops} \code{Frosted Mini-Wheats} \code{Golden Grahams} \code{Honey Nut Clusters} \code{Honey Nut Heaven} \code{King Vitaman} \code{Kix} \code{Life} \code{Lucky Charms} \code{Multi-Grain Cheerios} \code{Product 19} \code{Raisin Bran} \code{Reese's Puffs} \code{Rice Chex} \code{Rice Krispie Treats} \code{Smart Start} \code{Special K} \code{Total} \code{Wheaties}}
-    \item{\code{Company}}{a factor with levels \code{G} \code{K} \code{Q}}
-    \item{\code{Serving}}{a numeric vector}
-    \item{\code{Calories}}{a numeric vector}
-    \item{\code{Fat}}{a numeric vector}
-    \item{\code{Sodium}}{a numeric vector}
-    \item{\code{Carbs}}{a numeric vector}
-    \item{\code{Fiber}}{a numeric vector}
-    \item{\code{Sugars}}{a numeric vector}
-    \item{\code{Protein}}{a numeric vector}
+  A dataset with 30 observations on the following 10 variables.
+  \tabular{rl}{
+    \code{Name} \tab {Brand name of cereal}\cr
+    \code{Company} \tab {Manufacturer coded as \code{G}=General Mills, \code{K}=Kellog's or \code{Q}=Quaker}\cr
+    \code{Serving} \tab {Servind sixze (in cups)}\cr
+    \code{Calories} \tab {Calories (per cup)}\cr
+    \code{Fat} \tab {Fat (grams per cup)}\cr
+    \code{Sodium} \tab {Sodium (mg per cup)}\cr
+    \code{Carbs} \tab {Carbohydrates (grams per cup)}\cr
+    \code{Fiber} \tab {Dietary Fiber (grams per cup)}\cr
+    \code{Sugars} \tab {Sugars (grams per cup)}\cr
+    \code{Protein} \tab {Protein (grams per cup)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Nutrition contents for a sample of breakfast cererals, derived from nutrition lables.  
+Values are per cup of cereal (rather than per serving).
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Cereal data obtained from nutrition labels at http://www.nutritionresource.com/foodcomp2.cfm?id=0800
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Cereal)
-## maybe str(Cereal) ; plot(Cereal) ...
-}
+
 \keyword{datasets}

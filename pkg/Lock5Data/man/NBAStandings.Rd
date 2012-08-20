@@ -7,16 +7,16 @@ NBA 2010-11 Regular Season Standings
 \description{
 Won-Loss record and statistics for NBA Teams
 }
-\usage{data(HomesForSaleCA)}
+%\usage{data(HomesForSaleCA)}
 \format{
-  A data frame with 30 observations on the following 5 variables.
-  \describe{
-    \item{\code{Team}}{Team name}
-    \item{\code{Wins}}{Number of wins in an 82 game regular season}
-    \item{\code{Losses}}{Number of losses}
-    \item{\code{WinPct}}{Proportion of games won}
-    \item{\code{PtsFor}}{Average points scored per game}
-    \item{\code{PtsAgainst}}{Average points allowed per game}
+  A dataset with 30 observations on the following 6 variables.
+  \tabular{rl}{
+    \code{Team} \tab {Team name}\cr
+    \code{Wins} \tab {Number of wins in an 82 game regular season}\cr
+    \code{Losses} \tab {Number of losses}\cr
+    \code{WinPct} \tab {Proportion of games won}\cr
+    \code{PtsFor} \tab {Average points scored per game}\cr
+    \code{PtsAgainst} \tab {Average points allowed per game}\cr
   }
 }
 \details{
@@ -26,10 +26,5 @@ for the 2010-2011 season
 \source{
 Data downloaded from http://www.basketball-reference.com/leagues/NBA_2011_games.html
 }
-\references{
-%%
-}
-\examples{
-%% data(NBAStandings)
-}
+
 \keyword{datasets}

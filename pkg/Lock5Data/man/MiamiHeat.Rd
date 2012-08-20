@@ -7,55 +7,51 @@ Miami Heat basketball
 \description{
 Game log data for the Miami Heat basketball team in 2010-11
 }
-\usage{data(MiamiHeat)}
+%\usage{data(MiamiHeat)}
 \format{
-  A data frame with 82 observations on the following 33 variables.
-  \describe{
-    \item{\code{Game}}{ID number for each game}
-    \item{\code{Date}}{Data the game was played}
-    \item{\code{Location}}{\code{Away}  or \code{Home}}
-    \item{\code{Opp}}{Opponent tream}
-    \item{\code{Win}}{Game result: \code{L} or \code{W}}
-    \item{\code{FG}}{Field goals made}
-    \item{\code{FGA}}{Field goals attempted}
-    \item{\code{FG3}}{Three-point field goals made}
-    \item{\code{FG3A}}{Three-point field goals attempted}
-    \item{\code{FT}}{Free throws made}
-    \item{\code{FTA}}{Free throws attempted}
-    \item{\code{Rebounds}}{Total rebounds}
-    \item{\code{OffReb}}{Offensive rebounds}
-    \item{\code{Assists}}{Number of assists}
-    \item{\code{Steals}}{Number of steals}
-    \item{\code{Blocks}}{Number of shots blocked}
-    \item{\code{Trunovers}}{Number of turnovers}
-    \item{\code{Fouls}}{Number of fouls}
-    \item{\code{Points}}{Number of points scored}
-    \item{\code{OppFG}}{Opponet's field goals made}
-    \item{\code{OppFGA}}{Opponent's Field goals attempted}
-    \item{\code{OppFG3}}{Opponent's Three-point field goals made}
-    \item{\code{OppFG3A}}{Opponent's Three-point field goals attempted}
-    \item{\code{OppFT}}{Opponent's Free throws made}
-    \item{\code{OppFTA}}{Opponent's Free throws attempted}
-    \item{\code{OppOffReb}}{Opponent's Total rebounds}
-    \item{\code{OppRebounds}}{Opponent's Offensive rebounds}
-    \item{\code{OppAssists}}{Opponent's assists}
-    \item{\code{OppSteals}}{Opponent's steals}
-    \item{\code{OppBlocks}}{Opponent's shots blocked}
-    \item{\code{OppTurnovers}}{Opponent's turnovers}
-    \item{\code{OppFouls}}{Opponent's fouls}
-    \item{\code{OppPoints}}{Opponent's points scored}
+  A dataset with 82 observations on the following 33 variables.
+  \tabular{rl}{
+    \code{Game} \tab {ID number for each game}\cr
+    \code{Date} \tab {Data the game was played}\cr
+    \code{Location} \tab {\code{Away}  or \code{Home}}\cr
+    \code{Opp} \tab {Opponent tream}\cr
+    \code{Win} \tab {Game result: \code{L} or \code{W}}\cr
+    \code{FG} \tab {Field goals made}\cr
+    \code{FGA} \tab {Field goals attempted}\cr
+    \code{FG3} \tab {Three-point field goals made}\cr
+    \code{FG3A} \tab {Three-point field goals attempted}\cr
+    \code{FT} \tab {Free throws made}\cr
+    \code{FTA} \tab {Free throws attempted}\cr
+    \code{Rebounds} \tab {Total rebounds}\cr
+    \code{OffReb} \tab {Offensive rebounds}\cr
+    \code{Assists} \tab {Number of assists}\cr
+    \code{Steals} \tab {Number of steals}\cr
+    \code{Blocks} \tab {Number of shots blocked}\cr
+    \code{Trunovers} \tab {Number of turnovers}\cr
+    \code{Fouls} \tab {Number of fouls}\cr
+    \code{Points} \tab {Number of points scored}\cr
+    \code{OppFG} \tab {Opponet's field goals made}\cr
+    \code{OppFGA} \tab {Opponent's Field goals attempted}\cr
+    \code{OppFG3} \tab {Opponent's Three-point field goals made}\cr
+    \code{OppFG3A} \tab {Opponent's Three-point field goals attempted}\cr
+    \code{OppFT} \tab {Opponent's Free throws made}\cr
+    \code{OppFTA} \tab {Opponent's Free throws attempted}\cr
+    \code{OppOffReb} \tab {Opponent's Offensive rebounds}\cr
+    \code{OppRebounds} \tab {Opponent's Total rebounds}\cr
+    \code{OppAssists} \tab {Opponent's assists}\cr
+    \code{OppSteals} \tab {Opponent's steals}\cr
+    \code{OppBlocks} \tab {Opponent's shots blocked}\cr
+    \code{OppTurnovers} \tab {Opponent's turnovers}\cr
+    \code{OppFouls} \tab {Opponent's fouls}\cr
+    \code{OppPoints} \tab {Opponent's points scored}\cr
   }
 }
 \details{
 Information from online boxscores for all 82 regular season games payed by the Miami Heat basketball team during the 2010-11 regular season. 
 }
 \source{
-Data for the 2010-11 Miami games downloaded from http://www.basketball-reference.com/teams/MIA/2011/gamelog/
+Data for the 2010-11 Miami games downloaded from  \cr
+http://www.basketball-reference.com/teams/MIA/2011/gamelog/
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(MiamiHeat)
-}
+
 \keyword{datasets}

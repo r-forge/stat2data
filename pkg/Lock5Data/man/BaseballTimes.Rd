@@ -3,34 +3,28 @@
 \docType{data}
 \title{Baseball Game Times}
 \description{
-%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+Information for a sample of 30 Major League Baseball games played during the 2011 season
 }
-\usage{data(BaseballTimes)}
+%\usage{data(BaseballTimes)}
 \format{
-  A data frame with 360 observations on the following 9 variables.
-  \describe{
-    \item{\code{Away}}{a factor with levels \code{} \code{ARI} \code{ATL} \code{BAL} \code{BOS} \code{CHC} \code{CIN} \code{CLE} \code{FLA} \code{KCR} \code{LAD} \code{MIL} \code{NYM} \code{NYY} \code{OAK} \code{PHI} \code{SEA} \code{SFG} \code{STL} \code{TBR} \code{TEX} \code{TOR} \code{WSN}}
-    \item{\code{Home}}{a factor with levels \code{} \code{ATL} \code{BAL} \code{CHC} \code{CHW} \code{COL} \code{DET} \code{FLA} \code{HOU} \code{KCR} \code{LAA} \code{MIL} \code{MIN} \code{NYM} \code{NYY} \code{OAK} \code{PHI} \code{PIT} \code{SDP} \code{SFG} \code{TBR} \code{TOR} \code{WSN }}
-    \item{\code{Runs}}{a numeric vector}
-    \item{\code{Margin}}{a numeric vector}
-    \item{\code{Hits}}{a numeric vector}
-    \item{\code{Errors}}{a numeric vector}
-    \item{\code{Pitchers}}{a numeric vector}
-    \item{\code{Walks}}{a numeric vector}
-    \item{\code{Time}}{a numeric vector}
+  A dataset with 30 observations on the following 9 variables.
+  \tabular{rl}{
+    \code{Away} \tab {Away team name}\cr
+    \code{Home} \tab {Home team name}\cr
+    \code{Runs} \tab {Total runs scored (both teams)}\cr
+    \code{Margin} \tab {Margin of victory}\cr
+    \code{Hits} \tab {Total number of hits (both teams)}\cr
+    \code{Errors} \tab {Total number of errors (both teams)}\cr
+    \code{Pitchers} \tab {Total number of pitchers used (both teams)}\cr
+    \code{Walks} \tab {Total number of walks (both teams)}\cr
+    \code{Time} \tab {Elapsed time for game (in minutes)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data from a sample of boxscores for Major League Baseball games played in August 2011. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+http://www.baseball-reference.com/boxes/2011.shtml
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(BaseballTimes)
-## maybe str(BaseballTimes) ; plot(BaseballTimes) ...
-}
+
 \keyword{datasets}

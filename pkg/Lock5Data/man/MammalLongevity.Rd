@@ -7,13 +7,13 @@ Mammal Longevity
 \description{
 Longevity and gestation period for mammals
 }
-\usage{data(MammalLongevity)}
+%\usage{data(MammalLongevity)}
 \format{
-  A data frame with 40 observations on the following 3 variables.
-  \describe{
-    \item{\code{Animal}}{Species of mammal}
-    \item{\code{Gestation}}{Time from fertilization until birth (in days)}
-    \item{\code{Longevity}}{Average lifespan (in years)}
+  A dataset with 40 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Animal} \tab {Species of mammal}\cr
+    \code{Gestation} \tab {Time from fertilization until birth (in days)}\cr
+    \code{Longevity} \tab {Average lifespan (in years)}\cr
   }
 }
 \details{
@@ -22,10 +22,5 @@ Dataset with average lifespan (in years) and typical gestation period (in days) 
 \source{
 2010 World Almanac, pg. 292.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(MammalLongevity)
-}
+
 \keyword{datasets}

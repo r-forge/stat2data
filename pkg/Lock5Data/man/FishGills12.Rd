@@ -7,12 +7,12 @@ FishGills12
 \description{
 An experiment to look at fish repiration rates in water withdiffernet levels of calcium.
 }
-\usage{data(FishGills12)}
+%\usage{data(FishGills12)}
 \format{
-  A data frame with 360 observations on the following 2 variables.
-  \describe{
-    \item{\code{Calcium}}{Amount of calcium in the water (mg/L)}
-    \item{\code{GillRate}}{Respiration rate (beats per minute)}
+  A dataset with 360 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Calcium} \tab {Amount of calcium in the water (mg/L)}\cr
+    \code{GillRate} \tab {Respiration rate (beats per minute)}\cr
   }
 }
 \details{
@@ -20,12 +20,7 @@ Fish were randomly assigned to twelve tanks with different levels (measured in m
 Respiration rate was measured as number of gill beats per minute. 
 }
 \source{
-Thanks to Pro. Brad Baldwin for supplying the data
+Thanks to Prof. Brad Baldwin for supplying the data
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(FishGills12)
-}
+
 \keyword{datasets}

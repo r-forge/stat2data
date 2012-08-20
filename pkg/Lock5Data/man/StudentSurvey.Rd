@@ -7,27 +7,27 @@ Student Survey Data
 \description{
 Data from a survey of students in introductory statistics courses
 }
-\usage{data(StudentSurvey)}
+%\usage{data(StudentSurvey)}
 \format{
-  A data frame with 362 observations on the following 17 variables.
-  \describe{
-    \item{\code{Year}}{Year in school}
-    \item{\code{Gender}}{Student's gender:  \code{F} or \code{M}}
-    \item{\code{Smoke}}{Smoker? \code{No} or \code{Yes}}
-    \item{\code{Award}}{Prefered award: \code{Academy} \code{Nobel} \code{Olympic}}
-    \item{\code{HigherSAT}}{Which SAT is higher?  \code{Math} or \code{Verbal}}
-    \item{\code{Exercise}}{Hours of exercsie per week}
-    \item{\code{TV}}{Hours of TV viewing per week}
-    \item{\code{Height}}{Height (in inches)}
-    \item{\code{Weight}}{Weight (in pounds)}
-    \item{\code{Siblings}}{Number of siblings}
-    \item{\code{BirthOrder}}{Birth order, 1=oldest}
-    \item{\code{VerbalSAT}}{Verbal SAT score}
-    \item{\code{MathSAT}}{Math SAT score}
-    \item{\code{SAT}}{Combined Verbal + Math SAT}
-    \item{\code{GPA}}{College grade point average}
-    \item{\code{Pulse}}{Pulse rate (beats per minute)}
-    \item{\code{Piercings}}{Number of body piercings}
+  A dataset with 362 observations on the following 17 variables.
+  \tabular{rl}{
+    \code{Year} \tab {Year in school}\cr
+    \code{Gender} \tab {Student's gender:  \code{F} or \code{M}}\cr
+    \code{Smoke} \tab {Smoker? \code{No} or \code{Yes}}\cr
+    \code{Award} \tab {Prefered award: \code{Academy} \code{Nobel} \code{Olympic}}\cr
+    \code{HigherSAT} \tab {Which SAT is higher?  \code{Math} or \code{Verbal}}\cr
+    \code{Exercise} \tab {Hours of exercsie per week}\cr
+    \code{TV} \tab {Hours of TV viewing per week}\cr
+    \code{Height} \tab {Height (in inches)}\cr
+    \code{Weight} \tab {Weight (in pounds)}\cr
+    \code{Siblings} \tab {Number of siblings}\cr
+    \code{BirthOrder} \tab {Birth order, 1=oldest}\cr
+    \code{VerbalSAT} \tab {Verbal SAT score}\cr
+    \code{MathSAT} \tab {Math SAT score}\cr
+    \code{SAT} \tab {Combined Verbal + Math SAT}\cr
+    \code{GPA} \tab {College grade point average}\cr
+    \code{Pulse} \tab {Pulse rate (beats per minute)}\cr
+    \code{Piercings} \tab {Number of body piercings}\cr
   }
 }
 \details{
@@ -36,10 +36,5 @@ Data from an in-class survey given to introductory statistics students over seve
 \source{
 In-class student survey
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(StudentSurvey)
-}
+
 \keyword{datasets}

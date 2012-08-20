@@ -7,24 +7,24 @@ Mindset Matters
 \description{
 Data from a study of perceived exercise with maids
 }
-\usage{data(MindsetMatters)}
+%\usage{data(MindsetMatters)}
 \format{
-  A data frame with 75 observations on the following 14 variables.
-  \describe{
-    \item{\code{Cond}}{Treatment condition:  \code{0}=uninformed or \code{1}=informed}
-    \item{\code{Age}}{Age (in years)}
-    \item{\code{Wt}}{Original weight (in pounds)}
-    \item{\code{Wt2}}{Weight after 4 weeks (in pounds}
-    \item{\code{BMI}}{Original body mass index}
-    \item{\code{BMI2}}{Body mass index after 4 weeks}
-    \item{\code{Fat}}{Original body fat percentage}
-    \item{\code{Fat2}}{Body fat percentage after 4 weeks}
-    \item{\code{WHR}}{Original waist to hip ratio}
-    \item{\code{WHR2}}{Waist to hip ratio}
-    \item{\code{Syst}}{Original systolic blood pressure}
-    \item{\code{Syst2}}{Systolic blood pressure after 4 weeks}
-    \item{\code{Diast}}{Original diastolic blood pressure}
-    \item{\code{Diast2}}{Diastolic blood pressure after 4 weeks}
+  A dataset with 75 observations on the following 14 variables.
+  \tabular{rl}{
+    \code{Cond} \tab {Treatment condition:  \code{0}=uninformed or \code{1}=informed}\cr
+    \code{Age} \tab {Age (in years)}\cr
+    \code{Wt} \tab {Original weight (in pounds)}\cr
+    \code{Wt2} \tab {Weight after 4 weeks (in pounds}\cr
+    \code{BMI} \tab {Original body mass index}\cr
+    \code{BMI2} \tab {Body mass index after 4 weeks}\cr
+    \code{Fat} \tab {Original body fat percentage}\cr
+    \code{Fat2} \tab {Body fat percentage after 4 weeks}\cr
+    \code{WHR} \tab {Original waist to hip ratio}\cr
+    \code{WHR2} \tab {Waist to hip ratio}\cr
+    \code{Syst} \tab {Original systolic blood pressure}\cr
+    \code{Syst2} \tab {Systolic blood pressure after 4 weeks}\cr
+    \code{Diast} \tab {Original diastolic blood pressure}\cr
+    \code{Diast2} \tab {Diastolic blood pressure after 4 weeks}\cr
   }
 }
 \details{
@@ -33,10 +33,5 @@ In 2007 a Harvard psychologist recruited 75 female maids working in different ho
 \source{
 Crum, A.J. and Langer, E.J. (2007). Mind-Set Matters: Exercise and the Placebo Effect, Psychological Science, 18:165-171. Thanks to the authors for supplying the data. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-%% data(MindsetMatters)
-}
+
 \keyword{datasets}
