@@ -1,56 +1,60 @@
 \name{RiverElements}
 \alias{RiverElements}
 \docType{data}
-\title{
-RiverElements
-}
+\title{RiverElements}
 \description{
-RiverElements
+Concentrations of elements in river water samples from upstate NY
 }
-\usage{data(RiverElements)}
+%\useage{data(RiverElements)}
 \format{
-  A data frame with 12 observations on the following 27 variables.
-  \describe{
-    \item{\code{River}}{a factor with levels \code{Grasse} \code{Oswegatchie} \code{Raquette} \code{St. Regis}}
-    \item{\code{Site}}{a numeric vector}
-    \item{\code{Al}}{a numeric vector}
-    \item{\code{Ba}}{a numeric vector}
-    \item{\code{Br}}{a numeric vector}
-    \item{\code{Ca}}{a numeric vector}
-    \item{\code{Ce}}{a numeric vector}
-    \item{\code{Cu}}{a numeric vector}
-    \item{\code{Dy}}{a numeric vector}
-    \item{\code{Er}}{a numeric vector}
-    \item{\code{Fe}}{a numeric vector}
-    \item{\code{Gd}}{a numeric vector}
-    \item{\code{Ho}}{a numeric vector}
-    \item{\code{K}}{a numeric vector}
-    \item{\code{La}}{a numeric vector}
-    \item{\code{Li}}{a numeric vector}
-    \item{\code{Mg}}{a numeric vector}
-    \item{\code{Mn}}{a numeric vector}
-    \item{\code{Nd}}{a numeric vector}
-    \item{\code{Pr}}{a numeric vector}
-    \item{\code{Rb}}{a numeric vector}
-    \item{\code{Si}}{a numeric vector}
-    \item{\code{Sr}}{a numeric vector}
-    \item{\code{Y}}{a numeric vector}
-    \item{\code{Yb}}{a numeric vector}
-    \item{\code{Zn}}{a numeric vector}
-    \item{\code{Zr}}{a numeric vector}
+  A dataset with 12 observations on the following 27 variables.
+  \tabular{rl}{
+    \code{River} \tab {One of four rivers: \code{Grasse}, \code{Oswegatchie}, \code{Raquette}, or \code{St. Regis}}\cr
+    \code{Site} \tab {Location: 1=UpStream, 2=MidStream, 3=Downstream}\cr
+    \code{Al} \tab {Aluminum}\cr
+    \code{Ba} \tab {Barium}\cr
+    \code{Br} \tab {Bromine}\cr
+    \code{Ca} \tab {Calcium}\cr
+    \code{Ce} \tab {Cerium}\cr
+    \code{Cu} \tab {Copper}\cr
+    \code{Dy} \tab {Dysprosium}\cr
+    \code{Er} \tab {Erbim}\cr
+    \code{Fe} \tab {Iron}\cr
+    \code{Gd} \tab {Gadolinium}\cr
+    \code{Ho} \tab {Holmum}\cr
+    \code{K} \tab {Potassium}\cr
+    \code{La} \tab {Lathanum}\cr
+    \code{Li} \tab {Lithium}\cr
+    \code{Mg} \tab {Magnesium}\cr
+    \code{Mn} \tab {Manganese}\cr
+    \code{Nd} \tab {Neodymium}\cr
+    \code{Pr} \tab {Proseyodymium}\cr
+    \code{Rb} \tab {Rubidium}\cr
+    \code{Si} \tab {Silicon}\cr
+    \code{Sr} \tab {Strontium}\cr
+    \code{Y} \tab {Yttrium}\cr
+    \code{Yb} \tab {Ytterbium}\cr
+    \code{Zn} \tab {Zinc}\cr
+    \code{Zr} \tab {Zirconium}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Some geologists were interested in the water chemistry of rivers in upstate New York. They took
+water samples at three different locations in four rivers (Grasse, Oswegatchie, Raquette, and St.
+Regis). The sampling sites were chosen to investigate how the composition of the water changes as
+it flows from the source to the mouth of each river. The sampling sites were labeled as upstream,
+midstream, and downstream. This dataset contains the concentations (parts per million) of a variety of elements 
+in thoise water samples. 
+The dataset RiverIron contains the information for iorn (FE) alone, along with the log of the concentration. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Thanks to Dr. Jeff Chiarenzelli of the St. Lawrence University Geology Department for the data. 
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+Chiarenzelli, Lock, Cady, Bregani and Whitney, 
+"Variation in river multi-element chemistry related to bedrock buffering: 
+an example from the Adirondack region of northern New York, USA", 
+ Environmental Earth Sciences, Volume 67, Number 1 (2012), 189-204
 }
-\examples{
-data(RiverElements)
-## maybe str(RiverElements) ; plot(RiverElements) ...
-}
+
 \keyword{datasets}
