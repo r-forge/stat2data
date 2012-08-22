@@ -1,32 +1,29 @@
 \name{BeeStings}
 \alias{BeeStings}
 \docType{data}
-\title{
-BeeStings
-}
+\title{BeeStings}
 \description{
-BeeStings
+Does number of beestings depend on previous stings? 
 }
-\usage{data(BeeStings)}
+%\useage{data(BeeStings)}
 \format{
-  A data frame with 18 observations on the following 3 variables.
-  \describe{
-    \item{\code{Occasion}}{a factor with levels \code{I} \code{II} \code{III} \code{IV} \code{IX} \code{V} \code{VI} \code{VII} \code{VIII}}
-    \item{\code{Treatment}}{a factor with levels \code{Fresh} \code{Stung}}
-    \item{\code{Stingers}}{a numeric vector}
+  A dataset with 18 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Occasion} \tab {Trial: I to IX}\cr
+    \code{Treatment} \tab {\code{Fresh} or \code{Stung}}\cr
+    \code{Stingers} \tab {Number of stingers}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+If you are stung by a bee, does that make you more likely to get stung again? Might bees leave
+behind a chemical message that tells other bees to attack you? To test this hypothesis, scientists
+dangled a 4x4 array of 16 muslin-wrapped cotton balls over a beehive. 
+Eight of 16 balls had been previously stung; the other eight were
+fresh. The response was the total number of new stingers left behind by the bees. 
+The process was repeated for a total of nine tials.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Free, J.B. (1961) "The stinging response of honeybees," Animal Behavior, vol. 9, pp 193-196.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(BeeStings)
-## maybe str(BeeStings) ; plot(BeeStings) ...
-}
+
 \keyword{datasets}

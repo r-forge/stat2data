@@ -5,28 +5,28 @@
 Alfalfa
 }
 \description{
-Alfalfa
+Growth of alfalfa sprouts in acidic conditions
 }
-\usage{data(Alfalfa)}
+%\useage{data(Alfalfa)}
 \format{
-  A data frame with 15 observations on the following 3 variables.
-  \describe{
-    \item{\code{Ht4}}{a numeric vector}
-    \item{\code{Acid}}{a factor with levels \code{1.5HCl} \code{3.0HCl} \code{water}}
-    \item{\code{Row}}{a factor with levels \code{a} \code{b} \code{c} \code{d} \code{e}}
+  A dataset with 15 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Ht4} \tab {Height of alfalfa sprouts after four days}\cr
+    \code{Acid} \tab {Amount of acid: \code{1.5HCl}, \code{3.0HCl}, or \code{water}}\cr
+    \code{Row} \tab {\code{a}= closest to window through  \code{e}=farthest from window}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Some students were interested in how an acidic environment might affect
+the growth of plants. They planted alfalfa seeds in 15 cups and randomly chose five to get plain
+water, five to get a moderate amount of acid (1.5M HCl), and five to get a stronger acid solution
+(3.0M HCl). The plants were grown in an indoor room so the students assumed that the distance
+from the main source of daylight (a window) might have an affect on growth rates. For this reason,
+they arranged the cups in five rows of three with one cup from each Acid level in each row. These
+are labeled in the data set as Row: a= farthest from the window through e=nearest to the window.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Student project
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Alfalfa)
-## maybe str(Alfalfa) ; plot(Alfalfa) ...
-}
+
 \keyword{datasets}

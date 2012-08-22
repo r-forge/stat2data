@@ -1,38 +1,31 @@
 \name{Backpack}
 \alias{Backpack}
 \docType{data}
-\title{
-Backpack
-}
+\title{Backpack}
 \description{
-Backpack
+Backpack weights for a sample of college students
 }
-\usage{data(Backpack)}
+%\useage{data(Backpack)}
 \format{
-  A data frame with 100 observations on the following 9 variables.
-  \describe{
-    \item{\code{BackpackWeight}}{a numeric vector}
-    \item{\code{BodyWeight}}{a numeric vector}
-    \item{\code{Ratio}}{a numeric vector}
-    \item{\code{BackProblems}}{a numeric vector}
-    \item{\code{Major}}{a factor with levels \code{Act.} \code{Aero} \code{AERO} \code{Aero Eng.} \code{AGB} \code{APIO} \code{ARCE} \code{Arch} \code{Bio} \code{Bus} \code{CD} \code{CE} \code{CM} \code{CPE} \code{CS} \code{CSC} \code{Econ} \code{EE} \code{GRC} \code{History} \code{IE} \code{IT} \code{Kine} \code{LS} \code{Mate} \code{Math} \code{ME} \code{MFGE} \code{MLL} \code{Nut.} \code{Nutrition} \code{Philosophy} \code{Phys} \code{Poli Sci} \code{Pols} \code{Psy} \code{Psych} \code{Soc. Sci.} \code{SOCS} \code{SPC} \code{Vocal Music}}
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{Sex}}{a factor with levels \code{Female} \code{Male}}
-    \item{\code{Status}}{a factor with levels \code{G} \code{U}}
-    \item{\code{Units}}{a numeric vector}
+  A dataset with 100 observations on the following 9 variables.
+  \tabular{rl}{
+    \code{BackpackWeight} \tab {Backpack weight (in pounds)}\cr
+    \code{BodyWeight} \tab {Body weight (in pounds)}\cr
+    \code{Ratio} \tab {BackpackWeight/BodyWeight}\cr
+    \code{BackProblems} \tab {0=no or 1=yes}\cr
+    \code{Major} \tab {Code for academic major}\cr
+    \code{Year} \tab {Year in school}\cr
+    \code{Sex} \tab {a factor with levels \code{Female} \code{Male}}\cr
+    \code{Status} \tab {Graduate or undergraduate? \code{G} or \code{U}}\cr
+    \code{Units} \tab {Number of credits taken that quarter}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A survey of students at California Polytechnic State University (San Luis Obispo) collected data
+to investigate the question of whether back aches might be due to carrying heavy backpacks, 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Mintz J., Mintz J., Moore K., and Schuh K., "Oh, My Aching Back! A Statistical Analysis of Backpack Weights,"  Stats: The Magazine for Students of Statistics, vol. 32, 2002, pp. 1719.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Backpack)
-## maybe str(Backpack) ; plot(Backpack) ...
-}
+
 \keyword{datasets}

@@ -7,27 +7,29 @@ AutoPollution
 \description{
 AutoPollution
 }
-\usage{data(AutoPollution)}
+%\useage{data(AutoPollution)}
 \format{
-  A data frame with 36 observations on the following 4 variables.
-  \describe{
-    \item{\code{Noise}}{a numeric vector}
-    \item{\code{Size}}{a numeric vector}
-    \item{\code{Type}}{a numeric vector}
-    \item{\code{Side}}{a numeric vector}
+  A dataset with 36 observations on the following 4 variables.
+  \tabular{rl}{
+    \code{Noise} \tab {Noise level (decibels)}\cr
+    \code{Size} \tab {Vehicle size: \code{1}=small, \code{2}=medium, or \code{3}=large}\cr
+    \code{Type} \tab {\code{1}=standard filer or \code{2}=new filter}\cr
+    \code{Side} \tab {Side of vehicle: code{1}=right or \code{2}=left}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+In a 1973 testimony before the Air and Water Pollution Subcommittee
+of the Senate Public Works Committee, John McKinley, President of Texaco discussed a new filter
+that had been developed to reduce pollution. Questions were raised about the effects of this filter
+on other measures of vehicle performance. The data set AutoPollution gives the results of an
+experiment on 36 different cars. The cars were randomly assigned to get either this new filter or a
+standard filter and the noise level for each car was measured.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data explanation and link can be found at http://lib.stat.cmu.edu/DASL/Stories/airpollutionfilters.html.
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+ A.Y. Lewin and M.F. Shakun, Policy Sciences: Methodology and Cases, Pergammon Press, 1976, p 313. 
 }
-\examples{
-data(AutoPollution)
-## maybe str(AutoPollution) ; plot(AutoPollution) ...
-}
+
 \keyword{datasets}
