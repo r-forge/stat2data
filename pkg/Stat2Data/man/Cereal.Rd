@@ -19,7 +19,12 @@ Breakfast cereals
 Data give nutrition contents (per serving) for 36 breakfast cereals.
 } 
 \source{
-Data collected from nutrition labels. 
+These data were collected by Patricia Benedict, Ronald Brahler, and 
+Kenneth Motz, who read the nutritional labels on the boxes,
+ in an attempt to learn whether cereals high in fiber are 
+ also high in sugar and calories.  
+ The cereals are all of those that were sold at Russo Stop
+  & Shop in University Heights, OH, in July, 1990.
 }
 
 \keyword{datasets}

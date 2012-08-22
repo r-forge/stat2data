@@ -23,10 +23,11 @@ water, five to get a moderate amount of acid (1.5M HCl), and five to get a stron
 (3.0M HCl). The plants were grown in an indoor room so the students assumed that the distance
 from the main source of daylight (a window) might have an affect on growth rates. For this reason,
 they arranged the cups in five rows of three with one cup from each Acid level in each row. These
-are labeled in the data set as Row: a= farthest from the window through e=nearest to the window.
+are labeled in the data set as Row: a= farthest from the window through e=nearest to the window. 
 }
 \source{
-Student project
+Neumann, A., Richards, A.-L., and Randa, J. (2001).  
+Effects of acid rain on alfalfa plants. Unpublished manuscript, Oberlin College. 
 }
 
 \keyword{datasets}
