@@ -1,36 +1,31 @@
 \name{BritishUnions}
 \alias{BritishUnions}
 \docType{data}
-\title{
-BritishUnions
-}
+\title{BritishUnions}
 \description{
-BritishUnions
+Poll attitudes towards British trade unions
 }
-\usage{data(BritishUnions)}
+%\useage{data(BritishUnions)}
 \format{
-  A data frame with 17 observations on the following 7 variables.
-  \describe{
-    \item{\code{Date}}{a factor with levels \code{Aug-77} \code{Aug-82} \code{Aug-83} \code{Aug-84} \code{Aug-89} \code{Aug-90} \code{Aug-93} \code{Aug-94} \code{Aug-95} \code{Dec-92} \code{Feb-92} \code{Jan-90} \code{Jul-80} \code{Nov-81} \code{Oct-75} \code{Sep-78} \code{Sep-79}}
-    \item{\code{AgreePct}}{a numeric vector}
-    \item{\code{DisagreePct}}{a numeric vector}
-    \item{\code{NetSupport}}{a numeric vector}
-    \item{\code{Months}}{a numeric vector}
-    \item{\code{Late}}{a numeric vector}
-    \item{\code{Unemployment}}{a numeric vector}
+  A dataset with 17 observations on the following 7 variables.
+  \tabular{rl}{
+    \code{Date} \tab {Month of the poll \code{Aug-77} to \code{Sep-79}}\cr
+    \code{AgreePct} \tab {Percent who agree (unions have too much power)}\cr
+    \code{DisagreePct} \tab {Percent who disagree}\cr
+    \code{NetSupport} \tab {DisagreePct-AgreePct}\cr
+    \code{Months} \tab {Months since August 1975}\cr
+    \code{Late} \tab {\code{1}=after 1986 or \code{0}=before 1986}\cr
+    \code{Unemployment} \tab {Unemployment rate}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+The British polling company Ipsos MORI conducted several opinion
+polls in the UK between 1975 and 1995 in which they asked whether people agree or disagree
+with the statement "Trade unions have too much power in Britain today".
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data from the Ipsos MORI website at  \cr
+http://www.ipsos-mori.com/researchpublications/researcharchive/poll.aspx?oItemID=94
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(BritishUnions)
-## maybe str(BritishUnions) ; plot(BritishUnions) ...
-}
+
 \keyword{datasets}

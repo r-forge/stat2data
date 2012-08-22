@@ -1,31 +1,25 @@
 \name{CO2}
 \alias{CO2}
 \docType{data}
-\title{
-CO2
-}
+\title{CO2}
 \description{
-CO2
+Daily carbon dioxide measurements - April through November 2011
 }
-\usage{data(CO2)}
+%\useage{data(CO2)}
 \format{
-  A data frame with 237 observations on the following 2 variables.
-  \describe{
-    \item{\code{CO2}}{a numeric vector}
-    \item{\code{Day}}{a numeric vector}
+  A dataset with 237 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{CO2} \tab {Carbon dioxide (CO2) level (in parts per million)}\cr
+    \code{Day} \tab {Number of day in 2001 (April 1 = day 91}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Scientists at a research station in Brotjacklriegel, Germany recorded
+CO2 levels, in parts per million, in the atmosphere for each day from
+the start of April through November in 2001.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+http://gaw.empa.ch/gawsis/reports.asp?StationID=-739519191
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(CO2)
-## maybe str(CO2) ; plot(CO2) ...
-}
+
 \keyword{datasets}

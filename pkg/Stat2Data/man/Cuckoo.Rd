@@ -1,19 +1,17 @@
 \name{Cuckoo}
 \alias{Cuckoo}
 \docType{data}
-\title{
-Cuckoo
-}
+\title{Cuckoo}
 \description{
 Lengths of cuckoo eggs laid in other birds' nests
 }
-\usage{data(Cuckoo)}
+%\usage{data(Cuckoo)}
 \format{
-  A data frame with 120 observations on the following 2 variables.
-  \describe{
-    \item{\code{Bird}}{Type of bird nest: \code{mdw_pipit} (meadow pipit), 
-\code{tree_pipit}, \code{hedge_sparrow}, \code{robin}, \code{wagtail}, \code{wren}}
-    \item{\code{Length}}{Cuckoo egg length (in mm)}
+  A dataset with 120 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Bird} \tab {Type of bird nest: \code{mdw_pipit} (meadow pipit), \code{tree_pipit},}\cr
+    \tab {\code{hedge_sparrow}, \code{robin}, \code{wagtail}, or \code{wren}}\cr
+    \code{Length} \tab {Cuckoo egg length (in mm)}\cr
   }
 }
 \details{
@@ -25,9 +23,9 @@ The data give the lengths of cuckoo eggs found in nests of varous other bird spe
 Downloaded from DASL at http://lib.stat.cmu.edu/DASL/Datafiles/cuckoodat.html
 }
 \references{
-L.H.C. Tippett, The Methods of Statistics, 4th Edition, John Wiley and Sons, Inc., 1952, p. 176. 
+"The Egg of Cuculus Canorus. An Enquiry into the Dimensions of the Cuckoo's Egg and the Relation of the
+Variations to the Size of the Eggs of the Foster-Parent, with Notes on Coloration", by Oswald H. Latter, Biometrika,
+Vol. 1, No. 2 (Jan., 1902), pp. 164-176.
 }
-\examples{
-%% data(Cuckoo)
-}
+
 \keyword{datasets}

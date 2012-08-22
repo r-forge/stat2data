@@ -1,36 +1,37 @@
 \name{CAFE}
 \alias{CAFE}
 \docType{data}
-\title{
-CAFE
-}
+\title{CAFE}
 \description{
-CAFE
+Senate votes for Corporate Average Fuel Economy (CAFE) bill
 }
-\usage{data(CAFE)}
+%\useage{data(CAFE)}
 \format{
-  A data frame with 100 observations on the following 7 variables.
-  \describe{
-    \item{\code{Senator}}{a factor with levels \code{Akaka, Daniel} \code{Allard, Wayne} \code{Allen, George} \code{Baucus, Max} \code{Bayh, Evan} \code{Bennett, Robert} \code{Biden Jr, Joseph} \code{Bingaman, Jeff} \code{Bond, Christopher} \code{Boxer, Barbara} \code{Breaux, John} \code{Brownback, Sam} \code{Bunning, Jim} \code{Burns, Conrad} \code{Byrd, Robert} \code{Campbell, Ben N.} \code{Cantwell, Maria} \code{Carnahan, Jean} \code{Carper, Thomas} \code{Chafee, Lincoln} \code{Cleland, Max} \code{Clinton, Hillary} \code{Cochran, Thad} \code{Collins, Susan} \code{Conrad, Kent} \code{Corzine, Jon} \code{Craig, Larry} \code{Crapo, Mike} \code{Daschle, Thomas} \code{Dayton, Mark} \code{DeWine, Mike} \code{Dodd, Christopher} \code{Domenici, Pete} \code{Dorgan, Byron} \code{Durbin, Richard} \code{Edwards, John} \code{Ensign, John} \code{Enzi, Mike} \code{Feingold, Russell} \code{Feinstein, Dianne} \code{Fitzgerald, Peter} \code{Frist, William} \code{Graham, Bob} \code{Gramm, Phil} \code{Grassley, Chuck} \code{Gregg, Judd} \code{Hagel, Charles} \code{Harkin, Tom} \code{Hatch, Orrin} \code{Helms, Jesse} \code{Hollings, Ernest} \code{Hutchinson, Tim} \code{Hutchison, Kay B.} \code{Inhofe, James} \code{Inouye, Daniel} \code{Jeffords, James} \code{Johnson, Tim} \code{Kennedy, Edward} \code{Kerry, John} \code{Kohl, Herb} \code{Kyl, Jon} \code{Landrieu, Mary} \code{Leahy, Patrick} \code{Levin, Carl} \code{Lieberman, Joseph} \code{Lincoln, Blanche} \code{Lott, Trent} \code{Lugar, Richard} \code{McCain, John} \code{McConnell, Mitch} \code{Mikulski, Barbara} \code{Miller, Zell} \code{Murkowski, Frank} \code{Murray, Patty} \code{Nelson, Ben} \code{Nelson, Bill} \code{Nickles, Don} \code{Reed, Jack} \code{Reid, Harry} \code{Roberts, Pat} \code{Rockefeller, John} \code{Santorum, Rick} \code{Sarbanes, Paul} \code{Schumer, Charles} \code{Sessions, Jeff} \code{Shelby, Richard} \code{Smith, Bob} \code{Smith, Gordon} \code{Snowe, Olympia} \code{Specter, Arlen} \code{Stabenow, Debbie} \code{Stevens, Ted} \code{Thomas, Craig} \code{Thompson, Fred} \code{Thurmond, Strom} \code{Torricelli, Robert} \code{Voinovich, George} \code{Warner, John} \code{Wellstone, Paul} \code{Wyden, Ron}}
-    \item{\code{State}}{a factor with levels \code{AK} \code{AL} \code{AR} \code{AZ} \code{CA} \code{CO} \code{CT} \code{DE} \code{FL} \code{GA} \code{HI} \code{IA} \code{ID} \code{IL} \code{IN} \code{KS} \code{KY} \code{LA} \code{MA} \code{MD} \code{ME} \code{MI} \code{MN} \code{MO} \code{MS} \code{MT} \code{NC} \code{ND} \code{NE} \code{NH} \code{NJ} \code{NM} \code{NV} \code{NY} \code{OH} \code{OK} \code{OR} \code{PA} \code{RI} \code{SC} \code{SD} \code{TN} \code{TX} \code{UT} \code{VA} \code{VT} \code{WA} \code{WI} \code{WV} \code{WY}}
-    \item{\code{Party}}{a factor with levels \code{D} \code{I} \code{R}}
-    \item{\code{Contribution}}{a numeric vector}
-    \item{\code{LogContr}}{a numeric vector}
-    \item{\code{Dem}}{a numeric vector}
-    \item{\code{Vote}}{a numeric vector}
+  A dataset with 100 observations on the following 7 variables.
+  \tabular{rl}{
+    \code{Senator} \tab {Senator's name}\cr
+    \code{State} \tab {Code for senator's state}\cr
+    \code{Party} \tab {party affiliation: \code{D}=Democrat, \code{I}=Independent, \code{R}=Republican}\cr
+    \code{Contribution} \tab {Contributions from car manufactures (dollars)}\cr
+    \code{LogContr} \tab {Log of (Contribution+1)}\cr
+    \code{Dem} \tab {\code{1}=Democrat/Indpendent \code{0}=Republican}\cr
+    \code{Vote} \tab {\code{1}=yes  or \code{0}=no}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+The Corporate Average Fuel Economy (CAFE) bill was proposed by Senators John McCain and
+John Kerry to improve the fuel economy of cars and light trucks sold in the United States. 
+However a critical vote on an amendment in March of 2002 threatened to indefinitely postpone CAFE. 
+The amendment charged the National Highway Traffic Safety Administration to develop a new standard,
+the effect being to put on indefinite hold the McCain-Kerry bill. It passed by a vote of 62-38.
+A political question of interest is whether there is evidence of monetary influence on a senator's
+vote. Scott Preston, a professor of statistics at SUNY, Oswego, collected data on this vote which
+includes the vote of each senator (1=Yes or 0=No) and 
+monetary contributions that each of the 100 senators received over his or her lifetime from the car
+manufacturers.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Thanks to Prof. Scott Preston for the data. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(CAFE)
-## maybe str(CAFE) ; plot(CAFE) ...
-}
+
 \keyword{datasets}

@@ -1,37 +1,32 @@
 \name{Clothing}
 \alias{Clothing}
 \docType{data}
-\title{
-Clothing
-}
+\title{Clothing}
 \description{
-Clothing
+Clothing retailer
 }
-\usage{data(Clothing)}
+%\useage{data(Clothing)}
 \format{
-  A data frame with 60 observations on the following 8 variables.
-  \describe{
-    \item{\code{ID}}{a numeric vector}
-    \item{\code{Amount}}{a numeric vector}
-    \item{\code{Recency}}{a numeric vector}
-    \item{\code{Freq12}}{a numeric vector}
-    \item{\code{Dollar12}}{a numeric vector}
-    \item{\code{Freq24}}{a numeric vector}
-    \item{\code{Dollar24}}{a numeric vector}
-    \item{\code{Card}}{a numeric vector}
+  A dataset with 60 observations on the following 8 variables.
+  \tabular{rl}{
+    \code{ID} \tab {Case ID}\cr
+    \code{Amount} \tab {Net dollar amount spent by customers in their latest purchase from this retailer}\cr
+    \code{Recency} \tab {Number of months since the last purchase}\cr
+    \code{Freq12} \tab {Number of purchases in the last 12 months}\cr
+    \code{Dollar12} \tab {Dollar amount of purchases in the last 12 months}\cr
+    \code{Freq24} \tab {Number of purchases in the last 24 months}\cr
+    \code{Dollar24} \tab {Dollar amount of purchases in the last 24 months}\cr
+    \code{Card} \tab {1 for customers who have a private-label credit card with the retailer, 0 if not}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset represents a random sample of 60 customers from a large clothing
+retailer.  The manager of the store is interested in predicting how much a customer 
+will spend on his or her next purchase based on one or more of the available 
+explanatory variables.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Personal communication from clothing retailer David Cameron
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Clothing)
-## maybe str(Clothing) ; plot(Clothing) ...
-}
+
 \keyword{datasets}
