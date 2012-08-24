@@ -23,7 +23,8 @@ response is the number of digested calories, measured as the difference between 
 calories passed through the system.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Subset of the data at http://lib.stat.cmu.edu/DASL/Datafiles/Fiber.html, 
+originally distributed with with the Data Desk software package. 
 }
 
 \keyword{datasets}

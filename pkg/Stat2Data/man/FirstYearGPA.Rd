@@ -1,33 +1,33 @@
 \name{FirstYearGPA}
 \alias{FirstYearGPA}
 \docType{data}
-\title{
-FirstYearGPA
-}
+\title{FirstYearGPA}
 \description{
-FirstYearGPA
+Predicting first-year college GPA
 }
-\usage{data(FirstYearGPA)}
+%\useage{data(FirstYearGPA)}
 \format{
   A data frame with 219 observations on the following 10 variables.
-  \describe{
-    \item{\code{GPA}}{a numeric vector}
-    \item{\code{HSGPA}}{a numeric vector}
-    \item{\code{SATV}}{a numeric vector}
-    \item{\code{SATM}}{a numeric vector}
-    \item{\code{Male}}{a numeric vector}
-    \item{\code{HU}}{a numeric vector}
-    \item{\code{SS}}{a numeric vector}
-    \item{\code{FirstGen}}{a numeric vector}
-    \item{\code{White}}{a numeric vector}
-    \item{\code{CollegeBound}}{a numeric vector}
+  \tabular{rl}{
+    \code{GPA} \tab {First-year college GPA on a 0.0-4.0 scale}\cr
+    \code{HSGPA} \tab {High school GPA on a 0.0-4.0 scale}\cr
+    \code{SATV} \tab {Verbal/critical reading SAT score}\cr
+    \code{SATM} \tab {Math SAT score}\cr
+    \code{Male} \tab {\code{1}= male, \code{0}= female}\cr
+    \code{HU} \tab {Number of credit hours earned in humanities courses in high school}\cr
+    \code{SS} \tab {Number of credit hours earned in social science courses in high school}\cr
+    \code{FirstGen} \tab {\code{1}= student is the first in her or his family to attend college, \code{0}=otherwise}\cr
+    \code{White} \tab {\code{1}= white students, \code{0}= others}\cr
+    \code{CollegeBound} \tab {\code{1}=attended a high school where >=50\% students intended to go on to college, \code{0}=otherwise}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+The data in FirstYearGPA contains information from a sample of 219
+first year students at a midwestern college that might be used to build a model to predict their first
+year GPA.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+A sample of stucents at a midwestern college.
 }
 \references{
 %%  ~~ possibly secondary sources and usages ~~

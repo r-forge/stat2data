@@ -1,32 +1,34 @@
 \name{Fingers}
 \alias{Fingers}
 \docType{data}
-\title{
-Fingers
-}
+\title{Fingers}
 \description{
 Fingers
 }
-\usage{data(Fingers)}
+%\useage{data(Fingers)}
 \format{
   A data frame with 12 observations on the following 3 variables.
-  \describe{
-    \item{\code{Subject}}{a factor with levels \code{I} \code{II} \code{III} \code{IV}}
-    \item{\code{Drug}}{a factor with levels \code{Caffeine} \code{Placebo} \code{Theobromine}}
-    \item{\code{TapRate}}{a numeric vector}
+  \tabular{rl}{
+    \code{Subject} \tab {\code{I}, \code{II}, \code{III}, or \code{IV}}\cr
+    \code{Drug} \tab {\code{Caffeine}, \code{Placebo}, or \code{Theobromine}}\cr
+    \code{TapRate} \tab {Finger taps in a fixed time interval}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Scientists Scott and Chen, published
+research that compared the effects of caffeine with those of theobromine (a similar chemical
+found in chocolate) and with those of a placebo. Their experiment used four human subjects, and
+took place over several days. Each day each subject swallowed a tablet containing one of caffeine,
+theobromine, or the placebo. Two hours later they were timed while tapping a finger in a specified
+manner (that they had practiced earlier, to control for learning effects). The response is the number
+of taps in a fixed time interval
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+The data was found in Statistics in Biology, Vol. 1, by C. I. Bliss (1967), New York: McGraw Hill.
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+1The original article is "Comparison of the action of 1-ethyl theobromine and caffeine in animals and man," by
+C. C. Scott and K. K. Chen, Journal of Pharmacological Experimental Therapy, v. 82 (1944), pp 89-97.
 }
-\examples{
-data(Fingers)
-## maybe str(Fingers) ; plot(Fingers) ...
-}
+
 \keyword{datasets}

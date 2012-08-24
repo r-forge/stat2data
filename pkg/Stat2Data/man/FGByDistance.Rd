@@ -5,32 +5,29 @@
 FGByDistance
 }
 \description{
-FGByDistance
+Field goal results in the NFL (by distance)
 }
-\usage{data(FGByDistance)}
+%\useage{data(FGByDistance)}
 \format{
   A data frame with 51 observations on the following 7 variables.
-  \describe{
-    \item{\code{Row}}{a numeric vector}
-    \item{\code{Dist}}{a numeric vector}
-    \item{\code{N}}{a numeric vector}
-    \item{\code{Makes}}{a numeric vector}
-    \item{\code{PropMakes}}{a numeric vector}
-    \item{\code{Blocked}}{a numeric vector}
-    \item{\code{PropBlocked}}{a numeric vector}
+  \tabular{rl}{
+    \code{Row} \tab {Case ID}\cr
+    \code{Dist} \tab {Distance of the attempt (in yards)}\cr
+    \code{N} \tab {Number of kicks attempted from that distance}\cr
+    \code{Makes} \tab {Nmber of kicks made from that distance}\cr
+    \code{PropMakes} \tab {Proportion of attempts made}\cr
+    \code{Blocked} \tab {Number of kicks blocked}\cr
+    \code{PropBlocked} \tab {Proportion of kicks blocked}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset summarizes all 8520 field goals attempted by place kickers in the National Football League (NFL)
+during regular season games for the 2000 through the 2008 seasons. 
+Results are counts (attempted, made, and blocked) and proportions (made and blocked) for each distance. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+We thank Sean Forman and Doug Drinen of Sports Reference LLC for providing us with the NFL field goal data
+set.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(FGByDistance)
-## maybe str(FGByDistance) ; plot(FGByDistance) ...
-}
+
 \keyword{datasets}

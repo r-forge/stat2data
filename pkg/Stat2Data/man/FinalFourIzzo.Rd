@@ -1,33 +1,31 @@
 \name{FinalFourIzzo}
 \alias{FinalFourIzzo}
 \docType{data}
-\title{
-FinalFourIzzo
-}
+\title{FinalFourIzzo}
 \description{
-FinalFourIzzo
+NCAA Final Four by seed with indicator for Tom Izzo's teams
 }
-\usage{data(FinalFourIzzo)}
+%\useage{data(FinalFourIzzo)}
 \format{
   A data frame with 1664 observations on the following 4 variables.
-  \describe{
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{Seed}}{a numeric vector}
-    \item{\code{Final4}}{a numeric vector}
-    \item{\code{Izzo}}{a numeric vector}
+  \tabular{rl}{
+    \code{Year} \tab {Year 1985-2010}\cr
+    \code{Seed} \tab {Seed in NCAA men's basketball tournament: 1 to 16}\cr
+    \code{Final4} \tab {\code{1}=made Final Four or \code{0}=did not make Final Four}\cr
+    \code{Izzo} \tab {\code{1}=team coached by Tom Izzo or \code{0}=not an Izzo team}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Each year 64 college teams are selected for the NCAA Division I Men's
+Basketball tournament, with 16 teams placed in each of four regions. Within each region the teams
+are seeded from 1 to 16, with the (presumed) best team as the 1 seed and the (presumed) weakest
+team as the 16 seed; this practice of seeding teams began in 1979 for the NCAA tournament. Only
+one team from each region (so four teams each year) advances to the Final Four. This dataset if is the same as FinalFourLong, 
+except the data starts in 1985 and 
+we have a extra column that is an indicator for Michigan State teams coached by Tom Izzo.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Final Four teams and their seed can be found at http://www.championshiphistory.com/ncaahoops.php. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(FinalFourIzzo)
-## maybe str(FinalFourIzzo) ; plot(FinalFourIzzo) ...
-}
+
 \keyword{datasets}
