@@ -1,31 +1,23 @@
 \name{InfantMortality}
 \alias{InfantMortality}
 \docType{data}
-\title{
-InfantMortality
-}
+\title{InfantMortality}
 \description{
-InfantMortality
+Infant mortality rates in the United States (1920-2000)
 }
-\usage{data(InfantMortality)}
+%\useage{data(InfantMortality)}
 \format{
-  A data frame with 9 observations on the following 2 variables.
-  \describe{
-    \item{\code{Mortality}}{a numeric vector}
-    \item{\code{Year}}{a numeric vector}
+  A dataset with 9 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Mortality} \tab {Deaths witin one year of birth (per 1000 births}\cr
+    \code{Year} \tab {1920-2000 (by decades)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Infant mortality (deaths within one year of birth per 1,000 births) in the US from 1920 - 2000 (by decade).
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+CDC National Vital Statistics Reports at http://www.cdc.gov/nchs/data/nvsr/nvsr57/nvsr57 14.pdf
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(InfantMortality)
-## maybe str(InfantMortality) ; plot(InfantMortality) ...
-}
+
 \keyword{datasets}

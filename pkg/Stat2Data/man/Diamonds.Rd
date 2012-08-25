@@ -7,7 +7,7 @@ Diamonds
 }
 %\useage{data(Diamonds)}
 \format{
-  A data frame with 351 observations on the following 6 variables.
+  A dataset with 351 observations on the following 6 variables.
   \tabular{rl}{
     \code{Carat} \tab {Size of the diamond (in carats)}\cr
     \code{Color} \tab {Coded as \code{D}(most white/bright) through  \code{J}}\cr

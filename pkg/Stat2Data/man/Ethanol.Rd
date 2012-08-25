@@ -7,7 +7,7 @@ Ethanol
 }
 %\useage{data(Ethanol)}
 \format{
-  A data frame with 16 observations on the following 3 variables.
+  A dataset with 16 observations on the following 3 variables.
   \tabular{rl}{
     \code{Sugar} \tab {Type of sugar:  \code{Galactose} or  \code{Glucose}}\cr
     \code{O2Conc} \tab {Oxygen concentration}\cr

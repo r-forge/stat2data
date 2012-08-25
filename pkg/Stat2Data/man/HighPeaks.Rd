@@ -5,31 +5,30 @@
 HighPeaks
 }
 \description{
-HighPeaks
+Adirondack High Peaks
 }
-\usage{data(HighPeaks)}
+%\useage{data(HighPeaks)}
 \format{
-  A data frame with 46 observations on the following 6 variables.
-  \describe{
-    \item{\code{Peak}}{a factor with levels \code{Algonquin Peak } \code{Allen Mtn. } \code{Armstrong Mtn. } \code{Basin Mtn. } \code{Big Slide Mtn. } \code{Blake } \code{Cascade Mtn. } \code{Cliff Mtn. } \code{Couchsachraga Peak } \code{Dial Mtn. } \code{Dix Mtn. } \code{East Dix } \code{Esther Mtn. } \code{Giant Mtn. } \code{Gothics } \code{Gray Peak } \code{Hough Peak } \code{Iroquois Peak } \code{Lower Wolfjaw } \code{Macomb Mtn. } \code{Mt. Colden } \code{Mt. Colvin } \code{Mt. Donaldson } \code{Mt. Emmons } \code{Mt. Haystack } \code{Mt. Marcy  } \code{Mt. Marshall } \code{Mt. Redfield } \code{Mt. Skylight } \code{Nippletop } \code{Nye Mtn. } \code{Panther Peak } \code{Phelps Mtn. } \code{Porter Mtn. } \code{Rocky Peak Ridge } \code{Saddleback Mtn. } \code{Santanoni Peak } \code{Sawteeth } \code{Seward Mtn. } \code{Seymour Mtn. } \code{South Dix } \code{Street Mtn. } \code{Tabletop Mtn. } \code{Upper Wolfjaw } \code{Whiteface Mtn. } \code{Wright Peak }}
-    \item{\code{Elevation}}{a numeric vector}
-    \item{\code{Difficulty}}{a numeric vector}
-    \item{\code{Ascent}}{a numeric vector}
-    \item{\code{Length}}{a numeric vector}
-    \item{\code{Time}}{a numeric vector}
+  A dataset with 46 observations on the following 6 variables.
+  \tabular{rl}{
+    \code{Peak} \tab {Name of the mountain}\cr
+    \code{Elevation} \tab {Elevation at the highest point (in feet)}\cr
+    \code{Difficulty} \tab {Rating of difficulty of the hike: \code{1} (easy) to \code{7} (most difficult) }\cr
+    \code{Ascent} \tab {Vertical ascent (in feet)}\cr
+    \code{Length} \tab {Length of hike (in miles)}\cr
+    \code{Time} \tab {Expected trip time (in hours)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Forty-six mountains in the Adirondacks of upstate New York are
+known as the High Peaks with elevations near or above 4000 feet (although modern measurements
+show a couple of the peaks are actually slightly under 4000 feet). A goal for hikers in the region is
+to become a "46er" by scaling each of these peaks.  
+This dataset give infomation about the hiking trails up each of these peaks.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+High Peaks data avaialble at http://www.adirondack.net/tour/hike/highpeaks.cfm.  
+Thanks to Jessica Chapman at St. Lawrence University for recommending this dataset. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(HighPeaks)
-## maybe str(HighPeaks) ; plot(HighPeaks) ...
-}
+
 \keyword{datasets}

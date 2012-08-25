@@ -7,7 +7,7 @@ Fingers
 }
 %\useage{data(Fingers)}
 \format{
-  A data frame with 12 observations on the following 3 variables.
+  A dataset with 12 observations on the following 3 variables.
   \tabular{rl}{
     \code{Subject} \tab {\code{I}, \code{II}, \code{III}, or \code{IV}}\cr
     \code{Drug} \tab {\code{Caffeine}, \code{Placebo}, or \code{Theobromine}}\cr

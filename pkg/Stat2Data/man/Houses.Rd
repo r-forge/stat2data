@@ -1,32 +1,26 @@
 \name{Houses}
 \alias{Houses}
 \docType{data}
-\title{
-Houses
-}
+\title{Houses}
 \description{
 Houses
 }
-\usage{data(Houses)}
+%\useage{data(Houses)}
 \format{
-  A data frame with 20 observations on the following 3 variables.
-  \describe{
-    \item{\code{Price}}{a numeric vector}
-    \item{\code{Size}}{a numeric vector}
-    \item{\code{Lot}}{a numeric vector}
+  A dataset with 20 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Price} \tab {Selling price (in dollars)}\cr
+    \code{Size} \tab {Size of the house (in square feet)}\cr
+    \code{Lot} \tab {Area of the house's lot (in square feet)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset contains selling prices for 20 houses that were sold in 2008 in a small midwestern
+town. The file also contains data on the size of each house (in square feet) and the size of the lot
+(in square feet) that the house is on.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data collected by one of the authors about local home sales. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Houses)
-## maybe str(Houses) ; plot(Houses) ...
-}
+
 \keyword{datasets}

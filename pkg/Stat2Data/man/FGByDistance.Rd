@@ -9,7 +9,7 @@ Field goal results in the NFL (by distance)
 }
 %\useage{data(FGByDistance)}
 \format{
-  A data frame with 51 observations on the following 7 variables.
+  A dataset with 51 observations on the following 7 variables.
   \tabular{rl}{
     \code{Row} \tab {Case ID}\cr
     \code{Dist} \tab {Distance of the attempt (in yards)}\cr

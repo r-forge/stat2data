@@ -7,7 +7,7 @@ Sexual activity and lifetimes of fruit flies
 }
 %\useage{data(FruitFlies)}
 \format{
-  A data frame with 125 observations on the following 7 variables.
+  A dataset with 125 observations on the following 7 variables.
   \tabular{rl}{
     \code{ID} \tab {a numeric vector}\cr
     \code{Partners} \tab {Number of female partners: 0, 1, or 8}\cr

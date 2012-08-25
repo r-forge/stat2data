@@ -1,34 +1,31 @@
 \name{Grocery}
 \alias{Grocery}
 \docType{data}
-\title{
-Grocery
-}
+\title{Grocery}
 \description{
-Grocery
+Grocery store sales
 }
-\usage{data(Grocery)}
+%\useage{data(Grocery)}
 \format{
-  A data frame with 36 observations on the following 5 variables.
-  \describe{
-    \item{\code{Discount}}{a factor with levels \code{10.00\%} \code{15.00\%} \code{5.00\%}}
-    \item{\code{Store}}{a numeric vector}
-    \item{\code{Display}}{a factor with levels \code{Featured End of Aisl} \code{Featured Middle of A} \code{Not Featured}}
-    \item{\code{Sales}}{a numeric vector}
-    \item{\code{Price}}{a numeric vector}
+  A dataset with 36 observations on the following 5 variables.
+  \tabular{rl}{
+    \code{Discount} \tab {Amount of discount: \code{5.00\%}, \code{10.00\%} or \code{15.00\%}}\cr
+    \code{Store} \tab {Store number (1-12)}\cr
+    \code{Display} \tab {\code{Featured End of Aisl}, \code{Featured Middle of A}, or \code{Not Featured}}\cr
+    \code{Sales} \tab {Number sold during one week}\cr
+    \code{Price} \tab {Wholesale price (in dollars)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Grocery stores and product manufacturers are always interested in how well the products on the
+store shelves sell. An experiment was designed to test whether the amount of discount given on
+products affected the amount of sales of that product. There were three levels of discount, 5\%,
+10\%, and 15\%, and sales were held for a week. The total number of products sold during the week
+of the sale was recorded. The researchers also recorded the wholesale price of the item put on sale.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+These data are not real, though they are simulated to approximate an actual study. The data come from John
+Grego, Director of the Stat Lab at University of South Carolina.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Grocery)
-## maybe str(Grocery) ; plot(Grocery) ...
-}
+
 \keyword{datasets}

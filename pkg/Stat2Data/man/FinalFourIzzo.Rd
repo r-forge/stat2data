@@ -7,7 +7,7 @@ NCAA Final Four by seed with indicator for Tom Izzo's teams
 }
 %\useage{data(FinalFourIzzo)}
 \format{
-  A data frame with 1664 observations on the following 4 variables.
+  A dataset with 1664 observations on the following 4 variables.
   \tabular{rl}{
     \code{Year} \tab {Year 1985-2010}\cr
     \code{Seed} \tab {Seed in NCAA men's basketball tournament: 1 to 16}\cr

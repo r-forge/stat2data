@@ -7,7 +7,7 @@ NCAA Final Four by seed - long version
 }
 %\useage{data(FinalFourLong)}
 \format{
-  A data frame with 2048 observations on the following 3 variables.
+  A dataset with 2048 observations on the following 3 variables.
   \tabular{rl}{
     \code{Year} \tab {Year 1979-2010}\cr
     \code{Seed} \tab {Seed in NCAA men's basketball tournament: 1 to 16}\cr

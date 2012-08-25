@@ -7,7 +7,7 @@ Predicting first-year college GPA
 }
 %\useage{data(FirstYearGPA)}
 \format{
-  A data frame with 219 observations on the following 10 variables.
+  A dataset with 219 observations on the following 10 variables.
   \tabular{rl}{
     \code{GPA} \tab {First-year college GPA on a 0.0-4.0 scale}\cr
     \code{HSGPA} \tab {High school GPA on a 0.0-4.0 scale}\cr
@@ -27,13 +27,7 @@ first year students at a midwestern college that might be used to build a model 
 year GPA.
 }
 \source{
-A sample of stucents at a midwestern college.
+A sample from a larger set of data collected in 1996 by a professor at this college.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(FirstYearGPA)
-## maybe str(FirstYearGPA) ; plot(FirstYearGPA) ...
-}
+
 \keyword{datasets}

@@ -7,7 +7,7 @@ State-by-state information from the 2008 U.S. presidential election
 }
 %\useage{data(Election08)}
 \format{
-  A data frame with 51 observations on the following 7 variables.
+  A dataset with 51 observations on the following 7 variables.
   \tabular{rl}{
     \code{State} \tab {Name of the state}\cr
     \code{Abr} \tab {Abbreviation for the state}\cr
@@ -22,7 +22,10 @@ State-by-state information from the 2008 U.S. presidential election
 This dataset contains information from all 50 states and the District of Columbia for the 2008 U.S. presidential election. 
 }
 \source{
-Various online sources. 
+State income data from: Census Bureau Table 659. Personal INcome Per Capita (in 2007)\cr
+High school data from: U.S. Census Bureau, 1990 Census of Population, http://nces.ed.gov/programs/digest/d08/tables/dt08_011.asp \cr
+College data from: Census Bureau Table 225. Educational Attainment by State (in 2007)\cr
+\% Democrat and \% Republican: http://www.gallup.com/poll/114016/state-states-political-party-affiliation.aspx#1
 }
 
 \keyword{datasets}

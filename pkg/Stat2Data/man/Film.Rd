@@ -7,7 +7,7 @@ Film data from Maltin's Movie and Video Guide
 }
 %\useage{data(Film)}
 \format{
-  A data frame with 100 observations on the following 9 variables.
+  A dataset with 100 observations on the following 9 variables.
   \tabular{rl}{
     \code{Title} \tab {Movie title}\cr
     \code{Year} \tab {Year the movie was released}\cr

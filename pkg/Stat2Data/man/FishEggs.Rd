@@ -7,7 +7,7 @@ Fish Eggs
 }
 %\useage{data(FishEggs)}
 \format{
-  A data frame with 35 observations on the following 4 variables.
+  A dataset with 35 observations on the following 4 variables.
   \tabular{rl}{
     \code{Age} \tab {Age of the fish (in years)}\cr
     \code{PctDM} \tab {Percentage of the total egg material that is solid}\cr

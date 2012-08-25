@@ -1,19 +1,17 @@
 \name{HawkTail2}
 \alias{HawkTail2}
 \docType{data}
-\title{
-HawkTail2
-}
+\title{HawkTail2}
 \description{
 Tail lengths for three hawk species
 }
-\usage{data(HawkTail2)}
+%\useage{data(HawkTail2)}
 \format{
-  A data frame with observations on the following 3 variables.
-  \describe{
-    \item{\code{Tail_CH}}{Tail length (in mm) for a sample of Cooper's hawks}
-    \item{\code{Tail_RT}}{Tail length (in mm) for a sample of Red-tailed hawks}
-    \item{\code{Tail_SS}}{Tail length (in mm) for a sample of Sharp-shinned hawks}
+  A dataset with observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Tail_CH} \tab {Tail length (in mm) for a sample of Cooper's hawks}\cr
+    \code{Tail_RT} \tab {Tail length (in mm) for a sample of Red-tailed hawks}\cr
+    \code{Tail_SS} \tab {Tail length (in mm) for a sample of Sharp-shinned hawks}\cr
   }
 }
 \details{
@@ -23,10 +21,5 @@ Note: HawkTail has similar data in stacked format for just the Red-tailed and Sh
 \source{
 Observations by students and faculty at Cornell College.
 }
-\references{
-%%
-}
-\examples{
-%% data(HawkTail2)
-}
+
 \keyword{datasets}

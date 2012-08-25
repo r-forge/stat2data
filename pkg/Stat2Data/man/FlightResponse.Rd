@@ -7,7 +7,7 @@ Flight Response of Pacific Brant
 }
 %\useage{data(FlightResponse)}
 \format{
-  A data frame with 464 observations on the following 7 variables.
+  A dataset with 464 observations on the following 7 variables.
   \tabular{rl}{
     \code{FlockID} \tab {Flock ID}\cr
     \code{Altitude} \tab {Altitude of the overflight by the helicopter (in 100m)}\cr
