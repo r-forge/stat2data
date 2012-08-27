@@ -1,40 +1,33 @@
 \name{MedGPA}
 \alias{MedGPA}
 \docType{data}
-\title{
-MedGPA
-}
+\title{MedGPA}
 \description{
-MedGPA
+Medical school admission status and information on GPA and standardized test scores
 }
-\usage{data(MedGPA)}
+%\useage{data(MedGPA)}
 \format{
-  A data frame with 55 observations on the following 11 variables.
-  \describe{
-    \item{\code{Accept}}{a factor with levels \code{A} \code{D}}
-    \item{\code{Acceptance}}{a numeric vector}
-    \item{\code{Sex}}{a factor with levels \code{F} \code{M}}
-    \item{\code{BCPM}}{a numeric vector}
-    \item{\code{GPA}}{a numeric vector}
-    \item{\code{VR}}{a numeric vector}
-    \item{\code{PS}}{a numeric vector}
-    \item{\code{WS}}{a numeric vector}
-    \item{\code{BS}}{a numeric vector}
-    \item{\code{MCAT}}{a numeric vector}
-    \item{\code{Apps}}{a numeric vector}
+  A dataset with 55 observations on the following 11 variables.
+  \tabular{rl}{
+    \code{Accept} \tab {Status: \code{A}=accepted to medical school or  \code{D}=denied admission}\cr
+    \code{Acceptance} \tab {Indicator for Accept:  \code{1}=accepted or \code{0}=denied}\cr
+    \code{Sex} \tab {\code{F}=female or  \code{M}=male}\cr
+    \code{BCPM} \tab {Bio/Chem/Physics/Math grade point average}\cr
+    \code{GPA} \tab {College grade point average}\cr
+    \code{VR} \tab {Verbal reasoning (subscore)}\cr
+    \code{PS} \tab {Physical sciences (subscore)}\cr
+    \code{WS} \tab {Writing sample (subcore)}\cr
+    \code{BS} \tab {Biological sciences (subscore)}\cr
+    \code{MCAT} \tab {Score on the MCAT exam (sum of CR+PS+WS+BS)}\cr
+    \code{Apps} \tab {Number of medical schools applied to}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset has information gathered on 55 medical school applicants
+from a liberal arts college in the Midwest. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data collected at a midwestern liberal arts college.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(MedGPA)
-## maybe str(MedGPA) ; plot(MedGPA) ...
-}
+
 \keyword{datasets}

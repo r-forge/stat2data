@@ -7,7 +7,7 @@ Draft selection times for a fantasy baseball league
 }
 %\useage{data(FantasyBaseball)}
 \format{
-  A data frame with 24 observations on the following 9 variables.
+  A dataset with 24 observations on the following 9 variables.
   \tabular{rl}{
     \code{Round} \tab {Round of the draft (1 to 24)}\cr
     \code{DJ} \tab {Draft time (in seconds) for D.J.}\cr

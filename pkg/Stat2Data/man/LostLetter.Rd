@@ -1,37 +1,33 @@
 \name{LostLetter}
 \alias{LostLetter}
 \docType{data}
-\title{
-LostLetter
-}
+\title{LostLetter}
 \description{
-LostLetter
+Which "lost" letters will be returned by the public? 
 }
-\usage{data(LostLetter)}
+%\useage{data(LostLetter)}
 \format{
-  A data frame with 140 observations on the following 8 variables.
-  \describe{
-    \item{\code{Location}}{a factor with levels \code{DesMoines} \code{GrinnellCampus} \code{GrinnellTown}}
-    \item{\code{Address}}{a factor with levels \code{Confederacy} \code{Peaceworks}}
-    \item{\code{Returned}}{a numeric vector}
-    \item{\code{DesMoines}}{a numeric vector}
-    \item{\code{GrinnellTown}}{a numeric vector}
-    \item{\code{GrinellCampus}}{a numeric vector}
-    \item{\code{Peaceworks}}{a numeric vector}
-    \item{\code{Confederacy}}{a numeric vector}
+  A dataset with 140 observations on the following 8 variables.
+  \tabular{rl}{
+    \code{Location} \tab {Where letter was "lost": \code{DesMoines}, \code{GrinnellCampus}, or \code{GrinnellTown}}\cr
+    \code{Address} \tab {Address on teh letter: \code{Confederacy} or \code{Peaceworks}}\cr
+    \code{Returned} \tab {\code{1}=letter was returned or \code{0}=letter was not returned}\cr
+    \code{DesMoines} \tab {Indicator for letters left in Des Moines}\cr
+    \code{GrinnellTown} \tab {Indicator for letters left in the town of Grinnell}\cr
+    \code{GrinellCampus} \tab {Indicator for letters left on the Grinnell campus}\cr
+    \code{Peaceworks} \tab {Indicator for letters addressed to Iowa Peaceworks}\cr
+    \code{Confederacy} \tab {Indicator for letters addressed to Friends of the Confederacy}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+In 1999 Grinnell College students Laurelin Muir and Adam Gratch conducted an experiment for an introductory statistics class. 
+They intentionally "lost" 140 letters in either the
+city of Des Moines, the town of Grinnell, or on the Grinnell College campus. Half of each sample
+were addressed to Friends of the Confederacy and the other half to Iowa Peaceworks. 
+The students kept track of which letters were eventually returned. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Student project at Grinnell College
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(LostLetter)
-## maybe str(LostLetter) ; plot(LostLetter) ...
-}
+
 \keyword{datasets}

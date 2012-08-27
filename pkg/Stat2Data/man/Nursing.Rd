@@ -1,23 +1,21 @@
 \name{Nursing}
 \alias{Nursing}
 \docType{data}
-\title{
-Nursing
-}
+\title{Nursing}
 \description{
 Characteristics of nursing homes in New Mexico.
 }
-\usage{data(Nursing)}
+%\useage{data(Nursing)}
 \format{
-  A data frame with 52 observations on the following 7 variables.
-  \describe{
-    \item{\code{Beds}}{Number of beds in the nursing home}
-    \item{\code{InPatientDays}}{Annual medical in-patient days (in hundreds)}
-    \item{\code{AllPatientDays}}{Annual total patient days (in hundreds)}
-    \item{\code{PatientRevenue}}{Annual patinet care revenue (in hundreds of dollars)}
-    \item{\code{NurseSalaries}}{Annual nursing salaries (in hundreds of dollars)}
-    \item{\code{FacilitiesExpend}}{Annual facilities expenditure (in hundreds of dollars)}
-    \item{\code{Rural}}{1=\code{rural} or 0=\code{non-rural}}
+  A dataset with 52 observations on the following 7 variables.
+  \tabular{rl}{
+    \code{Beds} \tab {Number of beds in the nursing home}\cr
+    \code{InPatientDays} \tab {Annual medical in-patient days (in hundreds)}\cr
+    \code{AllPatientDays} \tab {Annual total patient days (in hundreds)}\cr
+    \code{PatientRevenue} \tab {Annual patinet care revenue (in hundreds of dollars)}\cr
+    \code{NurseSalaries} \tab {Annual nursing salaries (in hundreds of dollars)}\cr
+    \code{FacilitiesExpend} \tab {Annual facilities expenditure (in hundreds of dollars)}\cr
+    \code{Rural} \tab {1=\code{rural} or 0=\code{non-rural}}\cr
   }
 }
 \details{
@@ -31,10 +29,8 @@ Downloaded from DASL at http://lib.stat.cmu.edu/DASL/Datafiles/Nursingdat.html
 \references{
 Howard L. Smith, Niell F. Piland, and Nancy Fisher, 
 "A Comparison of Financial Performance, Organizational Characteristics, 
-and Management Strategy Among Rural and Urban Nursing Facilities, 
+and Management Strategy Among Rural and Urban Nursing Facilities," 
 Journal of Rural Health, Winter 1992, pp 27-40.
 }
-\examples{
-data(Nursing)
-}
+
 \keyword{datasets}

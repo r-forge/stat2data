@@ -7,7 +7,7 @@ Data from a first day class survey
 }
 %\useage{data(Day1Survey)}
 \format{
-  A data frame with 43 observations on the following 13 variables.
+  A dataset with 43 observations on the following 13 variables.
   \tabular{rl}{
     \code{Section} \tab {Section: \code{1} or \code{2}}\cr
     \code{Class} \tab {Year in school: \code{Freshman},  \code{Sophomore}, \code{Junior}, or \code{Senior}}\cr

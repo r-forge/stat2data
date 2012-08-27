@@ -1,50 +1,46 @@
 \name{MLB2007Standings}
 \alias{MLB2007Standings}
 \docType{data}
-\title{
-MLB2007Standings
-}
+\title{MLB2007Standings}
 \description{
-MLB2007Standings
+Data for Major League Baseball teams from the 2007 regular season
 }
-\usage{data(MLB2007Standings)}
+%\useage{data(MLB2007Standings)}
 \format{
-  A data frame with 30 observations on the following 21 variables.
-  \describe{
-    \item{\code{Team}}{a factor with levels \code{Arizona Diamondbacks} \code{Atlanta Braves} \code{Baltimore Orioles} \code{Boston Red Sox} \code{Chicago Cubs} \code{Chicago White Sox} \code{Cincinnati Reds} \code{Cleveland Indians} \code{Colorado Rockies} \code{Detroit Tigers} \code{Florida Marlins} \code{Houston Astros} \code{Kansas City Royals} \code{Los Angeles Angels} \code{Los Angeles Dodgers} \code{Milwaukee Brewers} \code{Minnesota Twins} \code{New York Mets} \code{New York Yankees} \code{Oakland Athletics} \code{Philadelphia Phillies} \code{Pittsburgh Pirates} \code{San Diego Padres} \code{San Francisco Giants} \code{Seattle Mariners} \code{St. Louis Cardinals} \code{Tampa Bay Devil Rays} \code{Texas Rangers} \code{Toronto Blue Jays} \code{Washington Nationals}}
-    \item{\code{League}}{a factor with levels \code{AL} \code{NL}}
-    \item{\code{Wins}}{a numeric vector}
-    \item{\code{Losses}}{a numeric vector}
-    \item{\code{WinPct}}{a numeric vector}
-    \item{\code{BattingAvg}}{a numeric vector}
-    \item{\code{Runs}}{a numeric vector}
-    \item{\code{Hits}}{a numeric vector}
-    \item{\code{HR}}{a numeric vector}
-    \item{\code{Doubles}}{a numeric vector}
-    \item{\code{Triples}}{a numeric vector}
-    \item{\code{RBI}}{a numeric vector}
-    \item{\code{SB}}{a numeric vector}
-    \item{\code{OBP}}{a numeric vector}
-    \item{\code{SLG}}{a numeric vector}
-    \item{\code{ERA}}{a numeric vector}
-    \item{\code{HitsAllowed}}{a numeric vector}
-    \item{\code{Walks}}{a numeric vector}
-    \item{\code{StrikeOuts}}{a numeric vector}
-    \item{\code{Saves}}{a numeric vector}
-    \item{\code{WHIP}}{a numeric vector}
+  A dataset with 30 observations on the following 21 variables.
+  \tabular{rl}{
+    \code{Team} \tab {Name of the team}\cr
+    \code{League} \tab {League: \code{AL} or \code{NL}}\cr
+    \code{Wins} \tab {Number of wins for the season (out of 162 games)}\cr
+    \code{Losses} \tab {Number of losses for the season}\cr
+    \code{WinPct} \tab {Proportion of games won (Wins/162)}\cr
+    \code{BattingAvg} \tab {Team batting average}\cr
+    \code{Runs} \tab {Number of runs runs scored}\cr
+    \code{Hits} \tab {Number of hits}\cr
+    \code{HR} \tab {Number of home runs hit}\cr
+    \code{Doubles} \tab {Number of doubles hit}\cr
+    \code{Triples} \tab {Number of triple hit}\cr
+    \code{RBI} \tab {Number of runs batted in}\cr
+    \code{SB} \tab {Number of stoen bases}\cr
+    \code{OBP} \tab {On base percentage}\cr
+    \code{SLG} \tab {Slugging percentage}\cr
+    \code{ERA} \tab {Earned run average (earned runs allowed per 9 innings)}\cr
+    \code{HitsAllowed} \tab {Number of hits against the team}\cr
+    \code{Walks} \tab {Number of walks allowed}\cr
+    \code{StrikeOuts} \tab {Number of strikeouts (by the team's pitchers)}\cr
+    \code{Saves} \tab {Number of games saved (by the team's pitchers}\cr
+    \code{WHIP} \tab {Number of walks and hits per inning pitched}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data for all 30 Major League Baseball (MLB) teams for the 2007 regular season. 
+This includes team batting statistics (BattingAvg through SLG) and team pitching statistics
+(ERA through WHIP) 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data downloaded from baseball-reference.com:\cr
+http://www.baseball-reference.com/leagues/MLB/2007-standings.shtml\cr
+http://www.baseball-reference.com/leagues/MLB/2007.shtml
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(MLB2007Standings)
-## maybe str(MLB2007Standings) ; plot(MLB2007Standings) ...
-}
+
 \keyword{datasets}

@@ -1,39 +1,31 @@
 \name{NFL2007Standings}
 \alias{NFL2007Standings}
 \docType{data}
-\title{
-NFL2007Standings
-}
+\title{NFL2007Standings}
 \description{
-NFL2007Standings
+Standings for National Football League teams in 2007
 }
-\usage{data(NFL2007Standings)}
+%\useage{data(NFL2007Standings)}
 \format{
-  A data frame with 32 observations on the following 10 variables.
-  \describe{
-    \item{\code{Team}}{a factor with levels \code{Arizona Cardinals} \code{Atlanta Falcons} \code{Baltimore Ravens} \code{Buffalo Bills} \code{Carolina Panthers} \code{Chicago Bears} \code{Cincinnati Bengals} \code{Cleveland Browns} \code{Dallas Cowboys} \code{Denver Broncos} \code{Detroit Lions} \code{Green Bay Packers} \code{Houston Texans} \code{Indianapolis Colts} \code{Jacksonville Jaguars} \code{Kansas City Chiefs} \code{Miami Dolphins} \code{Minnesota Vikings} \code{New England Patriots} \code{New Orleans Saints} \code{New York Giants} \code{New York Jets} \code{Oakland Raiders} \code{Philadelphia Eagles} \code{Pittsburgh Steelers} \code{San Diego Chargers} \code{San Francisco 49ers} \code{Seattle Seahawks} \code{St. Louis Rams} \code{Tampa Bay Buccaneers} \code{Tennessee Titans} \code{Washington Redskins}}
-    \item{\code{Conference}}{a factor with levels \code{AFC} \code{NFC}}
-    \item{\code{Division}}{a factor with levels \code{ACE} \code{ACN} \code{ACS} \code{ACW} \code{NCE} \code{NCN} \code{NCS} \code{NCW}}
-    \item{\code{Wins}}{a numeric vector}
-    \item{\code{Losses}}{a numeric vector}
-    \item{\code{WinPct}}{a numeric vector}
-    \item{\code{PointsFor}}{a numeric vector}
-    \item{\code{PointsAgainst}}{a numeric vector}
-    \item{\code{NetPts}}{a numeric vector}
-    \item{\code{TDs}}{a numeric vector}
+  A dataset with 32 observations on the following 10 variables.
+  \tabular{rl}{
+    \code{Team} \tab {Team name}\cr
+    \code{Conference} \tab {Conference: \code{AFC} or \code{NFC}}\cr
+    \code{Division} \tab {Division within conference: \code{ACE}, \code{ACN}, \code{ACS}, \code{ACW}, \code{NCE}, \code{NCN}, \code{NCS}, \code{NCW}}\cr
+    \code{Wins} \tab {Number of wins (out of 16 games)}\cr
+    \code{Losses} \tab {Number of losses}\cr
+    \code{WinPct} \tab {Proportion of games won (Wins/16)}\cr
+    \code{PointsFor} \tab {Total points scored by the team}\cr
+    \code{PointsAgainst} \tab {Total points scored against the team}\cr
+    \code{NetPts} \tab {PointsFor minus PointsAgainst}\cr
+    \code{TDs} \tab {Number of touchdowns scored by the team}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Data for all 32 National Football League (NFL) teams for the 2007 regular season. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+1Data downloaded from www.nfl.com
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(NFL2007Standings)
-## maybe str(NFL2007Standings) ; plot(NFL2007Standings) ...
-}
+
 \keyword{datasets}
