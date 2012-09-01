@@ -27,7 +27,9 @@ while almost all Republicans voted no. This dataset contains data for each of th
 representatives.
 }
 \source{
-Congressional records and government web sources. 
+Insurance data are from the American Community Survey (http://www.census.gov/acs/www/data_documentation/data_main/). 
+Roll call of congressional votes on this bill can be found 
+at http://clerk.house.gov/evs/2009/roll887.xml.
 }
 
 \keyword{datasets}

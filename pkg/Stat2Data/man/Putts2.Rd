@@ -1,33 +1,30 @@
 \name{Putts2}
 \alias{Putts2}
 \docType{data}
-\title{
-Putts2
-}
+\title{Putts2}
 \description{
-Putts2
+Putting results for a golfing statistician (by length of the putts)
 }
-\usage{data(Putts2)}
+%\useage{data(Putts2)}
 \format{
-  A data frame with 5 observations on the following 4 variables.
-  \describe{
-    \item{\code{Length}}{a numeric vector}
-    \item{\code{Made}}{a numeric vector}
-    \item{\code{Missed}}{a numeric vector}
-    \item{\code{Trials}}{a numeric vector}
+  A dataset with 5 observations on the following 4 variables.
+  \tabular{rl}{
+    \code{Length} \tab {Length of the attempted putt (in feet)}\cr
+    \code{Made} \tab {Number of putts made at this length}\cr
+    \code{Missed} \tab {Number of putts missed at this length}\cr
+    \code{Trials} \tab {Total number of putts attempted at this length}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A statistician golfer kept careful records of every putt he attempted when playing golf, 
+recording the length of the putt and whether or not he was successful in making the putt.  
+For each different length, this dataset records the number putts made, missed, and the total number
+of attempts from that length. A similar dataset, Putts1, has one case for each of the 587 attempted putts,
+showing the length and outcome. 
 }
+ 
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Personal observations by one of the Stat2 authors
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Putts2)
-## maybe str(Putts2) ; plot(Putts2) ...
-}
+
 \keyword{datasets}

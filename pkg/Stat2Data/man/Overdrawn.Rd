@@ -1,33 +1,31 @@
 \name{Overdrawn}
 \alias{Overdrawn}
 \docType{data}
-\title{
-Overdrawn
-}
+\title{Overdrawn}
 \description{
 Overdrawn
 }
-\usage{data(Overdrawn)}
+%\useage{data(Overdrawn)}
 \format{
-  A data frame with 450 observations on the following 4 variables.
-  \describe{
-    \item{\code{Age}}{a numeric vector}
-    \item{\code{Sex}}{a numeric vector}
-    \item{\code{DaysDrink}}{a numeric vector}
-    \item{\code{Overdrawn}}{a numeric vector}
+  A dataset with 450 observations on the following 4 variables.
+  \tabular{rl}{
+    \code{Age} \tab {Age of the student (in years)}\cr
+    \code{Sex} \tab {\code{0}=male or \code{1}=female}\cr
+    \code{DaysDrink} \tab {Number of days drinking alcohol (in past 30 days)}\cr
+    \code{Overdrawn} \tab {Has student overdrawn a checking account? \code{0}=no or \code{1}=yes}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Researchers conducted a survey of 450 undergraduates in large
+introductory courses at either Mississippi State University or the University of Mississippi. There
+were close to 150 questions on the survey, but only four of these variables are included in this
+dataset. (You can consult the paper to learn how the variables beyond these 4 affect
+the analysis.)  The primary interest for the researchers was factors relating to whether or not a student
+has ever overdrawn a checking account. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Worthy S.L., Jonkman J.N., Blinn-Pike L. (2010), "Sensation-Seeking, Risk-Taking, and Problematic Financial Behaviors of College Students,"
+Journal of Family and Economic Issues, 31: 161-170
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Overdrawn)
-## maybe str(Overdrawn) ; plot(Overdrawn) ...
-}
+
 \keyword{datasets}

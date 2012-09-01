@@ -1,36 +1,31 @@
 \name{Pulse}
 \alias{Pulse}
 \docType{data}
-\title{
-Pulse
-}
+\title{Pulse}
 \description{
-Pulse
+Pulse rates before and after exercise for a sample of statistics students
 }
-\usage{data(Pulse)}
+%\useage{data(Pulse)}
 \format{
-  A data frame with 232 observations on the following 7 variables.
-  \describe{
-    \item{\code{Active}}{a numeric vector}
-    \item{\code{Rest}}{a numeric vector}
-    \item{\code{Smoke}}{a numeric vector}
-    \item{\code{Gender}}{a numeric vector}
-    \item{\code{Exercise}}{a numeric vector}
-    \item{\code{Hgt}}{a numeric vector}
-    \item{\code{Wgt}}{a numeric vector}
+  A dataset with 232 observations on the following 7 variables.
+  \tabular{rl}{
+    \code{Active} \tab {Pulse rate (beats per minute) after exercise}\cr
+    \code{Rest} \tab {Resting pulse rate (beats per minute)}\cr
+    \code{Smoke} \tab {\code{1}=smoker or \code{0}=nonsmoker}\cr
+    \code{Gender} \tab {\code{1}=female or \code{0}=male}\cr
+    \code{Exercise} \tab {Typical hours of exercise (per week)}\cr
+    \code{Hgt} \tab {Height (in inches)}\cr
+    \code{Wgt} \tab {Weight (in pounds)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Students in a Stat2 class recorded resting pulse rates (in class), 
+did three "laps" walking up/down a nearby set of stairs, and then 
+measured their pulse rate after the exercise.  They provided additional information about
+height, weight, exercise, and smoking habits via a survey. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data compiled over several semesters from students taking a Stat2 course. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Pulse)
-## maybe str(Pulse) ; plot(Pulse) ...
-}
+
 \keyword{datasets}

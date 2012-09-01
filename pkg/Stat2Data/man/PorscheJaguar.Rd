@@ -1,34 +1,27 @@
 \name{PorscheJaguar}
 \alias{PorscheJaguar}
 \docType{data}
-\title{
-PorscheJaguar
-}
+\title{PorscheJaguar}
 \description{
-PorscheJaguar
+Compare prices for Porsche and Jaguar cars offered for sale at an internet site
 }
-\usage{data(PorscheJaguar)}
+%\useage{data(PorscheJaguar)}
 \format{
-  A data frame with 60 observations on the following 5 variables.
-  \describe{
-    \item{\code{Car}}{a factor with levels \code{Jaguar} \code{Porsche}}
-    \item{\code{Price}}{a numeric vector}
-    \item{\code{Age}}{a numeric vector}
-    \item{\code{Mileage}}{a numeric vector}
-    \item{\code{Porsche}}{a numeric vector}
+  A dataset with 60 observations on the following 5 variables.
+  \tabular{rl}{
+    \code{Car} \tab {Car model: \code{Jaguar} or  \code{Porsche}}\cr
+    \code{Price} \tab {Price (in $1,000's)}\cr
+    \code{Age} \tab {Age of the car (in years)}\cr
+    \code{Mileage} \tab {Previous miles driven (in 1,000's)}\cr
+    \code{Porsche} \tab {Indicator for Porsche (\code{1}) or Jaguar (\code{0})}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Two students collected samples of Porsche and Jaguar cars that were offered for sale at an internet site.  
+In addition to asking price, they recorded the model year (converting to age) and mileage of each advertised car.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Student project data collected from autotrader.com in Spring 2007.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(PorscheJaguar)
-## maybe str(PorscheJaguar) ; plot(PorscheJaguar) ...
-}
+
 \keyword{datasets}

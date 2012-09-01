@@ -21,8 +21,14 @@ to hear. The goal of the study described here was to see how four such lists, de
 in this dataset, compared when played at low volume with a noisy background. The response is the
 percentage of words identified correctly.
 }
-\source{
-A study by audiologists
-}
+
+\source{ 
+Data downloaded from DASL at http://lib.stat.cmu.edu/DASL/Datafiles/Hearing.html. 
+} 
+
+\references{ 
+Loven, F. (1981), "A Study of the Interlist Equivalency of the 
+CID W-22 Word List Presented in Quiet and in Noise." Unpublished MS Thesis, 
+University of Iowa. } 
 
 \keyword{datasets}

@@ -1,32 +1,26 @@
 \name{PorschePrice}
 \alias{PorschePrice}
 \docType{data}
-\title{
-PorschePrice
-}
+\title{PorschePrice}
 \description{
-PorschePrice
+Prices for Porsche cars offered for sale at an internet site. 
 }
-\usage{data(PorschePrice)}
+%\useage{data(PorschePrice)}
 \format{
-  A data frame with 30 observations on the following 3 variables.
-  \describe{
-    \item{\code{Price}}{a numeric vector}
-    \item{\code{Age}}{a numeric vector}
-    \item{\code{Mileage}}{a numeric vector}
+  A dataset with 30 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Price} \tab {Asking price for the car (in $1,000's)}\cr
+    \code{Age} \tab {Age of the car (in years)}\cr
+    \code{Mileage} \tab {Previous miles driven (in 1,000's)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A student was interested in pries for used Porsche sports cars being sold on the internet. 
+He selected a random sample of 30 Porsches from the ones being advertised at autotrader.com. 
+For each car he recorded the asking price, mileage, and model year (which he converted to age). 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data collected for a student project from autotrader.com in February 2007. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(PorschePrice)
-## maybe str(PorschePrice) ; plot(PorschePrice) ...
-}
+
 \keyword{datasets}

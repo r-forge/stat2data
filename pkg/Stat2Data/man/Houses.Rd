@@ -20,7 +20,7 @@ town. The file also contains data on the size of each house (in square feet) and
 (in square feet) that the house is on.
 }
 \source{
-Data collected by one of the authors about local home sales. 
+Data collected from zillow.com in June 2008. 
 }
 
 \keyword{datasets}

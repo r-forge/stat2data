@@ -1,33 +1,25 @@
 \name{Perch}
 \alias{Perch}
 \docType{data}
-\title{
-Perch
-}
+\title{Perch}
 \description{
-Perch
+Size of perch caught in a Finnish lake
 }
-\usage{data(Perch)}
+%\useage{data(Perch)}
 \format{
-  A data frame with 56 observations on the following 4 variables.
-  \describe{
-    \item{\code{Obs}}{a numeric vector}
-    \item{\code{Weight}}{a numeric vector}
-    \item{\code{Length}}{a numeric vector}
-    \item{\code{Width}}{a numeric vector}
+  A dataset with 56 observations on the following 4 variables.
+  \tabular{rl}{
+    \code{Obs} \tab {Observation number}\cr
+    \code{Weight} \tab {Weight (in grams)}\cr
+    \code{Length} \tab {Length (in centimeters)}\cr
+    \code{Width} \tab {Width (in centimeters}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset comes from a sample of fish (perch) caught at Lake Laengelmavesi in Finland. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+JSE Data Archive, http://www.amstat.org/publications/jse/jse_data_archive.htm, submitted by Juha Puranen.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Perch)
-## maybe str(Perch) ; plot(Perch) ...
-}
+
 \keyword{datasets}
