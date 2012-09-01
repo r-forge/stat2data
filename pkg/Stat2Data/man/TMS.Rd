@@ -23,11 +23,5 @@ TMS
 \source{
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(TMS)
-## maybe str(TMS) ; plot(TMS) ...
-}
+
 \keyword{datasets}
