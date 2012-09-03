@@ -10,8 +10,8 @@ Metamorphose rates for sea slugs exposed to different water samples
 \format{
   A dataset with 36 observations on the following 2 variables.
   \tabular{rl}{
-    \code{Time} \tab {Minutes after tide come in}\cr\cr
-    \code{Percent} \tab {Proportion of 15 sea slug larvae that metamorphose}
+    \code{Time} \tab {Minutes after tide come in}\cr
+    \code{Percent} \tab {Proportion of 15 sea slug larvae that metamorphose}\cr
   }
 }
 \details{

@@ -30,7 +30,8 @@ factors.
 } 
 \source{ 
 Margaret Mackisack, ``Favourite Experiments: An Addendum to What is the Use of Experiments Conducted by Statistics Students?", 
-Journal of Statistics Education (1994) http://www.amstat.org/publications/jse/v2n1/mackisack.supp.html
+Journal of Statistics Education (1994)\cr
+ http://www.amstat.org/publications/jse/v2n1/mackisack.supp.html
 }
 
  \keyword{datasets} 

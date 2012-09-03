@@ -10,7 +10,7 @@ Land area and number of mammal species for island in Southeast Asia
   A dataset with 14 observations on the following 5 variables.
   \tabular{rl}{
     \code{Name} \tab {Name of the island}\cr
-    \code{Area} \tab {Area (in sq. km}\cr
+    \code{Area} \tab {Area (in sq. km)}\cr
     \code{Species} \tab {Number of mammal species}\cr
     \code{logArea} \tab {Natural logarithm (base e) of Area}\cr
     \code{logSpecies} \tab {Natural logarithm (base e) of Species}\cr

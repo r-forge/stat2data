@@ -9,12 +9,12 @@ List and outcomes for passengers on the Titanic
 \format{
   A dataset with 1313 observations on the following 6 variables.
   \tabular{rl}{
-    high-leverage\code{Name} \tab {Passenger name}\cr
-    high-leverage\code{PClass} \tab {Passenger class: \code{*}=missing, \code{1st}, \code{2nd}, or \code{3rd}}\cr
-    high-leverage\code{Age} \tab {Age (in years)}\cr
-    high-leverage\code{Sex} \tab {\code{female} or \code{male}}\cr
-    high-leverage\code{Survived} \tab {\code{1}=survived or \code{0}=died}\cr
-    high-leverage\code{SexCode} \tab {\code{1}=female or \code{0}=male}\cr
+    \code{Name} \tab {Passenger name}\cr
+    \code{PClass} \tab {Passenger class: \code{*}=missing, \code{1st}, \code{2nd}, or \code{3rd}}\cr
+    \code{Age} \tab {Age (in years)}\cr
+    \code{Sex} \tab {\code{female} or \code{male}}\cr
+    \code{Survived} \tab {\code{1}=survived or \code{0}=died}\cr
+    \code{SexCode} \tab {\code{1}=female or \code{0}=male}\cr
   }
 }
 \details{
@@ -26,7 +26,7 @@ compiled by Philip Hinde in his Encyclopedia Titanica and is given in this datas
 }
 \source{
 Philip Hinde's Encyclopedia Titanica, http://www.encyclopedia-titanica.org/.  
-Data may also be downloaded from the Australasian Data and Story Library (OzDASL) at
+Data may also be downloaded from the Australasian Data and Story Library (OzDASL) at \cr
 http://www.statsci.org/data/general/titanic.html.
 }
 
