@@ -1,31 +1,26 @@
 \name{TextPrices}
 \alias{TextPrices}
 \docType{data}
-\title{
-TextPrices
-}
+\title{Text Prices}
 \description{
-TextPrices
+Prices and number of pages for a sample of college textbooks
 }
-\usage{data(TextPrices)}
+%\useage{data(TextPrices)}
 \format{
-  A data frame with 30 observations on the following 2 variables.
-  \describe{
-    \item{\code{Pages}}{a numeric vector}
-    \item{\code{Price}}{a numeric vector}
+  A dataset with 30 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Pages} \tab {Number of pages in the textbook}\cr
+    \code{Price} \tab {Price of the textbook (in dollars)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Two undergraduate students at Cal Poly - San Luis Obispo took a random sample of 30
+textbooks from the campus bookstore in the fall of 2006. They recorded the price and number of
+pages in each book, in order to investigate the question of whether number of pages can be used
+to predict price.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Student project
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(TextPrices)
-## maybe str(TextPrices) ; plot(TextPrices) ...
-}
+
 \keyword{datasets}

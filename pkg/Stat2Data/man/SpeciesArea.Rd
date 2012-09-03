@@ -1,34 +1,30 @@
 \name{SpeciesArea}
 \alias{SpeciesArea}
 \docType{data}
-\title{
-SpeciesArea
-}
+\title{Species Area}
 \description{
-SpeciesArea
+Land area and number of mammal species for island in Southeast Asia
 }
-\usage{data(SpeciesArea)}
+%\useage{data(SpeciesArea)}
 \format{
-  A data frame with 14 observations on the following 5 variables.
-  \describe{
-    \item{\code{Name}}{a factor with levels \code{Banggi} \code{Bangka} \code{Borneo} \code{Bunguran} \code{Java} \code{Jemaja} \code{Karimata Besar} \code{Penebangan} \code{Perhentian Besar} \code{Redang} \code{Siantan} \code{Sirhassan} \code{Sumatra} \code{Tioman}}
-    \item{\code{Area}}{a numeric vector}
-    \item{\code{Species}}{a numeric vector}
-    \item{\code{logArea}}{a numeric vector}
-    \item{\code{logSpecies}}{a numeric vector}
+  A dataset with 14 observations on the following 5 variables.
+  \tabular{rl}{
+    \code{Name} \tab {Name of the island}\cr
+    \code{Area} \tab {Area (in sq. km}\cr
+    \code{Species} \tab {Number of mammal species}\cr
+    \code{logArea} \tab {Natural logarithm (base e) of Area}\cr
+    \code{logSpecies} \tab {Natural logarithm (base e) of Species}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset shows the number of mammal species and the
+area for 13 islands in Southeast Asia. Biologists have speculated that the number of species is
+related to the size of an island and would like to be able to predict the number of species given the
+size of an island.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Heaney, Lawrence R. (1984) Mammalian species richness on islands on the Sunda Shelf, Southeast Asia,
+Oecologia.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(SpeciesArea)
-## maybe str(SpeciesArea) ; plot(SpeciesArea) ...
-}
+
 \keyword{datasets}

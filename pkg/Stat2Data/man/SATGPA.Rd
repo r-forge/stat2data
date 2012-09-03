@@ -1,32 +1,28 @@
 \name{SATGPA}
 \alias{SATGPA}
 \docType{data}
-\title{
-SATGPA
-}
+\title{SAT scores and GPA}
 \description{
-SATGPA
+A sample of SAT scores and grade point averages for statistics students
 }
-\usage{data(SATGPA)}
+%\useage{data(SATGPA)}
 \format{
-  A data frame with 24 observations on the following 3 variables.
-  \describe{
-    \item{\code{MathSAT}}{a numeric vector}
-    \item{\code{VerbalSAT}}{a numeric vector}
-    \item{\code{GPA}}{a numeric vector}
+  A dataset with 24 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{MathSAT} \tab {Score (out of 800) on the mathematics portion of the SAT exam}\cr
+    \code{VerbalSAT} \tab {Score (out of 800) on the verbal portion of the SAT exam}\cr
+    \code{GPA} \tab {Grade point average (0.0-4.0 scale)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+In recent years many colleges have re-examined the traditional role the scores on the Scholastic
+Aptitude Tests (SAT's) play in making decisions on which students to admit. Do SAT scores really
+help predict success in college? To investigate this question a group of 24 introductory statistics
+students supplied the data in this dataset showing their score on the Verbal portion of the SAT
+as well as their current grade point average (GPA) on a 0.0-4.0 scale.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Student survey in an introductory statistics course.
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(SATGPA)
-## maybe str(SATGPA) ; plot(SATGPA) ...
-}
+
 \keyword{datasets}

@@ -1,34 +1,36 @@
 \name{SandwichAnts}
 \alias{SandwichAnts}
 \docType{data}
-\title{
-SandwichAnts
-}
+\title{Sandwich Ants}
 \description{
-SandwichAnts
+Ant counts on samples of different sandwiches
 }
-\usage{data(SandwichAnts)}
+%\useage{data(SandwichAnts)}
 \format{
-  A data frame with 48 observations on the following 5 variables.
-  \describe{
-    \item{\code{Trial}}{a numeric vector}
-    \item{\code{Bread}}{a factor with levels \code{MultiGrain} \code{Rye} \code{White} \code{WholeWheat}}
-    \item{\code{Filling}}{a factor with levels \code{HamPickles} \code{PeanutButter} \code{Vegemite}}
-    \item{\code{Butter}}{a factor with levels \code{no} \code{yes}}
-    \item{\code{Ants}}{a numeric vector}
+  A dataset with 48 observations on the following 5 variables.
+  \tabular{rl}{
+    \code{Trial} \tab {Trial number}\cr
+    \code{Bread} \tab {Type of bread:  \code{Multigrain}, \code{Rye}, \code{White}, or \code{Wholemeal}}\cr
+    \code{Filling} \tab {Type of filling: \code{HamPickles}, \code{PeanutButter}, or \code{Vegemite}}\cr
+    \code{Butter} \tab {Butter on the sandwich? \code{no}  or \code{yes}}\cr
+    \code{Ants} \tab {Number of ants on the sandwich}\cr
   }
+} \details{ As young students, Dominic Kelly and his friends enjoyed watching 
+ants gather on pieces of sandwiches.  Later, as a university student, Dominic 
+decided to study this with a more formal experiment. He chose three types of 
+sandwich fillings (vegemite, peanut butter, and ham & pickles),  four types 
+of bread (multigrain, rye, white, and wholemeal), and put butter on some of 
+the sandwiches. \cr 
+To conduct the experiment he randomly chose a sandwich, 
+broke off a piece, and left it on the ground near an ant hill.  After several 
+minutes he placed a jar over the sandwich bit and counteed the number of 
+ants. He repeated the process, allowing time for ants to return to the hill 
+after each trial, until he had two samples for each combination of the three 
+factors. 
+} 
+\source{ 
+Margaret Mackisack, ``Favourite Experiments: An Addendum to What is the Use of Experiments Conducted by Statistics Students?", 
+Journal of Statistics Education (1994) http://www.amstat.org/publications/jse/v2n1/mackisack.supp.html
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
-}
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(SandwichAnts)
-## maybe str(SandwichAnts) ; plot(SandwichAnts) ...
-}
-\keyword{datasets}
+
+ \keyword{datasets} 

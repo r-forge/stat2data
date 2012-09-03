@@ -1,32 +1,27 @@
 \name{Speed}
 \alias{Speed}
 \docType{data}
-\title{
-Speed
-}
+\title{Speed}
 \description{
-Speed
+Highway fatality rates 1987-2007
 }
-\usage{data(Speed)}
+%\useage{data(Speed)}
 \format{
-  A data frame with 21 observations on the following 3 variables.
-  \describe{
-    \item{\code{Year}}{a numeric vector}
-    \item{\code{FatalityRate}}{a numeric vector}
-    \item{\code{StateControl}}{a numeric vector}
+  A dataset with 21 observations on the following 3 variables.
+  \tabular{rl}{
+    \code{Year} \tab {Year (1987-2007}\cr
+    \code{FatalityRate} \tab {Number of fatalites on interstate highways (per 100 million vehicle-miles)}\cr
+    \code{StateControl} \tab {\code{0}=1987-1994 or \code{1}=1995-2007}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+In 1987 the federal government allowed the speed
+limit on interstate highways to be 65 mph in most areas. In 1995 federal restrictions were eliminated,
+so that states assumed control of setting speed limits on interstate highways.  This data set compares 
+fatality rates for years before and after the states assumed control for highway speed limits.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Data from the National Highway Saftey Administration website at http://www-fars.nhtsa.dot.gov/Main/index.aspx
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Speed)
-## maybe str(Speed) ; plot(Speed) ...
-}
+
 \keyword{datasets}
