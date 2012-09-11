@@ -1,8 +1,8 @@
 Package: Stat2Data
 Type: Package
 Title: Datasets for Stat2
-Version: 1.5
-Date: 2012-08-20
+Version: 1.6
+Date: 2012-09-12
 Author: Robin Lock
 Maintainer: Robin Lock <rlock@stlawuledu>
 Description: Datasets for Stat2 textbook
