@@ -1,35 +1,34 @@
 \name{YouthRisk2007}
 \alias{YouthRisk2007}
 \docType{data}
-\title{
-YouthRisk2007
-}
+\title{YouthRisk2007}
 \description{
-YouthRisk2007
+Risky behavior (riding with a drnk driver) in youths
 }
-\usage{data(YouthRisk2007)}
+%\usage{data(YouthRisk2007)}
 \format{
-  A data frame with 13387 observations on the following 6 variables.
-  \describe{
-    \item{\code{ride.alc.driver}}{a numeric vector}
-    \item{\code{female}}{a numeric vector}
-    \item{\code{grade}}{a numeric vector}
-    \item{\code{age4}}{a numeric vector}
-    \item{\code{smoke}}{a numeric vector}
-    \item{\code{DriverLicense}}{a numeric vector}
+  A dataset with 13387 observations on the following 6 variables.
+  \tabular{rl}{
+    \code{ride.alc.driver}\tab {\code{1}=rode with a drinking driver in past 30 days or \code{0}=did not}\cr
+    \code{female}\tab {\code{1}=female or \code{0}=male}\cr
+    \code{grade}\tab {Year in high school: \code{9}, \code{10}, \code{11}, or \code{12}}\cr
+    \code{age4}\tab {Age (in years)}\cr
+    \code{smoke}\tab {Ever smoked? \code{1}=yes or \code{0}=no}\cr
+    \code{DriverLicense}\tab {Have a driver's license? \code{1}=yes or \code{0}=no}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+This dataset is derived from
+the 2007 Youth Risk Behavior Surveillance System (YRBSS), which is an annual survey conducted
+by the Centers for Disease Control and Prevention (CDC) to monitor the prevalence of health-risk
+youth behaviors. This datset focuses on whether or not youths have recently (in past 30  days) 
+ridden with a drunk driver. 
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+The article "Which Young People Accept a Lift From a Drunk or Drugged Driver?" in Accident Analysis and
+Prevention (July 2009. pp. 703-9) provides more details.
 }
 \references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(YouthRisk2007)
-## maybe str(YouthRisk2007) ; plot(YouthRisk2007) ...
+A more recent version of the full dataset is available at http://www.cdc.gov/brfss/technical_infodata/surveydata.htm.
 }
 \keyword{datasets}

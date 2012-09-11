@@ -1,31 +1,33 @@
 \name{WeightLossIncentive4}
 \alias{WeightLossIncentive4}
 \docType{data}
-\title{
-WeightLossIncentive4
-}
+\title{WeightLossIncentive4}
 \description{
-WeightLossIncentive4
+Weight loss after four months with/without a financial incentive
 }
-\usage{data(WeightLossIncentive4)}
+%\usage{data(WeightLossIncentive4)}
 \format{
-  A data frame with 36 observations on the following 2 variables.
-  \describe{
-    \item{\code{WeightLoss}}{a numeric vector}
-    \item{\code{Group}}{a factor with levels \code{Control} \code{Incentive}}
+  A dataset with 36 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{WeightLoss}\tab {weight loss (in pounds) after 4 months}\cr
+    \code{Group}\tab {Treatment group: \code{Control} or \code{Incentive}}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+Researchers investigated
+whether financial incentives would help people lose weight more successfully. Some participants in
+the study were randomly assigned to a treatment group that was offered financial incentives for
+achieving weight loss goals, while others were assigned to a control group that did not use financial
+incentives. All participants were monitored over a four month period and the net weight change
+(Before - After in pounds) at the end of this period was recorded for each individual. Then the
+individuals were left alone for three months with a followup weight check at the seven-month mark
+to see whether weight losses persisted after the original four months of treatment. This dataset has only
+the non-missing 4-month data.  The 7-month data are in WeightLossIncentive7 and both measurements (including
+missing values) are in WeightLossIncentive.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+``Financial incentive-based approaches for weight loss," Journal of the American Medical Association by Volpp,
+John, Troxel, et. al., Vol. 200, no. 22, pp 2631-2637, (Dec. 2008)
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(WeightLossIncentive4)
-## maybe str(WeightLossIncentive4) ; plot(WeightLossIncentive4) ...
-}
+
 \keyword{datasets}

@@ -1,31 +1,24 @@
 \name{Volts}
 \alias{Volts}
 \docType{data}
-\title{
-Volts
-}
+\title{Volts}
 \description{
-Volts
+Voltage drop over time as a capacitor discharges
 }
-\usage{data(Volts)}
+%\usage{data(Volts)}
 \format{
-  A data frame with 50 observations on the following 2 variables.
-  \describe{
-    \item{\code{Voltage}}{a numeric vector}
-    \item{\code{Time}}{a numeric vector}
+  A dataset with 50 observations on the following 2 variables.
+  \tabular{rl}{
+    \code{Voltage}\tab {Voltage (in volts)}\cr
+    \code{Time}\tab {Time after charging (in seconds)}\cr
   }
 }
 \details{
-%%  ~~ If necessary, more details than the __description__ above ~~
+A capacitor was charged with a nine-volt battery and then a voltmeter
+recorded the voltage as the capacitor was discharged. Measurements were taken every .02 seconds.
 }
 \source{
-%%  ~~ reference to a publication or URL from which the data were obtained ~~
+Measurements recorded by one of the authors. 
 }
-\references{
-%%  ~~ possibly secondary sources and usages ~~
-}
-\examples{
-data(Volts)
-## maybe str(Volts) ; plot(Volts) ...
-}
+
 \keyword{datasets}

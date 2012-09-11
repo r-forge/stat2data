@@ -12,8 +12,8 @@ DataSets for Stat2 Textbook
 \tabular{ll}{
 Package: \tab Stat2Data\cr
 Type: \tab Package\cr
-Version: \tab 1.5\cr
-Date: \tab 2012-08-20\cr
+Version: \tab 1.6\cr
+Date: \tab 2012-09-11\cr
 License: \tab GPL-2\cr
 LazyLoad: \tab yes\cr
 }
