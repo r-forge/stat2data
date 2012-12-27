@@ -6,7 +6,7 @@
 DataSets for Stat2 Textbook
 }
 \description{
-DataSets for Stat2 Textbook
+DataSets for Stat2 Textbook (by Cannon, et. al.)
 }
 \details{
 \tabular{ll}{
