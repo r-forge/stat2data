@@ -29,5 +29,8 @@ are labeled in the data set as Row: a= farthest from the window through e=neares
 Neumann, A., Richards, A.-L., and Randa, J. (2001).  
 Effects of acid rain on alfalfa plants. Unpublished manuscript, Oberlin College. 
 }
+\examples{
+data(Alfalfa)
+}
 
 \keyword{datasets}
